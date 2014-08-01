@@ -1,0 +1,250 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - rakt: # Verb 'eng dig/fin kaivaa' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/rakt/
+     rakt+V+Inf: rakt
+     rakt+V+Ind+Fut+Sg1: rakšu
+     rakt+V+Ind+Fut+Sg2: raksi
+     rakt+V+Ind+Fut+Pl1: raksim
+     rakt+V+Ind+Fut+Pl2: raksiet
+     rakt+V+Ind+Fut+SP3: raks
+     rakt+V+Rel+Fut: rakšot
+     rakt+V+PstPrc+Sg+Mal+Nom+Indef: rakts
+     rakt+V+PstPrc+Sg+Mal+Gen+Indef: rakta
+     rakt+V+PstPrc+Sg+Mal+Dat+Indef: raktam
+     rakt+V+PstPrc+Sg+Mal+Acc+Indef: raktu
+     rakt+V+PstPrc+Sg+Mal+Loc+Indef: raktā
+     rakt+V+PstPrc+Pl+Mal+Nom+Indef: rakti
+     rakt+V+PstPrc+Pl+Mal+Gen+Indef: raktu
+     rakt+V+PstPrc+Pl+Mal+Dat+Indef: raktiem
+     rakt+V+PstPrc+Pl+Mal+Acc+Indef: raktus
+     rakt+V+PstPrc+Pl+Mal+Loc+Indef: raktos
+     rakt+V+PstPrc+Sg+Mal+Nom+Def: raktais
+     rakt+V+PstPrc+Sg+Mal+Gen+Def: raktā
+     rakt+V+PstPrc+Sg+Mal+Dat+Def: raktajam
+     rakt+V+PstPrc+Sg+Mal+Acc+Def: rakto
+     rakt+V+PstPrc+Sg+Mal+Loc+Def: raktajā
+     rakt+V+PstPrc+Sg+Mal+Voc+Def: raktais
+     rakt+V+PstPrc+Pl+Mal+Nom+Def: raktie
+     rakt+V+PstPrc+Pl+Mal+Gen+Def: rakto
+     rakt+V+PstPrc+Pl+Mal+Dat+Def: raktajiem
+     rakt+V+PstPrc+Pl+Mal+Acc+Def: raktos
+     rakt+V+PstPrc+Pl+Mal+Loc+Def: raktajos
+     rakt+V+PstPrc+Pl+Mal+Voc+Def: raktie
+     rakt+V+PstPrc+Sg+Fem+Nom+Indef: rakta
+     rakt+V+PstPrc+Sg+Fem+Gen+Indef: raktas
+     rakt+V+PstPrc+Sg+Fem+Dat+Indef: raktai
+     rakt+V+PstPrc+Sg+Fem+Acc+Indef: raktu
+     rakt+V+PstPrc+Sg+Fem+Loc+Indef: raktā
+     rakt+V+PstPrc+Pl+Fem+Nom+Indef: raktas
+     rakt+V+PstPrc+Pl+Fem+Gen+Indef: raktu
+     rakt+V+PstPrc+Pl+Fem+Dat+Indef: raktām
+     rakt+V+PstPrc+Pl+Fem+Acc+Indef: raktas
+     rakt+V+PstPrc+Pl+Fem+Loc+Indef: raktās
+     rakt+V+PstPrc+Sg+Fem+Nom+Def: raktā
+     rakt+V+PstPrc+Sg+Fem+Gen+Def: raktās
+     rakt+V+PstPrc+Sg+Fem+Dat+Def: raktajai
+     rakt+V+PstPrc+Sg+Fem+Acc+Def: rakto
+     rakt+V+PstPrc+Sg+Fem+Loc+Def: raktajā
+     rakt+V+PstPrc+Sg+Fem+Voc+Def: raktā
+     rakt+V+PstPrc+Pl+Fem+Nom+Def: raktās
+     rakt+V+PstPrc+Pl+Fem+Gen+Def: rakto
+     rakt+V+PstPrc+Pl+Fem+Dat+Def: raktajām
+     rakt+V+PstPrc+Pl+Fem+Acc+Def: raktās
+     rakt+V+PstPrc+Pl+Fem+Loc+Def: raktajās
+     rakt+V+PstPrc+Pl+Fem+Voc+Def: raktās
+#"Declension":"4"
+     rakt+V+Der/šana+N+Sg+Fem+Nom: rakšana
+     rakt+V+Der/šana+N+Sg+Fem+Gen: rakšanas
+     rakt+V+Der/šana+N+Sg+Fem+Dat: rakšanai
+     rakt+V+Der/šana+N+Sg+Fem+Acc: rakšanu
+     rakt+V+Der/šana+N+Sg+Fem+Loc: rakšanā
+     rakt+V+Der/šana+N+Sg+Fem+Voc: rakšana
+     rakt+V+Der/šana+N+Pl+Fem+Nom: rakšanas
+     rakt+V+Der/šana+N+Pl+Fem+Gen: rakšanu
+     rakt+V+Der/šana+N+Pl+Fem+Dat: rakšanām
+     rakt+V+Der/šana+N+Pl+Fem+Acc: rakšanas
+     rakt+V+Der/šana+N+Pl+Fem+Loc: rakšanās
+     rakt+V+Der/šana+N+Pl+Fem+Voc: rakšanas
+     rakt+V+PrsPrc+Sg+Mal+Nom: rakdams
+     rakt+V+PrsPrc+Sg+Fem+Nom: rakdama
+     rakt+V+PrsPrc+Pl+Mal+Nom: rakdami
+     rakt+V+PrsPrc+Pl+Fem+Nom: rakdamas
+     rakt+V+Prc: rokot
+     rakt+V+Ind+Prs+Sg1: roku
+     rakt+V+Ind+Prs+Sg2: roc
+     rakt+V+Ind+Prs+Pl1: rokam
+     rakt+V+Ind+Prs+Pl2: rokat
+     rakt+V+Ind+Prs+SP3: rok
+     rakt+V+Deb: jārok
+     rakt+V+Rel: rokot
+     rakt+V+Imprt+Sg2: roc
+     rakt+V+Imprt+Pl2: rociet
+     rakt+V+PrsPrc+Sg+Mal+Nom+Indef: rokošs
+     rakt+V+PrsPrc+Sg+Mal+Gen+Indef: rokoša
+     rakt+V+PrsPrc+Sg+Mal+Dat+Indef: rokošam
+     rakt+V+PrsPrc+Sg+Mal+Acc+Indef: rokošu
+     rakt+V+PrsPrc+Sg+Mal+Loc+Indef: rokošā
+     rakt+V+PrsPrc+Pl+Mal+Nom+Indef: rokoši
+     rakt+V+PrsPrc+Pl+Mal+Gen+Indef: rokošu
+     rakt+V+PrsPrc+Pl+Mal+Dat+Indef: rokošiem
+     rakt+V+PrsPrc+Pl+Mal+Acc+Indef: rokošus
+     rakt+V+PrsPrc+Pl+Mal+Loc+Indef: rokošos
+     rakt+V+PrsPrc+Sg+Mal+Nom+Def: rokošais
+     rakt+V+PrsPrc+Sg+Mal+Gen+Def: rokošā
+     rakt+V+PrsPrc+Sg+Mal+Dat+Def: rokošajam
+     rakt+V+PrsPrc+Sg+Mal+Acc+Def: rokošo
+     rakt+V+PrsPrc+Sg+Mal+Loc+Def: rokošajā
+     rakt+V+PrsPrc+Sg+Mal+Voc+Def: [rokošais, rokošo]
+     rakt+V+PrsPrc+Pl+Mal+Nom+Def: rokošie
+     rakt+V+PrsPrc+Pl+Mal+Gen+Def: rokošo
+     rakt+V+PrsPrc+Pl+Mal+Dat+Def: rokošajiem
+     rakt+V+PrsPrc+Pl+Mal+Acc+Def: rokošos
+     rakt+V+PrsPrc+Pl+Mal+Loc+Def: rokošajos
+     rakt+V+PrsPrc+Pl+Mal+Voc+Def: rokošie
+     rakt+V+PrsPrc+Sg+Fem+Nom+Indef: rokoša
+     rakt+V+PrsPrc+Sg+Fem+Gen+Indef: rokošas
+     rakt+V+PrsPrc+Sg+Fem+Dat+Indef: rokošai
+     rakt+V+PrsPrc+Sg+Fem+Acc+Indef: rokošu
+     rakt+V+PrsPrc+Sg+Fem+Loc+Indef: rokošā
+     rakt+V+PrsPrc+Pl+Fem+Nom+Indef: rokošas
+     rakt+V+PrsPrc+Pl+Fem+Gen+Indef: rokošu
+     rakt+V+PrsPrc+Pl+Fem+Dat+Indef: rokošām
+     rakt+V+PrsPrc+Pl+Fem+Acc+Indef: rokošas
+     rakt+V+PrsPrc+Pl+Fem+Loc+Indef: rokošās
+     rakt+V+PrsPrc+Sg+Fem+Nom+Def: rokošā
+     rakt+V+PrsPrc+Sg+Fem+Gen+Def: rokošās
+     rakt+V+PrsPrc+Sg+Fem+Dat+Def: rokošajai
+     rakt+V+PrsPrc+Sg+Fem+Acc+Def: rokošo
+     rakt+V+PrsPrc+Sg+Fem+Loc+Def: rokošajā
+     rakt+V+PrsPrc+Sg+Fem+Voc+Def: rokošā
+     rakt+V+PrsPrc+Pl+Fem+Nom+Def: rokošās
+     rakt+V+PrsPrc+Pl+Fem+Gen+Def: rokošo
+     rakt+V+PrsPrc+Pl+Fem+Dat+Def: rokošajām
+     rakt+V+PrsPrc+Pl+Fem+Acc+Def: rokošās
+     rakt+V+PrsPrc+Pl+Fem+Loc+Def: rokošajās
+     rakt+V+PrsPrc+Pl+Fem+Voc+Def: rokošās
+     rakt+V+Der/Adv+Adv+Pos: rokoši
+     rakt+V+PrsPrc+Sg+Mal+Nom+Indef: rokams
+     rakt+V+PrsPrc+Sg+Mal+Gen+Indef: rokama
+     rakt+V+PrsPrc+Sg+Mal+Dat+Indef: rokamam
+     rakt+V+PrsPrc+Sg+Mal+Acc+Indef: rokamu
+     rakt+V+PrsPrc+Sg+Mal+Loc+Indef: rokamā
+     rakt+V+PrsPrc+Pl+Mal+Nom+Indef: rokami
+     rakt+V+PrsPrc+Pl+Mal+Gen+Indef: rokamu
+     rakt+V+PrsPrc+Pl+Mal+Dat+Indef: rokamiem
+     rakt+V+PrsPrc+Pl+Mal+Acc+Indef: rokamus
+     rakt+V+PrsPrc+Pl+Mal+Loc+Indef: rokamos
+     rakt+V+PrsPrc+Sg+Mal+Nom+Def: rokamais
+     rakt+V+PrsPrc+Sg+Mal+Gen+Def: rokamā
+     rakt+V+PrsPrc+Sg+Mal+Dat+Def: rokamajam
+     rakt+V+PrsPrc+Sg+Mal+Acc+Def: rokamo
+     rakt+V+PrsPrc+Sg+Mal+Loc+Def: rokamajā
+     rakt+V+PrsPrc+Sg+Mal+Voc+Def: [rokamais, rokamo]
+     rakt+V+PrsPrc+Pl+Mal+Nom+Def: rokamie
+     rakt+V+PrsPrc+Pl+Mal+Gen+Def: rokamo
+     rakt+V+PrsPrc+Pl+Mal+Dat+Def: rokamajiem
+     rakt+V+PrsPrc+Pl+Mal+Acc+Def: rokamos
+     rakt+V+PrsPrc+Pl+Mal+Loc+Def: rokamajos
+     rakt+V+PrsPrc+Pl+Mal+Voc+Def: rokamie
+     rakt+V+PrsPrc+Sg+Fem+Nom+Indef: rokama
+     rakt+V+PrsPrc+Sg+Fem+Gen+Indef: rokamas
+     rakt+V+PrsPrc+Sg+Fem+Dat+Indef: rokamai
+     rakt+V+PrsPrc+Sg+Fem+Acc+Indef: rokamu
+     rakt+V+PrsPrc+Sg+Fem+Loc+Indef: rokamā
+     rakt+V+PrsPrc+Pl+Fem+Nom+Indef: rokamas
+     rakt+V+PrsPrc+Pl+Fem+Gen+Indef: rokamu
+     rakt+V+PrsPrc+Pl+Fem+Dat+Indef: rokamām
+     rakt+V+PrsPrc+Pl+Fem+Acc+Indef: rokamas
+     rakt+V+PrsPrc+Pl+Fem+Loc+Indef: rokamās
+     rakt+V+PrsPrc+Sg+Fem+Nom+Def: rokamā
+     rakt+V+PrsPrc+Sg+Fem+Gen+Def: rokamās
+     rakt+V+PrsPrc+Sg+Fem+Dat+Def: rokamajai
+     rakt+V+PrsPrc+Sg+Fem+Acc+Def: rokamo
+     rakt+V+PrsPrc+Sg+Fem+Loc+Def: rokamajā
+     rakt+V+PrsPrc+Sg+Fem+Voc+Def: rokamā
+     rakt+V+PrsPrc+Pl+Fem+Nom+Def: rokamās
+     rakt+V+PrsPrc+Pl+Fem+Gen+Def: rokamo
+     rakt+V+PrsPrc+Pl+Fem+Dat+Def: rokamajām
+     rakt+V+PrsPrc+Pl+Fem+Acc+Def: rokamās
+     rakt+V+PrsPrc+Pl+Fem+Loc+Def: rokamajās
+     rakt+V+PrsPrc+Pl+Fem+Voc+Def: rokamās
+     rakt+V+Ind+Pst+Sg1: raku
+     rakt+V+Ind+Pst+Sg2: raki
+     rakt+V+Ind+Pst+Pl1: rakām
+     rakt+V+Ind+Pst+Pl2: rakāt
+     rakt+V+Ind+Pst+SP3: raka
+     rakt+V+PstPrc+Sg+Mal+Nom+Indef: [racis, rakis]
+     rakt+V+PstPrc+Sg+Mal+Gen+Indef: rakuša
+     rakt+V+PstPrc+Sg+Mal+Dat+Indef: rakušam
+     rakt+V+PstPrc+Sg+Mal+Acc+Indef: rakušu
+     rakt+V+PstPrc+Sg+Mal+Loc+Indef: rakušā
+     rakt+V+PstPrc+Pl+Mal+Nom+Indef: rakuši
+     rakt+V+PstPrc+Pl+Mal+Gen+Indef: rakušu
+     rakt+V+PstPrc+Pl+Mal+Dat+Indef: rakušiem
+     rakt+V+PstPrc+Pl+Mal+Acc+Indef: rakušus
+     rakt+V+PstPrc+Pl+Mal+Loc+Indef: rakušos
+     rakt+V+PstPrc+Sg+Mal+Nom+Def: rakušais
+     rakt+V+PstPrc+Sg+Mal+Gen+Def: rakušā
+     rakt+V+PstPrc+Sg+Mal+Dat+Def: rakušajam
+     rakt+V+PstPrc+Sg+Mal+Acc+Def: rakušo
+     rakt+V+PstPrc+Sg+Mal+Loc+Def: rakušajā
+     rakt+V+PstPrc+Sg+Mal+Voc+Def: rakušais
+     rakt+V+PstPrc+Pl+Mal+Nom+Def: rakušie
+     rakt+V+PstPrc+Pl+Mal+Gen+Def: rakušo
+     rakt+V+PstPrc+Pl+Mal+Dat+Def: rakušajiem
+     rakt+V+PstPrc+Pl+Mal+Acc+Def: rakušos
+     rakt+V+PstPrc+Pl+Mal+Loc+Def: rakušajos
+     rakt+V+PstPrc+Pl+Mal+Voc+Def: rakušie
+     rakt+V+PstPrc+Sg+Fem+Nom+Indef: rakusi
+     rakt+V+PstPrc+Sg+Fem+Gen+Indef: rakušas
+     rakt+V+PstPrc+Sg+Fem+Dat+Indef: rakušai
+     rakt+V+PstPrc+Sg+Fem+Acc+Indef: rakušu
+     rakt+V+PstPrc+Sg+Fem+Loc+Indef: rakušā
+     rakt+V+PstPrc+Pl+Fem+Nom+Indef: rakušas
+     rakt+V+PstPrc+Pl+Fem+Gen+Indef: rakušu
+     rakt+V+PstPrc+Pl+Fem+Dat+Indef: rakušām
+     rakt+V+PstPrc+Pl+Fem+Acc+Indef: rakušas
+     rakt+V+PstPrc+Pl+Fem+Loc+Indef: rakušās
+     rakt+V+PstPrc+Sg+Fem+Nom+Def: rakusī
+     rakt+V+PstPrc+Sg+Fem+Gen+Def: rakušās
+     rakt+V+PstPrc+Sg+Fem+Dat+Def: rakušajai
+     rakt+V+PstPrc+Sg+Fem+Acc+Def: rakušo
+     rakt+V+PstPrc+Sg+Fem+Loc+Def: rakušajā
+     rakt+V+PstPrc+Sg+Fem+Voc+Def: rakusī
+     rakt+V+PstPrc+Pl+Fem+Nom+Def: rakušās
+     rakt+V+PstPrc+Pl+Fem+Gen+Def: rakušo
+     rakt+V+PstPrc+Pl+Fem+Dat+Def: rakušajām
+     rakt+V+PstPrc+Pl+Fem+Acc+Def: rakušās
+     rakt+V+PstPrc+Pl+Fem+Loc+Def: rakušajās
+     rakt+V+PstPrc+Pl+Fem+Voc+Def: rakušās
+     rakt+V+Der/iens+N+Sg+Nom+Mal: [raciens, rakiens]
+     rakt+V+Der/iens+N+Sg+Gen+Mal: [raciena, rakiena]
+     rakt+V+Der/iens+N+Sg+Dat+Mal: [racienam, rakienam]
+     rakt+V+Der/iens+N+Sg+Acc+Mal: [racienu, rakienu]
+     rakt+V+Der/iens+N+Sg+Loc+Mal: [racienā, rakienā]
+     rakt+V+Der/iens+N+Sg+Voc+Mal: [raciens, rakiens, racien, rakien]
+     rakt+V+Der/iens+N+Pl+Mal+Nom: [racieni, rakieni]
+     rakt+V+Der/iens+N+Pl+Mal+Gen: [racienu, rakienu]
+     rakt+V+Der/iens+N+Pl+Mal+Dat: [racieniem, rakieniem]
+     rakt+V+Der/iens+N+Pl+Mal+Acc: [racienus, rakienus]
+     rakt+V+Der/iens+N+Pl+Mal+Loc: [racienos, rakienos]
+     rakt+V+Der/iens+N+Pl+Mal+Voc: [racieni, rakieni]
+     rakt+V+Prc: rokam
+     rakt+V+Cond: raktu
+     rakt+V+Deb: jārokot
