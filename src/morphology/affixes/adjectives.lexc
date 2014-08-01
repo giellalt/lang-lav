@@ -1,0 +1,105 @@
+!! Adjective inflection
+!! --------------------
+!! The LATVIAN language adjectives compare.
+
+LEXICON Comparisons
++A+Pos:0        Cases   ;
++A+Cmp:er       Cases   ;
++A+Sup:est      Cases   ;
+
+LEXICON 13_
++A+Msc+Sg+Nom+Indef:s     #   ;
++A+Msc+Pl+Nom+Indef:i     #   ;
++A+Msc+Sg+Gen+Indef:a     #   ;
++A+Msc+Pl+Gen+Indef:u     #   ;
++A+Msc+Sg+Dat+Indef:am     #   ;
++A+Msc+Pl+Dat+Indef:iem     #   ;
++A+Msc+Sg+Acc+Indef:u    #   ;
++A+Msc+Pl+Acc+Indef:us   #   ;
++A+Msc+Sg+Loc+Indef:ā    #   ;
++A+Msc+Pl+Loc+Indef:os   #   ;
++A+Msc+Sg+Nom+Def:ais     #   ;
++A+Msc+Pl+Nom+Def:ie     #   ;
++A+Msc+Sg+Gen+Def:ā     #   ;
++A+Msc+Pl+Gen+Def:o     #   ;
++A+Msc+Sg+Dat+Def:ajam     #   ;
++A+Msc+Pl+Dat+Def:ajiem     #   ;
++A+Msc+Sg+Acc+Def:o    #   ;
++A+Msc+Pl+Acc+Def:os   #   ;
++A+Msc+Sg+Loc+Def:ajā    #   ;
++A+Msc+Pl+Loc+Def:ajos   #   ;
++A+Msc+Sg+Voc+Def:ais    #   ;
++A+Msc+Pl+Voc+Def:ie   #   ;
++A+Fem+Sg+Nom+Indef:a     #   ;
++A+Fem+Pl+Nom+Indef:as     #   ;
++A+Fem+Sg+Gen+Indef:as     #   ;
++A+Fem+Pl+Gen+Indef:u     #   ;
++A+Fem+Sg+Dat+Indef:ai     #   ;
++A+Fem+Pl+Dat+Indef:ām     #   ;
++A+Fem+Sg+Acc+Indef:u    #   ;
++A+Fem+Pl+Acc+Indef:as   #   ;
++A+Fem+Sg+Loc+Indef:ā    #   ;
++A+Fem+Pl+Loc+Indef:ās   #   ;
++A+Fem+Sg+Nom+Def:ā     #   ;
++A+Fem+Pl+Nom+Def:ās     #   ;
++A+Fem+Sg+Gen+Def:ās     #   ;
++A+Fem+Pl+Gen+Def:o     #   ;
++A+Fem+Sg+Dat+Def:ajai     #   ;
++A+Fem+Pl+Dat+Def:ajām     #   ;
++A+Fem+Sg+Acc+Def:o    #   ;
++A+Fem+Pl+Acc+Def:ās   #   ;
++A+Fem+Sg+Loc+Def:ajā    #   ;
++A+Fem+Pl+Loc+Def:ajās   #   ;
++A+Fem+Sg+Voc+Def:ā    #   ;
++A+Fem+Pl+Voc+Def:ās   #   ;
++A+Der/Adv+Adv: # ;
+
+LEXICON 14_
++A+Msc+Sg+Nom+Indef:š     #   ;
++A+Msc+Pl+Nom+Indef:i     #   ;
++A+Msc+Sg+Gen+Indef:a     #   ;
++A+Msc+Pl+Gen+Indef:u     #   ;
++A+Msc+Sg+Dat+Indef:am     #   ;
++A+Msc+Pl+Dat+Indef:iem     #   ;
++A+Msc+Sg+Acc+Indef:u    #   ;
++A+Msc+Pl+Acc+Indef:us   #   ;
++A+Msc+Sg+Loc+Indef:ā    #   ;
++A+Msc+Pl+Loc+Indef:os   #   ;
++A+Msc+Sg+Nom+Def:ais     #   ;
++A+Msc+Pl+Nom+Def:ie     #   ;
++A+Msc+Sg+Gen+Def:ā     #   ;
++A+Msc+Pl+Gen+Def:o     #   ;
++A+Msc+Sg+Dat+Def:ajam     #   ;
++A+Msc+Pl+Dat+Def:ajiem     #   ;
++A+Msc+Sg+Acc+Def:o    #   ;
++A+Msc+Pl+Acc+Def:os   #   ;
++A+Msc+Sg+Loc+Def:ajā    #   ;
++A+Msc+Pl+Loc+Def:ajos   #   ;
++A+Msc+Sg+Voc+Def:ais    #   ;
++A+Msc+Pl+Voc+Def:ie   #   ;
++A+Fem+Sg+Nom+Indef:a     #   ;
++A+Fem+Pl+Nom+Indef:as     #   ;
++A+Fem+Sg+Gen+Indef:as     #   ;
++A+Fem+Pl+Gen+Indef:u     #   ;
++A+Fem+Sg+Dat+Indef:ai     #   ;
++A+Fem+Pl+Dat+Indef:ām     #   ;
++A+Fem+Sg+Acc+Indef:u    #   ;
++A+Fem+Pl+Acc+Indef:as   #   ;
++A+Fem+Sg+Loc+Indef:ā    #   ;
++A+Fem+Pl+Loc+Indef:ās   #   ;
++A+Fem+Sg+Nom+Def:ā     #   ;
++A+Fem+Pl+Nom+Def:ās     #   ;
++A+Fem+Sg+Gen+Def:ās     #   ;
++A+Fem+Pl+Gen+Def:o     #   ;
++A+Fem+Sg+Dat+Def:ajai     #   ;
++A+Fem+Pl+Dat+Def:ajām     #   ;
++A+Fem+Sg+Acc+Def:o    #   ;
++A+Fem+Pl+Acc+Def:ās   #   ;
++A+Fem+Sg+Loc+Def:ajā    #   ;
++A+Fem+Pl+Loc+Def:ajās   #   ;
++A+Fem+Sg+Voc+Def:ā    #   ;
++A+Fem+Pl+Voc+Def:ās   #   ;
++A+Der/Adv+Adv: # ;
+
+! vim+Def: set ft=xfst-lexc:
+

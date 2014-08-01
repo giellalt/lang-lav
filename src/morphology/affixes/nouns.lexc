@@ -1,0 +1,192 @@
+!! Noun inflection
+!! ---------------
+!! The LATVIAN language nouns inflect in cases.
+
+LEXICON Cases
++N+Sg+Nom:0     #   ;
++N+Pl+Nom:i     #   ;
++N+Sg+Loc:as    #   ;
++N+Pl+Loc:ias   #   ;
++N+Sg+Acc:at    #   ;
++N+Pl+Acc:iat   #   ;
+#:0   Nouns   ;
+
+LEXICON 1_
++N+Msc+Sg+Nom:s     #   ;
++N+Msc+Pl+Nom:i     #   ;
++N+Msc+Sg+Gen:a     #   ;
++N+Msc+Pl+Gen:u     #   ;
++N+Msc+Sg+Dat:am     #   ;
++N+Msc+Pl+Dat:iem     #   ;
++N+Msc+Sg+Acc:u    #   ;
++N+Msc+Pl+Acc:us   #   ;
++N+Msc+Sg+Loc:ā    #   ;
++N+Msc+Pl+Loc:os   #   ;
++N+Msc+Sg+Voc:s    #   ;
++N+Msc+Sg+Voc:    #   ;
++N+Msc+Pl+Voc:i   #   ;
+
+LEXICON 2_
++N+Msc+Sg+Nom:š     #   ;
++N+Msc+Pl+Nom:i     #   ;
++N+Msc+Sg+Gen:a     #   ;
++N+Msc+Pl+Gen:u     #   ;
++N+Msc+Sg+Dat:am     #   ;
++N+Msc+Pl+Dat:iem     #   ;
++N+Msc+Sg+Acc:u    #   ;
++N+Msc+Pl+Acc:us   #   ;
++N+Msc+Sg+Loc:ā    #   ;
++N+Msc+Pl+Loc:os   #   ;
++N+Msc+Sg+Voc:š    #   ;
++N+Msc+Sg+Voc:    #   ;
++N+Msc+Pl+Voc:i   #   ;
+
+LEXICON 3_
++N+Msc+Sg+Nom:is     #   ;
++N+Msc+Pl+Nom:i     #   ;
++N+Msc+Sg+Gen:a     #   ;
++N+Msc+Pl+Gen:u     #   ;
++N+Msc+Sg+Dat:im     #   ;
++N+Msc+Pl+Dat:iem     #   ;
++N+Msc+Sg+Acc:i    #   ;
++N+Msc+Pl+Acc:us   #   ;
++N+Msc+Sg+Loc:ī    #   ;
++N+Msc+Pl+Loc:os   #   ;
++N+Msc+Sg+Voc:i    #   ;
++N+Msc+Pl+Voc:i   #   ;
+
+LEXICON 4_
++N+Msc+Sg+Nom:s     #   ;
++N+Msc+Pl+Nom:i     #   ;
++N+Msc+Sg+Gen:s     #   ;
++N+Msc+Pl+Gen:u     #   ;
++N+Msc+Sg+Dat:im     #   ;
++N+Msc+Pl+Dat:iem     #   ;
++N+Msc+Sg+Acc:i    #   ;
++N+Msc+Pl+Acc:us   #   ;
++N+Msc+Sg+Loc:ī    #   ;
++N+Msc+Pl+Loc:os   #   ;
++N+Msc+Sg+Voc:0    #   ;
++N+Msc+Sg+Voc:s    #   ;
++N+Msc+Pl+Voc:i   #   ;
+
+LEXICON 5_
++N+Msc+Sg+Nom:s     #   ;
++N+Msc+Pl+Nom:i     #   ;
++N+Msc+Sg+Gen:a     #   ;
++N+Msc+Pl+Gen:u     #   ;
++N+Msc+Sg+Dat:im     #   ;
++N+Msc+Pl+Dat:iem     #   ;
++N+Msc+Sg+Acc:i    #   ;
++N+Msc+Pl+Acc:us   #   ;
++N+Msc+Sg+Loc:ī    #   ;
++N+Msc+Pl+Loc:os   #   ;
++N+Msc+Sg+Voc:i    #   ;
++N+Msc+Pl+Voc:i   #   ;
+
+LEXICON 6_
++N+Msc+Sg+Nom:us     #   ;
++N+Msc+Pl+Nom:i     #   ;
++N+Msc+Sg+Gen:us     #   ;
++N+Msc+Pl+Gen:u     #   ;
++N+Msc+Sg+Dat:um     #   ;
++N+Msc+Pl+Dat:iem     #   ;
++N+Msc+Sg+Acc:u    #   ;
++N+Msc+Pl+Acc:us   #   ;
++N+Msc+Sg+Loc:ū    #   ;
++N+Msc+Pl+Loc:os   #   ;
++N+Msc+Sg+Voc:us    #   ;
++N+Msc+Sg+Voc:u    #   ;
++N+Msc+Pl+Voc:i   #   ;
+
+LEXICON 7_
++N+Fem+Sg+Nom:a     #   ;
++N+Fem+Pl+Nom:as     #   ;
++N+Fem+Sg+Gen:as     #   ;
++N+Fem+Pl+Gen:u     #   ;
++N+Fem+Sg+Dat:ai     #   ;
++N+Fem+Pl+Dat:ām     #   ;
++N+Fem+Sg+Acc:u    #   ;
++N+Fem+Pl+Acc:as   #   ;
++N+Fem+Sg+Loc:ā    #   ;
++N+Fem+Pl+Loc:ās   #   ;
++N+Fem+Sg+Voc:a    #   ;
++N+Fem+Sg+Voc:    #   ;
++N+Fem+Pl+Voc:as   #   ;
+
+LEXICON 8_
++N+Msc+Sg+Nom:a     #   ;
++N+Msc+Pl+Nom:as     #   ;
++N+Msc+Sg+Gen:as     #   ;
++N+Msc+Pl+Gen:u     #   ;
++N+Msc+Sg+Dat:am     #   ;
++N+Msc+Pl+Dat:ām     #   ;
++N+Msc+Sg+Acc:u    #   ;
++N+Msc+Pl+Acc:as   #   ;
++N+Msc+Sg+Loc:ā    #   ;
++N+Msc+Pl+Loc:ās   #   ;
++N+Msc+Sg+Voc:a    #   ;
++N+Msc+Pl+Voc:as   #   ;
+
+LEXICON 9_
++N+Fem+Sg+Nom:e     #   ;
++N+Fem+Pl+Nom:es     #   ;
++N+Fem+Sg+Gen:es     #   ;
++N+Fem+Pl+Gen:u     #   ;
++N+Fem+Sg+Dat:ei     #   ;
++N+Fem+Pl+Dat:ēm     #   ;
++N+Fem+Sg+Acc:i    #   ;
++N+Fem+Pl+Acc:es   #   ;
++N+Fem+Sg+Loc:ē    #   ;
++N+Fem+Pl+Loc:ēs   #   ;
++N+Fem+Sg+Voc:e    #   ;
++N+Fem+Sg+Voc:    #   ;
++N+Fem+Pl+Voc:es   #   ;
+
+LEXICON 10_
++N+Msc+Sg+Nom:e     #   ;
++N+Msc+Pl+Nom:es     #   ;
++N+Msc+Sg+Gen:es     #   ;
++N+Msc+Pl+Gen:u     #   ;
++N+Msc+Sg+Dat:em     #   ;
++N+Msc+Pl+Dat:ēm     #   ;
++N+Msc+Sg+Acc:i    #   ;
++N+Msc+Pl+Acc:es   #   ;
++N+Msc+Sg+Loc:ē    #   ;
++N+Msc+Pl+Loc:ēs   #   ;
++N+Msc+Sg+Voc:e    #   ;
++N+Msc+Pl+Voc:es   #   ;
+
+LEXICON 11_
++N+Fem+Sg+Nom:s     #   ;
++N+Fem+Pl+Nom:is     #   ;
++N+Fem+Sg+Gen:s     #   ;
++N+Fem+Pl+Gen:u     #   ;
++N+Fem+Sg+Dat:ij     #   ;
++N+Fem+Pl+Dat:īm     #   ;
++N+Fem+Sg+Acc:i    #   ;
++N+Fem+Pl+Acc:is   #   ;
++N+Fem+Sg+Loc:ī    #   ;
++N+Fem+Pl+Loc:īs   #   ;
++N+Fem+Sg+Voc:s    #   ;
++N+Fem+Pl+Voc:is   #   ;
+
+LEXICON 12_
++N+Fem+Sg+Nom:     #   ;
++N+Fem+Pl+Nom:     #   ;
++N+Fem+Sg+Gen:     #   ;
++N+Fem+Pl+Gen:     #   ;
++N+Fem+Sg+Dat:     #   ;
++N+Fem+Pl+Dat:     #   ;
++N+Fem+Sg+Acc:    #   ;
++N+Fem+Pl+Acc:   #   ;
++N+Fem+Sg+Loc:    #   ;
++N+Fem+Pl+Loc:   #   ;
++N+Fem+Sg+Voc:    #   ;
++N+Fem+Pl+Voc:   #   ;
+
+
+
+
+! vim: set ft=xfst-lexc:
+
