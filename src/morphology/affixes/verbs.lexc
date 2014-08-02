@@ -12,5 +12,95 @@ LEXICON Persons
 +V+inf:0    #   ;
 #:0   Nouns   ;
 
-! vim: set ft=xfst-lexc:
+LEXICON 15_
++V+Inf:%>t # ;
++V+Ind+Fut+Sg1:%>šu # ;
++V+Ind+Fut+Sg2:%>si # ;
++V+Ind+Fut+Pl1:%>sim # ;
++V+Ind+Fut+Pl2:%>siet # ;
++V+Ind+Fut+SP3:%>s # ;
++V+Quo+Fut:%>šot # ;
++V+PstPrc+Pss:%>t 13_ ;
++V+Der/šana:%>šan 7_ ;
+
++V+PrsPrc+Act+Sg+Msc+Nom:%>dams # ;
++V+PrsPrc+Act+Sg+Fem+Nom:%>dama # ;
++V+PrsPrc+Act+Pl+Msc+Nom:%>dami # ;
++V+PrsPrc+Act+Pl+Fem+Nom:%>damas # ;
+!+V+Prc: rokot # ;
+!+V+Ind+Prs+Sg1: roku # ;
+!+V+Ind+Prs+Sg2: roc # ;
+!+V+Ind+Prs+Pl1: rokam # ;
+!+V+Ind+Prs+Pl2: rokat # ;
+!+V+Ind+Prs+SP3: rok # ;
+!+V+Deb: jārok # ;
+!+V+Rel: rokot # ;
+!+V+Imprt+Sg2: roc # ;
+!+V+Imprt+Pl2: rociet # ;
+
+!+V+PrsPrc+Act+Sg+Mal+Nom+Indef: rok%>oš 13_ ;
+!+V+PrsPrc+Sg+Mal+Voc+Def: [rokošais, rokošo] # ;
+
+!+V+Der/Adv+Adv+Pos: rokoši # ;
+
+!+V+PrsPrc+Pss+Sg+Mal+Nom+Indef: rok%>am 13_ ;
+!+V+PrsPrc+Sg+Mal+Voc+Def: [rokamais, rokamo] # ;
+
++V+Ind+Act+Pst+Sg1:%>u # ;
++V+Ind+Act+Pst+Sg2:%>i # ;
++V+Ind+Act+Pst+Pl1:%>ām # ;
++V+Ind+Act+Pst+Pl2:%>āt # ;
++V+Ind+Act+Pst+SP3:%>a # ;
+!+V+PstPrc+Act+Sg+Mal+Nom+Indef: [racis, rakis] # ;
++V+PstPrc+Sg+Mal+Gen+Indef:%>uša # ;
++V+PstPrc+Sg+Mal+Dat+Indef:%>ušam # ;
++V+PstPrc+Sg+Mal+Acc+Indef:%>ušu # ;
++V+PstPrc+Sg+Mal+Loc+Indef:%>ušā # ;
++V+PstPrc+Pl+Mal+Nom+Indef:%>uši # ;
++V+PstPrc+Pl+Mal+Gen+Indef:%>ušu # ;
++V+PstPrc+Pl+Mal+Dat+Indef:%>ušiem # ;
++V+PstPrc+Pl+Mal+Acc+Indef:%>ušus # ;
++V+PstPrc+Pl+Mal+Loc+Indef:%>ušos # ;
++V+PstPrc+Sg+Mal+Nom+Def:%>ušais # ;
++V+PstPrc+Sg+Mal+Gen+Def:%>ušā # ;
++V+PstPrc+Sg+Mal+Dat+Def:%>ušajam # ;
++V+PstPrc+Sg+Mal+Acc+Def:%>ušo # ;
++V+PstPrc+Sg+Mal+Loc+Def:%>ušajā # ;
++V+PstPrc+Sg+Mal+Voc+Def:%>ušais # ;
++V+PstPrc+Pl+Mal+Nom+Def:%>ušie # ;
++V+PstPrc+Pl+Mal+Gen+Def:%>ušo # ;
++V+PstPrc+Pl+Mal+Dat+Def:%>ušajiem # ;
++V+PstPrc+Pl+Mal+Acc+Def:%>ušos # ;
++V+PstPrc+Pl+Mal+Loc+Def:%>ušajos # ;
++V+PstPrc+Pl+Mal+Voc+Def:%>ušie # ;
++V+PstPrc+Sg+Fem+Nom+Indef:%>usi # ;
++V+PstPrc+Sg+Fem+Gen+Indef:%>ušas # ;
++V+PstPrc+Sg+Fem+Dat+Indef:%>ušai # ;
++V+PstPrc+Sg+Fem+Acc+Indef:%>ušu # ;
++V+PstPrc+Sg+Fem+Loc+Indef:%>ušā # ;
++V+PstPrc+Pl+Fem+Nom+Indef:%>ušas # ;
++V+PstPrc+Pl+Fem+Gen+Indef:%>ušu # ;
++V+PstPrc+Pl+Fem+Dat+Indef:%>ušām # ;
++V+PstPrc+Pl+Fem+Acc+Indef:%>ušas # ;
++V+PstPrc+Pl+Fem+Loc+Indef:%>ušās # ;
++V+PstPrc+Sg+Fem+Nom+Def:%>usī # ;
++V+PstPrc+Sg+Fem+Gen+Def:%>ušās # ;
++V+PstPrc+Sg+Fem+Dat+Def:%>ušajai # ;
++V+PstPrc+Sg+Fem+Acc+Def:%>ušo # ;
++V+PstPrc+Sg+Fem+Loc+Def:%>ušajā # ;
++V+PstPrc+Sg+Fem+Voc+Def:%>usī # ;
++V+PstPrc+Pl+Fem+Nom+Def:%>ušās # ;
++V+PstPrc+Pl+Fem+Gen+Def:%>ušo # ;
++V+PstPrc+Pl+Fem+Dat+Def:%>ušajām # ;
++V+PstPrc+Pl+Fem+Acc+Def:%>ušās # ;
++V+PstPrc+Pl+Fem+Loc+Def:%>ušajās # ;
++V+PstPrc+Pl+Fem+Voc+Def:%>ušās # ;
+!+V+Der/iens+N+Sg+Nom+Mal: [rac%>ien, rak%>ien] 1_ ;
+
+!+V+Prc: rokam # ;
++V+Cond:%>tu # ;
+!+V+Deb: jārokot # ;
+
+
+! vim: set ft=xfst-lexc: 
 
