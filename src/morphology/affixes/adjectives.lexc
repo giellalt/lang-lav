@@ -4,10 +4,17 @@
 
 LEXICON Comparisons
 +A+Pos:0        Cases   ;
-+A+Cmp:er       Cases   ;
-+A+Sup:est      Cases   ;
++A+Comp:er       Cases   ;
++A+Superl:est      Cases   ;
 
 LEXICON 13_
+NMN_13_ ;
+
+LEXICON 14_
+NMN_14_ ;
++A+Der/āk+Comp:āk NMN_13_ ;
+
+LEXICON NMN_13_
 +A+Msc+Sg+Nom+Indef:s     #   ;
 +A+Msc+Pl+Nom+Indef:i     #   ;
 +A+Msc+Sg+Gen+Indef:a     #   ;
@@ -54,7 +61,7 @@ LEXICON 13_
 +A+Fem+Pl+Voc+Def:ās   #   ;
 +A+Der/Adv+Adv: # ;
 
-LEXICON 14_
+LEXICON NMN_14_
 +A+Msc+Sg+Nom+Indef:š     #   ;
 +A+Msc+Pl+Nom+Indef:i     #   ;
 +A+Msc+Sg+Gen+Indef:a     #   ;
