@@ -26,11 +26,11 @@ LEXICON V_15_
 +V+Ind+Prs+Pl2:%^RVow%>at # ;
 +V+Ind+Prs+SP3:%^RVow # ;
 
-+V+Ind+Act+Pst+Sg1:%>u # ;
-+V+Ind+Act+Pst+Sg2:%>i # ;
-+V+Ind+Act+Pst+Pl1:%>ām # ;
-+V+Ind+Act+Pst+Pl2:%>āt # ;
-+V+Ind+Act+Pst+SP3:%>a # ;
++V+Ind+Act+Prt+Sg1:%>u # ;
++V+Ind+Act+Prt+Sg2:%>i # ;
++V+Ind+Act+Prt+Pl1:%>ām # ;
++V+Ind+Act+Prt+Pl2:%>āt # ;
++V+Ind+Act+Prt+SP3:%>a # ;
  V_15_NONFINITE_ ;
 
 LEXICON V_15_4_STUMT !!≈ * __@CODE@__ stumt:stum
@@ -47,11 +47,11 @@ LEXICON V_15_4_STUMT !!≈ * __@CODE@__ stumt:stum
 +V+Ind+Prs+Pl2:%^JPal%>at # ;
 +V+Ind+Prs+SP3:%^JPal # ;
 
-+V+Ind+Act+Pst+Sg1:%>u # ;
-+V+Ind+Act+Pst+Sg2:%>i # ;
-+V+Ind+Act+Pst+Pl1:%>ām # ;
-+V+Ind+Act+Pst+Pl2:%>āt # ;
-+V+Ind+Act+Pst+SP3:%>a # ;
++V+Ind+Act+Prt+Sg1:%^VowL%>u # ;
++V+Ind+Act+Prt+Sg2:%^VowL%>i # ;
++V+Ind+Act+Prt+Pl1:%^VowL%>ām # ;
++V+Ind+Act+Prt+Pl2:%^VowL%>āt # ;
++V+Ind+Act+Prt+SP3:%^VowL%>a # ;
  V_15_NONFINITE_ ;
 
 LEXICON V_15_5_SALT !!≈ * __@CODE@__ salt:sal
@@ -68,43 +68,42 @@ LEXICON V_15_5_SALT !!≈ * __@CODE@__ salt:sal
 +V+Ind+Prs+Pl2:%^RVow%>stat # ;
 +V+Ind+Prs+SP3:%^RVow%>st # ;
 
-+V+Ind+Act+Pst+Sg1:%>u # ;
-+V+Ind+Act+Pst+Sg2:%>i # ;
-+V+Ind+Act+Pst+Pl1:%>ām # ;
-+V+Ind+Act+Pst+Pl2:%>āt # ;
-+V+Ind+Act+Pst+SP3:%>a # ;
++V+Ind+Act+Prt+Sg1:%>u # ;
++V+Ind+Act+Prt+Sg2:%>i # ;
++V+Ind+Act+Prt+Pl1:%>ām # ;
++V+Ind+Act+Prt+Pl2:%>āt # ;
++V+Ind+Act+Prt+SP3:%>a # ;
  V_15_NONFINITE_ ;
 
 LEXICON V_15_NONFINITE_
 +V+Quo+Fut:%>šot # ;
-+V+PstPrc+Pss:%>t NMN_13_ ;
++V+PrfPrc+Pss:%>t NMN_13_ ;
 +V+Der/šana:%>šan 7_ ;
 
-+V+PrsPrc+Act+Pred2:%>dam PRSPRC-ACT-PRED2 ;
++V+PrsPrc+Act+Pred2:%^VowL%>dam PRSPRC-ACT-PRED2 ;
 
-+V+Prc:%^RVow%>ot # ;
++V+PrsPrc+Act+Pred2:%^JPal%>ot # ;
 
-+V:%^RVow DEB ;
-+V+Quo:%^RVow%>ot # ;
-+V+Imprt+Sg2:%^RVow%^K2C # ;
-+V+Imprt+Pl2:%^RVow%^K2C%>iet # ;
++V:%^JPal DEB ;
++V+Quo+Prs:%^JPal%>ot # ;
++V+Imprt+Sg2: # ;
++V+Imprt+Pl2:%>iet # ;
 
-+V+PrsPrc+Act:%^RVow%>oš NMN_13_ ;
-+V+PrsPrc+Act+Msc+Sg+Voc+Def:%^RVow%>ošais # ;
-+V+PrsPrc+Act+Msc+Sg+Voc+Def:%^RVow%>ošo # ;
++V+PrsPrc+Act:%^JPal%>oš NMN_13_ ;
++V+PrsPrc+Act+Msc+Sg+Voc+Def:%^JPal%>ošais # ;
++V+PrsPrc+Act+Msc+Sg+Voc+Def:%^JPal%>ošo # ;
 
 +V+Der/Adv+Adv+Pos:%^RVow%>oši # ;
 
-+V+PrsPrc+Pss:%^RVow%>am NMN_13_ ;
-+V+PrsPrc+Pss+Msc+Sg+Voc+Def:%^RVow%>amo # ;
++V+PrsPrc+Pss:%^JPal%>am NMN_13_ ;
++V+PrsPrc+Pss+Msc+Sg+Voc+Def:%^JPal%>amo # ;
 
-+V+PstPrc+Act+Msc+Sg+Nom+Indef:%^K2Cis # ;
-+V+PstPrc+Act: PSTPRC-ACT-OBLIQUE ;
-+V+Der/iens:%^K2C%>ien 1_ ;
++V+PrfPrc+Act+Msc+Sg+Nom+Indef:%^VowL%>is # ;
++V+PrfPrc+Act:%^VowL PSTPRC-ACT-OBLIQUE ;
++V+Der/iens:%^VowL%>ien 1_ ;
 
-+V+PrsPrc+Pss+Pred2:%^RVow%>am # ;
++V+PrsPrc+Pss+Pred2:%^JPal%>am # ;
 +V+Cond:%>tu # ;
-+V:%^RVow DEB ;
 
 
 LEXICON V_16_DEJOT !!≈ * __@CODE@__ dejot:dejo oāēī
@@ -121,18 +120,18 @@ LEXICON V_16_DEJOT !!≈ * __@CODE@__ dejot:dejo oāēī
 +V+Ind+Prs+Pl2:%>jat # ;
 +V+Ind+Prs+SP3: # ;
 
-+V+Ind+Act+Pst+Sg1:%>ju # ;
-+V+Ind+Act+Pst+Sg2:%>ji # ;
-+V+Ind+Act+Pst+Pl1:%>jām # ;
-+V+Ind+Act+Pst+Pl2:%>jāt # ;
-+V+Ind+Act+Pst+SP3:%>ja # ;
++V+Ind+Act+Prt+Sg1:%>ju # ;
++V+Ind+Act+Prt+Sg2:%>ji # ;
++V+Ind+Act+Prt+Pl1:%>jām # ;
++V+Ind+Act+Prt+Pl2:%>jāt # ;
++V+Ind+Act+Prt+SP3:%>ja # ;
  V_16_DEJOT_NONFINITE_ ;
 
 LEXICON V_16_DEJOT_NONFINITE_
 +V+Quo+Prs:j%>ot # ;
 +V+Quo+Fut:%>šot # ;
 
-+V+PstPrc+Pss:%>t NMN_13_ ;
++V+PrfPrc+Pss:%>t NMN_13_ ;
 +V+Der/šana:%>šan 7_ ;
 
 +V+PrsPrc+Act+Pred2:%>dam PRSPRC-ACT-PRED2 ;
@@ -150,8 +149,8 @@ LEXICON V_16_DEJOT_NONFINITE_
 +V+PrsPrc+Pss:%^RVow%>jam NMN_13_ ;
 +V+PrsPrc+Pss+Msc+Sg+Voc+Def:%^RVow%>jamo # ;
 
-+V+PstPrc+Act+Msc+Sg+Nom+Indef:%>jis # ;
-+V+PstPrc+Act:j PSTPRC-ACT-OBLIQUE ;
++V+PrfPrc+Act+Msc+Sg+Nom+Indef:%>jis # ;
++V+PrfPrc+Act:j PSTPRC-ACT-OBLIQUE ;
 +V+Der/iens:%^K2C%>ien 1_ ;
 
 +V+PrsPrc+Pss+Pred2:%^RVow%>jam # ;
@@ -173,16 +172,16 @@ LEXICON V_17_REDZĒT !!≈ * __@CODE@__ redzēt:redzē oāēī
 +V+Ind+Prs+Pl2:%^VowRM%>at # ;
 +V+Ind+Prs+SP3:%^VowRM%>a # ;
 
-+V+Ind+Act+Pst+Sg1:%>ju # ;
-+V+Ind+Act+Pst+Sg2:%>ji # ;
-+V+Ind+Act+Pst+Pl1:%>jām # ;
-+V+Ind+Act+Pst+Pl2:%>jāt # ;
-+V+Ind+Act+Pst+SP3:%>ja # ;
++V+Ind+Act+Prt+Sg1:%>ju # ;
++V+Ind+Act+Prt+Sg2:%>ji # ;
++V+Ind+Act+Prt+Pl1:%>jām # ;
++V+Ind+Act+Prt+Pl2:%>jāt # ;
++V+Ind+Act+Prt+SP3:%>ja # ;
  V_17_REDZĒT_NONFINITE_ ;
 
 LEXICON V_17_REDZĒT_NONFINITE_
 +V+Quo+Fut:%>šot # ;
-+V+PstPrc+Pss:%>t NMN_13_ ;
++V+PrfPrc+Pss:%>t NMN_13_ ;
 +V+Der/šana:%>šan 7_ ;
 
 +V+PrsPrc+Act+Pred2:%>dam PRSPRC-ACT-PRED2 ;
@@ -202,8 +201,8 @@ LEXICON V_17_REDZĒT_NONFINITE_
 +V+PrsPrc+Pss:%^VowRM%>am NMN_13_ ;
 +V+PrsPrc+Pss+Msc+Sg+Voc+Def:%^VowRM%>amo # ;
 
-+V+PstPrc+Act+Msc+Sg+Nom+Indef:jis # ;
-+V+PstPrc+Act:j PSTPRC-ACT-OBLIQUE ;
++V+PrfPrc+Act+Msc+Sg+Nom+Indef:jis # ;
++V+PrfPrc+Act:j PSTPRC-ACT-OBLIQUE ;
 +V+Der/iens:%^K2C%>ien 1_ ;
 
 +V+PrsPrc+Pss+Pred2:%^VowRM%>am # ;
@@ -211,7 +210,8 @@ LEXICON V_17_REDZĒT_NONFINITE_
 +V:%^RVow DEB ;
 
 LEXICON DEB
-+Deb+Prs0@R.DEB.ON@:%>ot@R.DEB.ON@ # ;
++Deb+Prs@R.DEB.ON@:00@R.DEB.ON@ # ;
++Deb+Quo0@R.DEB.ON@:%>ot@R.DEB.ON@ # ;
 
 LEXICON PRSPRC-ACT-PRED2
 +Msc+Sg+Nom+Indef:%>s # ;
