@@ -30,11 +30,11 @@ Tests:
      dalīt+V+Ind+Prs+Pl2: dalāt
      dalīt+V+Ind+Prs+SP3: dala
 
-     dalīt+V+Ind+Act+Pst+Sg1: dalīju
-     dalīt+V+Ind+Act+Pst+Sg2: dalīji
-     dalīt+V+Ind+Act+Pst+Pl1: dalījām
-     dalīt+V+Ind+Act+Pst+Pl2: dalījāt
-     dalīt+V+Ind+Act+Pst+SP3: dalīja
+     dalīt+V+Ind+Act+Prt+Sg1: dalīju
+     dalīt+V+Ind+Act+Prt+Sg2: dalīji
+     dalīt+V+Ind+Act+Prt+Pl1: dalījām
+     dalīt+V+Ind+Act+Prt+Pl2: dalījāt
+     dalīt+V+Ind+Act+Prt+SP3: dalīja
 
      dalīt+V+Deb: jādala
      dalīt+V+Quo+Prs: dalot
@@ -87,50 +87,50 @@ Tests:
      dalīt+V+PrsPrc+Act+Fem+Pl+Loc+Def: dalošajās
      dalīt+V+PrsPrc+Act+Fem+Pl+Voc+Def: dalošās
 
-     dalīt+V+PstPrc+Act+Msc+Sg+Nom+Indef: dalījis
-     dalīt+V+PstPrc+Act+Msc+Sg+Gen+Indef: dalījuša
-     dalīt+V+PstPrc+Act+Msc+Sg+Dat+Indef: dalījušam
-     dalīt+V+PstPrc+Act+Msc+Sg+Acc+Indef: dalījušu
-     dalīt+V+PstPrc+Act+Msc+Sg+Loc+Indef: dalījušā
-     dalīt+V+PstPrc+Act+Msc+Pl+Nom+Indef: dalījuši
-     dalīt+V+PstPrc+Act+Msc+Pl+Gen+Indef: dalījušu
-     dalīt+V+PstPrc+Act+Msc+Pl+Dat+Indef: dalījušiem
-     dalīt+V+PstPrc+Act+Msc+Pl+Acc+Indef: dalījušus
-     dalīt+V+PstPrc+Act+Msc+Pl+Loc+Indef: dalījušos
-     dalīt+V+PstPrc+Act+Msc+Sg+Nom+Def: dalījušais
-     dalīt+V+PstPrc+Act+Msc+Sg+Gen+Def: dalījušā
-     dalīt+V+PstPrc+Act+Msc+Sg+Dat+Def: dalījušajam
-     dalīt+V+PstPrc+Act+Msc+Sg+Acc+Def: dalījušo
-     dalīt+V+PstPrc+Act+Msc+Sg+Loc+Def: dalījušajā
-     dalīt+V+PstPrc+Act+Msc+Sg+Voc+Def: dalījušais
-     dalīt+V+PstPrc+Act+Msc+Pl+Nom+Def: dalījušie
-     dalīt+V+PstPrc+Act+Msc+Pl+Gen+Def: dalījušo
-     dalīt+V+PstPrc+Act+Msc+Pl+Dat+Def: dalījušajiem
-     dalīt+V+PstPrc+Act+Msc+Pl+Acc+Def: dalījušos
-     dalīt+V+PstPrc+Act+Msc+Pl+Loc+Def: dalījušajos
-     dalīt+V+PstPrc+Act+Msc+Pl+Voc+Def: dalījušie
-     dalīt+V+PstPrc+Act+Fem+Sg+Nom+Indef: dalījusi
-     dalīt+V+PstPrc+Act+Fem+Sg+Gen+Indef: dalījušas
-     dalīt+V+PstPrc+Act+Fem+Sg+Dat+Indef: dalījušai
-     dalīt+V+PstPrc+Act+Fem+Sg+Acc+Indef: dalījušu
-     dalīt+V+PstPrc+Act+Fem+Sg+Loc+Indef: dalījušā
-     dalīt+V+PstPrc+Act+Fem+Pl+Nom+Indef: dalījušas
-     dalīt+V+PstPrc+Act+Fem+Pl+Gen+Indef: dalījušu
-     dalīt+V+PstPrc+Act+Fem+Pl+Dat+Indef: dalījušām
-     dalīt+V+PstPrc+Act+Fem+Pl+Acc+Indef: dalījušas
-     dalīt+V+PstPrc+Act+Fem+Pl+Loc+Indef: dalījušās
-     dalīt+V+PstPrc+Act+Fem+Sg+Nom+Def: dalījusī
-     dalīt+V+PstPrc+Act+Fem+Sg+Gen+Def: dalījušās
-     dalīt+V+PstPrc+Act+Fem+Sg+Dat+Def: dalījušajai
-     dalīt+V+PstPrc+Act+Fem+Sg+Acc+Def: dalījušo
-     dalīt+V+PstPrc+Act+Fem+Sg+Loc+Def: dalījušajā
-     dalīt+V+PstPrc+Act+Fem+Sg+Voc+Def: dalījusī
-     dalīt+V+PstPrc+Act+Fem+Pl+Nom+Def: dalījušās
-     dalīt+V+PstPrc+Act+Fem+Pl+Gen+Def: dalījušo
-     dalīt+V+PstPrc+Act+Fem+Pl+Dat+Def: dalījušajām
-     dalīt+V+PstPrc+Act+Fem+Pl+Acc+Def: dalījušās
-     dalīt+V+PstPrc+Act+Fem+Pl+Loc+Def: dalījušajās
-     dalīt+V+PstPrc+Act+Fem+Pl+Voc+Def: dalījušās
+     dalīt+V+PrfPrc+Act+Msc+Sg+Nom+Indef: dalījis
+     dalīt+V+PrfPrc+Act+Msc+Sg+Gen+Indef: dalījuša
+     dalīt+V+PrfPrc+Act+Msc+Sg+Dat+Indef: dalījušam
+     dalīt+V+PrfPrc+Act+Msc+Sg+Acc+Indef: dalījušu
+     dalīt+V+PrfPrc+Act+Msc+Sg+Loc+Indef: dalījušā
+     dalīt+V+PrfPrc+Act+Msc+Pl+Nom+Indef: dalījuši
+     dalīt+V+PrfPrc+Act+Msc+Pl+Gen+Indef: dalījušu
+     dalīt+V+PrfPrc+Act+Msc+Pl+Dat+Indef: dalījušiem
+     dalīt+V+PrfPrc+Act+Msc+Pl+Acc+Indef: dalījušus
+     dalīt+V+PrfPrc+Act+Msc+Pl+Loc+Indef: dalījušos
+     dalīt+V+PrfPrc+Act+Msc+Sg+Nom+Def: dalījušais
+     dalīt+V+PrfPrc+Act+Msc+Sg+Gen+Def: dalījušā
+     dalīt+V+PrfPrc+Act+Msc+Sg+Dat+Def: dalījušajam
+     dalīt+V+PrfPrc+Act+Msc+Sg+Acc+Def: dalījušo
+     dalīt+V+PrfPrc+Act+Msc+Sg+Loc+Def: dalījušajā
+     dalīt+V+PrfPrc+Act+Msc+Sg+Voc+Def: dalījušais
+     dalīt+V+PrfPrc+Act+Msc+Pl+Nom+Def: dalījušie
+     dalīt+V+PrfPrc+Act+Msc+Pl+Gen+Def: dalījušo
+     dalīt+V+PrfPrc+Act+Msc+Pl+Dat+Def: dalījušajiem
+     dalīt+V+PrfPrc+Act+Msc+Pl+Acc+Def: dalījušos
+     dalīt+V+PrfPrc+Act+Msc+Pl+Loc+Def: dalījušajos
+     dalīt+V+PrfPrc+Act+Msc+Pl+Voc+Def: dalījušie
+     dalīt+V+PrfPrc+Act+Fem+Sg+Nom+Indef: dalījusi
+     dalīt+V+PrfPrc+Act+Fem+Sg+Gen+Indef: dalījušas
+     dalīt+V+PrfPrc+Act+Fem+Sg+Dat+Indef: dalījušai
+     dalīt+V+PrfPrc+Act+Fem+Sg+Acc+Indef: dalījušu
+     dalīt+V+PrfPrc+Act+Fem+Sg+Loc+Indef: dalījušā
+     dalīt+V+PrfPrc+Act+Fem+Pl+Nom+Indef: dalījušas
+     dalīt+V+PrfPrc+Act+Fem+Pl+Gen+Indef: dalījušu
+     dalīt+V+PrfPrc+Act+Fem+Pl+Dat+Indef: dalījušām
+     dalīt+V+PrfPrc+Act+Fem+Pl+Acc+Indef: dalījušas
+     dalīt+V+PrfPrc+Act+Fem+Pl+Loc+Indef: dalījušās
+     dalīt+V+PrfPrc+Act+Fem+Sg+Nom+Def: dalījusī
+     dalīt+V+PrfPrc+Act+Fem+Sg+Gen+Def: dalījušās
+     dalīt+V+PrfPrc+Act+Fem+Sg+Dat+Def: dalījušajai
+     dalīt+V+PrfPrc+Act+Fem+Sg+Acc+Def: dalījušo
+     dalīt+V+PrfPrc+Act+Fem+Sg+Loc+Def: dalījušajā
+     dalīt+V+PrfPrc+Act+Fem+Sg+Voc+Def: dalījusī
+     dalīt+V+PrfPrc+Act+Fem+Pl+Nom+Def: dalījušās
+     dalīt+V+PrfPrc+Act+Fem+Pl+Gen+Def: dalījušo
+     dalīt+V+PrfPrc+Act+Fem+Pl+Dat+Def: dalījušajām
+     dalīt+V+PrfPrc+Act+Fem+Pl+Acc+Def: dalījušās
+     dalīt+V+PrfPrc+Act+Fem+Pl+Loc+Def: dalījušajās
+     dalīt+V+PrfPrc+Act+Fem+Pl+Voc+Def: dalījušās
 
      dalīt+V+PrsPrc+Pss+Msc+Sg+Nom+Indef: dalāms
      dalīt+V+PrsPrc+Pss+Msc+Sg+Gen+Indef: dalāma
@@ -177,50 +177,50 @@ Tests:
      dalīt+V+PrsPrc+Pss+Fem+Pl+Loc+Def: dalāmajās
      dalīt+V+PrsPrc+Pss+Fem+Pl+Voc+Def: dalāmās
 
-     dalīt+V+PstPrc+Pss+Msc+Sg+Nom+Indef: dalīts
-     dalīt+V+PstPrc+Pss+Msc+Sg+Gen+Indef: dalīta
-     dalīt+V+PstPrc+Pss+Msc+Sg+Dat+Indef: dalītam
-     dalīt+V+PstPrc+Pss+Msc+Sg+Acc+Indef: dalītu
-     dalīt+V+PstPrc+Pss+Msc+Sg+Loc+Indef: dalītā
-     dalīt+V+PstPrc+Pss+Msc+Pl+Nom+Indef: dalīti
-     dalīt+V+PstPrc+Pss+Msc+Pl+Gen+Indef: dalītu
-     dalīt+V+PstPrc+Pss+Msc+Pl+Dat+Indef: dalītiem
-     dalīt+V+PstPrc+Pss+Msc+Pl+Acc+Indef: dalītus
-     dalīt+V+PstPrc+Pss+Msc+Pl+Loc+Indef: dalītos
-     dalīt+V+PstPrc+Pss+Msc+Sg+Nom+Def: dalītais
-     dalīt+V+PstPrc+Pss+Msc+Sg+Gen+Def: dalītā
-     dalīt+V+PstPrc+Pss+Msc+Sg+Dat+Def: dalītajam
-     dalīt+V+PstPrc+Pss+Msc+Sg+Acc+Def: dalīto
-     dalīt+V+PstPrc+Pss+Msc+Sg+Loc+Def: dalītajā
-     dalīt+V+PstPrc+Pss+Msc+Sg+Voc+Def: [dalītais, dalīto]
-     dalīt+V+PstPrc+Pss+Msc+Pl+Nom+Def: dalītie
-     dalīt+V+PstPrc+Pss+Msc+Pl+Gen+Def: dalīto
-     dalīt+V+PstPrc+Pss+Msc+Pl+Dat+Def: dalītajiem
-     dalīt+V+PstPrc+Pss+Msc+Pl+Acc+Def: dalītos
-     dalīt+V+PstPrc+Pss+Msc+Pl+Loc+Def: dalītajos
-     dalīt+V+PstPrc+Pss+Msc+Pl+Voc+Def: dalītie
-     dalīt+V+PstPrc+Pss+Fem+Sg+Nom+Indef: dalīta
-     dalīt+V+PstPrc+Pss+Fem+Sg+Gen+Indef: dalītas
-     dalīt+V+PstPrc+Pss+Fem+Sg+Dat+Indef: dalītai
-     dalīt+V+PstPrc+Pss+Fem+Sg+Acc+Indef: dalītu
-     dalīt+V+PstPrc+Pss+Fem+Sg+Loc+Indef: dalītā
-     dalīt+V+PstPrc+Pss+Fem+Pl+Nom+Indef: dalītas
-     dalīt+V+PstPrc+Pss+Fem+Pl+Gen+Indef: dalītu
-     dalīt+V+PstPrc+Pss+Fem+Pl+Dat+Indef: dalītām
-     dalīt+V+PstPrc+Pss+Fem+Pl+Acc+Indef: dalītas
-     dalīt+V+PstPrc+Pss+Fem+Pl+Loc+Indef: dalītās
-     dalīt+V+PstPrc+Pss+Fem+Sg+Nom+Def: dalītā
-     dalīt+V+PstPrc+Pss+Fem+Sg+Gen+Def: dalītās
-     dalīt+V+PstPrc+Pss+Fem+Sg+Dat+Def: dalītajai
-     dalīt+V+PstPrc+Pss+Fem+Sg+Acc+Def: dalīto
-     dalīt+V+PstPrc+Pss+Fem+Sg+Loc+Def: dalītajā
-     dalīt+V+PstPrc+Pss+Fem+Sg+Voc+Def: dalītā
-     dalīt+V+PstPrc+Pss+Fem+Pl+Nom+Def: dalītās
-     dalīt+V+PstPrc+Pss+Fem+Pl+Gen+Def: dalīto
-     dalīt+V+PstPrc+Pss+Fem+Pl+Dat+Def: dalītajām
-     dalīt+V+PstPrc+Pss+Fem+Pl+Acc+Def: dalītās
-     dalīt+V+PstPrc+Pss+Fem+Pl+Loc+Def: dalītajās
-     dalīt+V+PstPrc+Pss+Fem+Pl+Voc+Def: dalītās
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Nom+Indef: dalīts
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Gen+Indef: dalīta
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Dat+Indef: dalītam
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Acc+Indef: dalītu
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Loc+Indef: dalītā
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Nom+Indef: dalīti
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Gen+Indef: dalītu
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Dat+Indef: dalītiem
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Acc+Indef: dalītus
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Loc+Indef: dalītos
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Nom+Def: dalītais
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Gen+Def: dalītā
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Dat+Def: dalītajam
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Acc+Def: dalīto
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Loc+Def: dalītajā
+     dalīt+V+PrfPrc+Pss+Msc+Sg+Voc+Def: [dalītais, dalīto]
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Nom+Def: dalītie
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Gen+Def: dalīto
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Dat+Def: dalītajiem
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Acc+Def: dalītos
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Loc+Def: dalītajos
+     dalīt+V+PrfPrc+Pss+Msc+Pl+Voc+Def: dalītie
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Nom+Indef: dalīta
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Gen+Indef: dalītas
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Dat+Indef: dalītai
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Acc+Indef: dalītu
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Loc+Indef: dalītā
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Nom+Indef: dalītas
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Gen+Indef: dalītu
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Dat+Indef: dalītām
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Acc+Indef: dalītas
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Loc+Indef: dalītās
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Nom+Def: dalītā
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Gen+Def: dalītās
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Dat+Def: dalītajai
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Acc+Def: dalīto
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Loc+Def: dalītajā
+     dalīt+V+PrfPrc+Pss+Fem+Sg+Voc+Def: dalītā
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Nom+Def: dalītās
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Gen+Def: dalīto
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Dat+Def: dalītajām
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Acc+Def: dalītās
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Loc+Def: dalītajās
+     dalīt+V+PrfPrc+Pss+Fem+Pl+Voc+Def: dalītās
 #"Declension":"4"
      dalīt+V+Der/šana+N+Fem+Sg+Nom: dalīšana
      dalīt+V+Der/šana+N+Fem+Sg+Gen: dalīšanas
