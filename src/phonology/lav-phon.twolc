@@ -14,6 +14,7 @@ Alphabet
 !! And following triggers to control variation
  %^RVow:0 !!≈ * __@CODE@__ rakt:roc
  %^VowRM:0 !!≈ * __@CODE@__ vowel removal redzēt:redzu
+ %^VowL:0 !!≈ * __@CODE@__ vowel lengthening celt:cēlu
  %^K2C:0 !!≈ * __@CODE@__ rakt:roc
  %^JPal:0 !!≈ * __@CODE@__ sakne:sakņu
  %> %< ;
@@ -42,6 +43,11 @@ Rules
 
 !€# dalī%^VowRM%>am
 !€0 dal000ām
+
+"e2ē"
+!! __@RULENAME@__
+ e:ē <=> _ Cns %^VowL: ;
+
 
 
 "ē20"
@@ -97,6 +103,8 @@ Rules
 "l2ļ"
  !! __@RULENAME@__
  l:ļ <=> _  %^JPal: ;
+!€# cel%^JPal
+!€0 ceļ0
 
 
 "k2c"
