@@ -101,17 +101,17 @@ LEXICON 6_
 
 LEXICON 7_
 +N+Fem+Sg+Nom:a     #   ;
-+N+Fem+Pl+Nom:as     #   ;
 +N+Fem+Sg+Gen:as     #   ;
-+N+Fem+Pl+Gen:u     #   ;
 +N+Fem+Sg+Dat:ai     #   ;
-+N+Fem+Pl+Dat:ām     #   ;
 +N+Fem+Sg+Acc:u    #   ;
-+N+Fem+Pl+Acc:as   #   ;
 +N+Fem+Sg+Loc:ā    #   ;
-+N+Fem+Pl+Loc:ās   #   ;
 +N+Fem+Sg+Voc:a    #   ;
 +N+Fem+Sg+Voc:    #   ;
++N+Fem+Pl+Nom:as     #   ;
++N+Fem+Pl+Gen:u     #   ;
++N+Fem+Pl+Dat:ām     #   ;
++N+Fem+Pl+Acc:as   #   ;
++N+Fem+Pl+Loc:ās   #   ;
 +N+Fem+Pl+Voc:as   #   ;
 
 LEXICON 8_
@@ -130,17 +130,17 @@ LEXICON 8_
 
 LEXICON 9_
 +N+Fem+Sg+Nom:e     #   ;
-+N+Fem+Pl+Nom:es     #   ;
 +N+Fem+Sg+Gen:es     #   ;
-+N+Fem+Pl+Gen:u     #   ;
 +N+Fem+Sg+Dat:ei     #   ;
-+N+Fem+Pl+Dat:ēm     #   ;
 +N+Fem+Sg+Acc:i    #   ;
-+N+Fem+Pl+Acc:es   #   ;
 +N+Fem+Sg+Loc:ē    #   ;
-+N+Fem+Pl+Loc:ēs   #   ;
 +N+Fem+Sg+Voc:e    #   ;
 +N+Fem+Sg+Voc:    #   ;
++N+Fem+Pl+Nom:es     #   ;
++N+Fem+Pl+Gen:u     #   ;
++N+Fem+Pl+Dat:ēm     #   ;
++N+Fem+Pl+Acc:es   #   ;
++N+Fem+Pl+Loc:ēs   #   ;
 +N+Fem+Pl+Voc:es   #   ;
 
 LEXICON 10_

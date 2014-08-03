@@ -245,6 +245,6 @@ Tests:
      rakt+V+Der/iens+N+Msc+Pl+Acc: racienus
      rakt+V+Der/iens+N+Msc+Pl+Loc: racienos
      rakt+V+Der/iens+N+Msc+Pl+Voc: racieni
-     rakt+V+Prc: rokam
+     rakt+V+PrsPrc+Pss+Pred2: rokam
      rakt+V+Cond: raktu
      rakt+V+Deb: jārokot
