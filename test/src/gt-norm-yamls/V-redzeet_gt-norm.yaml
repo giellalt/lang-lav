@@ -1,0 +1,261 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - redzēt: # Verb 'eng divide/fin jakaa' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/redzēt/
+     redzēt+V+Inf: redzēt
+     redzēt+V+Ind+Fut+Sg1: redzēšu
+     redzēt+V+Ind+Fut+Sg2: redzēsi
+     redzēt+V+Ind+Fut+Pl1: redzēsim
+     redzēt+V+Ind+Fut+Pl2: redzēsiet
+     redzēt+V+Ind+Fut+SP3: redzēs
+
+     redzēt+V+Ind+Prs+Sg1: redzu
+     redzēt+V+Ind+Prs+Sg2: redzi
+     redzēt+V+Ind+Prs+Pl1: redzam
+     redzēt+V+Ind+Prs+Pl2: redzat
+     redzēt+V+Ind+Prs+SP3: redz
+
+     redzēt+V+Ind+Act+Pst+Sg1: redzēju
+     redzēt+V+Ind+Act+Pst+Sg2: redzēji
+     redzēt+V+Ind+Act+Pst+Pl1: redzējām
+     redzēt+V+Ind+Act+Pst+Pl2: redzējāt
+     redzēt+V+Ind+Act+Pst+SP3: redzēja
+
+     redzēt+V+Deb: jāredz
+     redzēt+V+Quo+Prs: redzot
+     redzēt+V+Quo+Fut: redzēšot
+     redzēt+V+Imprt+Sg2: redzi
+     redzēt+V+Imprt+Pl2: redziet
+
+     redzēt+V+PrsPrc+Act+Msc+Sg+Nom+Indef: redzošs
+     redzēt+V+PrsPrc+Act+Msc+Sg+Gen+Indef: redzoša
+     redzēt+V+PrsPrc+Act+Msc+Sg+Dat+Indef: redzošam
+     redzēt+V+PrsPrc+Act+Msc+Sg+Acc+Indef: redzošu
+     redzēt+V+PrsPrc+Act+Msc+Sg+Loc+Indef: redzošā
+     redzēt+V+PrsPrc+Act+Msc+Pl+Nom+Indef: redzoši
+     redzēt+V+PrsPrc+Act+Msc+Pl+Gen+Indef: redzošu
+     redzēt+V+PrsPrc+Act+Msc+Pl+Dat+Indef: redzošiem
+     redzēt+V+PrsPrc+Act+Msc+Pl+Acc+Indef: redzošus
+     redzēt+V+PrsPrc+Act+Msc+Pl+Loc+Indef: redzošos
+     redzēt+V+PrsPrc+Act+Msc+Sg+Nom+Def: redzošais
+     redzēt+V+PrsPrc+Act+Msc+Sg+Gen+Def: redzošā
+     redzēt+V+PrsPrc+Act+Msc+Sg+Dat+Def: redzošajam
+     redzēt+V+PrsPrc+Act+Msc+Sg+Acc+Def: redzošo
+     redzēt+V+PrsPrc+Act+Msc+Sg+Loc+Def: redzošajā
+     redzēt+V+PrsPrc+Act+Msc+Sg+Voc+Def: [redzošais, redzošo]
+     redzēt+V+PrsPrc+Act+Msc+Pl+Nom+Def: redzošie
+     redzēt+V+PrsPrc+Act+Msc+Pl+Gen+Def: redzošo
+     redzēt+V+PrsPrc+Act+Msc+Pl+Dat+Def: redzošajiem
+     redzēt+V+PrsPrc+Act+Msc+Pl+Acc+Def: redzošos
+     redzēt+V+PrsPrc+Act+Msc+Pl+Loc+Def: redzošajos
+     redzēt+V+PrsPrc+Act+Msc+Pl+Voc+Def: redzošie
+     redzēt+V+PrsPrc+Act+Fem+Sg+Nom+Indef: redzoša
+     redzēt+V+PrsPrc+Act+Fem+Sg+Gen+Indef: redzošas
+     redzēt+V+PrsPrc+Act+Fem+Sg+Dat+Indef: redzošai
+     redzēt+V+PrsPrc+Act+Fem+Sg+Acc+Indef: redzošu
+     redzēt+V+PrsPrc+Act+Fem+Sg+Loc+Indef: redzošā
+     redzēt+V+PrsPrc+Act+Fem+Pl+Nom+Indef: redzošas
+     redzēt+V+PrsPrc+Act+Fem+Pl+Gen+Indef: redzošu
+     redzēt+V+PrsPrc+Act+Fem+Pl+Dat+Indef: redzošām
+     redzēt+V+PrsPrc+Act+Fem+Pl+Acc+Indef: redzošas
+     redzēt+V+PrsPrc+Act+Fem+Pl+Loc+Indef: redzošās
+     redzēt+V+PrsPrc+Act+Fem+Sg+Nom+Def: redzošā
+     redzēt+V+PrsPrc+Act+Fem+Sg+Gen+Def: redzošās
+     redzēt+V+PrsPrc+Act+Fem+Sg+Dat+Def: redzošajai
+     redzēt+V+PrsPrc+Act+Fem+Sg+Acc+Def: redzošo
+     redzēt+V+PrsPrc+Act+Fem+Sg+Loc+Def: redzošajā
+     redzēt+V+PrsPrc+Act+Fem+Sg+Voc+Def: redzošā
+     redzēt+V+PrsPrc+Act+Fem+Pl+Nom+Def: redzošās
+     redzēt+V+PrsPrc+Act+Fem+Pl+Gen+Def: redzošo
+     redzēt+V+PrsPrc+Act+Fem+Pl+Dat+Def: redzošajām
+     redzēt+V+PrsPrc+Act+Fem+Pl+Acc+Def: redzošās
+     redzēt+V+PrsPrc+Act+Fem+Pl+Loc+Def: redzošajās
+     redzēt+V+PrsPrc+Act+Fem+Pl+Voc+Def: redzošās
+
+     redzēt+V+PstPrc+Act+Msc+Sg+Nom+Indef: redzējis
+     redzēt+V+PstPrc+Act+Msc+Sg+Gen+Indef: redzējuša
+     redzēt+V+PstPrc+Act+Msc+Sg+Dat+Indef: redzējušam
+     redzēt+V+PstPrc+Act+Msc+Sg+Acc+Indef: redzējušu
+     redzēt+V+PstPrc+Act+Msc+Sg+Loc+Indef: redzējušā
+     redzēt+V+PstPrc+Act+Msc+Pl+Nom+Indef: redzējuši
+     redzēt+V+PstPrc+Act+Msc+Pl+Gen+Indef: redzējušu
+     redzēt+V+PstPrc+Act+Msc+Pl+Dat+Indef: redzējušiem
+     redzēt+V+PstPrc+Act+Msc+Pl+Acc+Indef: redzējušus
+     redzēt+V+PstPrc+Act+Msc+Pl+Loc+Indef: redzējušos
+     redzēt+V+PstPrc+Act+Msc+Sg+Nom+Def: redzējušais
+     redzēt+V+PstPrc+Act+Msc+Sg+Gen+Def: redzējušā
+     redzēt+V+PstPrc+Act+Msc+Sg+Dat+Def: redzējušajam
+     redzēt+V+PstPrc+Act+Msc+Sg+Acc+Def: redzējušo
+     redzēt+V+PstPrc+Act+Msc+Sg+Loc+Def: redzējušajā
+     redzēt+V+PstPrc+Act+Msc+Sg+Voc+Def: redzējušais
+     redzēt+V+PstPrc+Act+Msc+Pl+Nom+Def: redzējušie
+     redzēt+V+PstPrc+Act+Msc+Pl+Gen+Def: redzējušo
+     redzēt+V+PstPrc+Act+Msc+Pl+Dat+Def: redzējušajiem
+     redzēt+V+PstPrc+Act+Msc+Pl+Acc+Def: redzējušos
+     redzēt+V+PstPrc+Act+Msc+Pl+Loc+Def: redzējušajos
+     redzēt+V+PstPrc+Act+Msc+Pl+Voc+Def: redzējušie
+     redzēt+V+PstPrc+Act+Fem+Sg+Nom+Indef: redzējusi
+     redzēt+V+PstPrc+Act+Fem+Sg+Gen+Indef: redzējušas
+     redzēt+V+PstPrc+Act+Fem+Sg+Dat+Indef: redzējušai
+     redzēt+V+PstPrc+Act+Fem+Sg+Acc+Indef: redzējušu
+     redzēt+V+PstPrc+Act+Fem+Sg+Loc+Indef: redzējušā
+     redzēt+V+PstPrc+Act+Fem+Pl+Nom+Indef: redzējušas
+     redzēt+V+PstPrc+Act+Fem+Pl+Gen+Indef: redzējušu
+     redzēt+V+PstPrc+Act+Fem+Pl+Dat+Indef: redzējušām
+     redzēt+V+PstPrc+Act+Fem+Pl+Acc+Indef: redzējušas
+     redzēt+V+PstPrc+Act+Fem+Pl+Loc+Indef: redzējušās
+     redzēt+V+PstPrc+Act+Fem+Sg+Nom+Def: redzējusī
+     redzēt+V+PstPrc+Act+Fem+Sg+Gen+Def: redzējušās
+     redzēt+V+PstPrc+Act+Fem+Sg+Dat+Def: redzējušajai
+     redzēt+V+PstPrc+Act+Fem+Sg+Acc+Def: redzējušo
+     redzēt+V+PstPrc+Act+Fem+Sg+Loc+Def: redzējušajā
+     redzēt+V+PstPrc+Act+Fem+Sg+Voc+Def: redzējusī
+     redzēt+V+PstPrc+Act+Fem+Pl+Nom+Def: redzējušās
+     redzēt+V+PstPrc+Act+Fem+Pl+Gen+Def: redzējušo
+     redzēt+V+PstPrc+Act+Fem+Pl+Dat+Def: redzējušajām
+     redzēt+V+PstPrc+Act+Fem+Pl+Acc+Def: redzējušās
+     redzēt+V+PstPrc+Act+Fem+Pl+Loc+Def: redzējušajās
+     redzēt+V+PstPrc+Act+Fem+Pl+Voc+Def: redzējušās
+
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Nom+Indef: redzams
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Gen+Indef: redzama
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Dat+Indef: redzamam
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Acc+Indef: redzamu
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Loc+Indef: redzamā
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Nom+Indef: redzami
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Gen+Indef: redzamu
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Dat+Indef: redzamiem
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Acc+Indef: redzamus
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Loc+Indef: redzamos
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Nom+Def: redzamais
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Gen+Def: redzamā
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Dat+Def: redzamajam
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Acc+Def: redzamo
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Loc+Def: redzamajā
+     redzēt+V+PrsPrc+Pss+Msc+Sg+Voc+Def: [redzamais, redzamo]
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Nom+Def: redzamie
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Gen+Def: redzamo
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Dat+Def: redzamajiem
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Acc+Def: redzamos
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Loc+Def: redzamajos
+     redzēt+V+PrsPrc+Pss+Msc+Pl+Voc+Def: redzamie
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Nom+Indef: redzama
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Gen+Indef: redzamas
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Dat+Indef: redzamai
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Acc+Indef: redzamu
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Loc+Indef: redzamā
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Nom+Indef: redzamas
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Gen+Indef: redzamu
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Dat+Indef: redzamām
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Acc+Indef: redzamas
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Loc+Indef: redzamās
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Nom+Def: redzamā
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Gen+Def: redzamās
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Dat+Def: redzamajai
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Acc+Def: redzamo
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Loc+Def: redzamajā
+     redzēt+V+PrsPrc+Pss+Fem+Sg+Voc+Def: redzamā
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Nom+Def: redzamās
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Gen+Def: redzamo
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Dat+Def: redzamajām
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Acc+Def: redzamās
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Loc+Def: redzamajās
+     redzēt+V+PrsPrc+Pss+Fem+Pl+Voc+Def: redzamās
+
+     redzēt+V+PstPrc+Pss+Msc+Sg+Nom+Indef: redzēts
+     redzēt+V+PstPrc+Pss+Msc+Sg+Gen+Indef: redzēta
+     redzēt+V+PstPrc+Pss+Msc+Sg+Dat+Indef: redzētam
+     redzēt+V+PstPrc+Pss+Msc+Sg+Acc+Indef: redzētu
+     redzēt+V+PstPrc+Pss+Msc+Sg+Loc+Indef: redzētā
+     redzēt+V+PstPrc+Pss+Msc+Pl+Nom+Indef: redzēti
+     redzēt+V+PstPrc+Pss+Msc+Pl+Gen+Indef: redzētu
+     redzēt+V+PstPrc+Pss+Msc+Pl+Dat+Indef: redzētiem
+     redzēt+V+PstPrc+Pss+Msc+Pl+Acc+Indef: redzētus
+     redzēt+V+PstPrc+Pss+Msc+Pl+Loc+Indef: redzētos
+     redzēt+V+PstPrc+Pss+Msc+Sg+Nom+Def: redzētais
+     redzēt+V+PstPrc+Pss+Msc+Sg+Gen+Def: redzētā
+     redzēt+V+PstPrc+Pss+Msc+Sg+Dat+Def: redzētajam
+     redzēt+V+PstPrc+Pss+Msc+Sg+Acc+Def: redzēto
+     redzēt+V+PstPrc+Pss+Msc+Sg+Loc+Def: redzētajā
+     redzēt+V+PstPrc+Pss+Msc+Sg+Voc+Def: [redzētais, redzēto]
+     redzēt+V+PstPrc+Pss+Msc+Pl+Nom+Def: redzētie
+     redzēt+V+PstPrc+Pss+Msc+Pl+Gen+Def: redzēto
+     redzēt+V+PstPrc+Pss+Msc+Pl+Dat+Def: redzētajiem
+     redzēt+V+PstPrc+Pss+Msc+Pl+Acc+Def: redzētos
+     redzēt+V+PstPrc+Pss+Msc+Pl+Loc+Def: redzētajos
+     redzēt+V+PstPrc+Pss+Msc+Pl+Voc+Def: redzētie
+     redzēt+V+PstPrc+Pss+Fem+Sg+Nom+Indef: redzēta
+     redzēt+V+PstPrc+Pss+Fem+Sg+Gen+Indef: redzētas
+     redzēt+V+PstPrc+Pss+Fem+Sg+Dat+Indef: redzētai
+     redzēt+V+PstPrc+Pss+Fem+Sg+Acc+Indef: redzētu
+     redzēt+V+PstPrc+Pss+Fem+Sg+Loc+Indef: redzētā
+     redzēt+V+PstPrc+Pss+Fem+Pl+Nom+Indef: redzētas
+     redzēt+V+PstPrc+Pss+Fem+Pl+Gen+Indef: redzētu
+     redzēt+V+PstPrc+Pss+Fem+Pl+Dat+Indef: redzētām
+     redzēt+V+PstPrc+Pss+Fem+Pl+Acc+Indef: redzētas
+     redzēt+V+PstPrc+Pss+Fem+Pl+Loc+Indef: redzētās
+     redzēt+V+PstPrc+Pss+Fem+Sg+Nom+Def: redzētā
+     redzēt+V+PstPrc+Pss+Fem+Sg+Gen+Def: redzētās
+     redzēt+V+PstPrc+Pss+Fem+Sg+Dat+Def: redzētajai
+     redzēt+V+PstPrc+Pss+Fem+Sg+Acc+Def: redzēto
+     redzēt+V+PstPrc+Pss+Fem+Sg+Loc+Def: redzētajā
+     redzēt+V+PstPrc+Pss+Fem+Sg+Voc+Def: redzētā
+     redzēt+V+PstPrc+Pss+Fem+Pl+Nom+Def: redzētās
+     redzēt+V+PstPrc+Pss+Fem+Pl+Gen+Def: redzēto
+     redzēt+V+PstPrc+Pss+Fem+Pl+Dat+Def: redzētajām
+     redzēt+V+PstPrc+Pss+Fem+Pl+Acc+Def: redzētās
+     redzēt+V+PstPrc+Pss+Fem+Pl+Loc+Def: redzētajās
+     redzēt+V+PstPrc+Pss+Fem+Pl+Voc+Def: redzētās
+#"Declension":"4"
+     redzēt+V+Der/šana+N+Fem+Sg+Nom: redzēšana
+     redzēt+V+Der/šana+N+Fem+Sg+Gen: redzēšanas
+     redzēt+V+Der/šana+N+Fem+Sg+Dat: redzēšanai
+     redzēt+V+Der/šana+N+Fem+Sg+Acc: redzēšanu
+     redzēt+V+Der/šana+N+Fem+Sg+Loc: redzēšanā
+     redzēt+V+Der/šana+N+Fem+Sg+Voc: redzēšana
+     redzēt+V+Der/šana+N+Fem+Pl+Nom: redzēšanas
+     redzēt+V+Der/šana+N+Fem+Pl+Gen: redzēšanu
+     redzēt+V+Der/šana+N+Fem+Pl+Dat: redzēšanām
+     redzēt+V+Der/šana+N+Fem+Pl+Acc: redzēšanas
+     redzēt+V+Der/šana+N+Fem+Pl+Loc: redzēšanās
+     redzēt+V+Der/šana+N+Fem+Pl+Voc: redzēšanas
+     redzēt+V+PrsPrc+Act+Pred2+Msc+Sg+Nom+Indef: redzēdams
+     redzēt+V+PrsPrc+Act+Pred2+Fem+Sg+Nom+Indef: redzēdama
+     redzēt+V+PrsPrc+Act+Pred2+Msc+Pl+Nom+Indef: redzēdami
+     redzēt+V+PrsPrc+Act+Pred2+Fem+Pl+Nom+Indef: redzēdamas
+
+#     redzēt+V+Der/Adv+Adv+Pos: rokoši
+
+
+#     redzēt+V+Der/iens+N+Msc+Sg+Nom: raciens
+#     redzēt+V+Der/iens+N+Msc+Sg+Gen: raciena
+#     redzēt+V+Der/iens+N+Msc+Sg+Dat: racienam
+#     redzēt+V+Der/iens+N+Msc+Sg+Acc: racienu
+#     redzēt+V+Der/iens+N+Msc+Sg+Loc: racienā
+#     redzēt+V+Der/iens+N+Msc+Sg+Voc: [raciens, racien]
+#     redzēt+V+Der/iens+N+Msc+Pl+Nom: racieni
+#     redzēt+V+Der/iens+N+Msc+Pl+Gen: racienu
+#     redzēt+V+Der/iens+N+Msc+Pl+Dat: racieniem
+#     redzēt+V+Der/iens+N+Msc+Pl+Acc: racienus
+#     redzēt+V+Der/iens+N+Msc+Pl+Loc: racienos
+#     redzēt+V+Der/iens+N+Msc+Pl+Voc: racieni
+
+     redzēt+V+PrsPrc+Act+Pred2: redzot
+     redzēt+V+PrsPrc+Pss+Pred2: redzam
+     redzēt+V+Cond: redzētu
+     redzēt+V+Deb: jāredzot
