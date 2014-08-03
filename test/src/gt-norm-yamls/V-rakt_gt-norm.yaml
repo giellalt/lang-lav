@@ -81,10 +81,10 @@ Tests:
      rakt+V+Der/šana+N+Fem+Pl+Acc: rakšanas
      rakt+V+Der/šana+N+Fem+Pl+Loc: rakšanās
      rakt+V+Der/šana+N+Fem+Pl+Voc: rakšanas
-     rakt+V+PrsPrc+Act+Msc+Sg+Nom: rakdams
-     rakt+V+PrsPrc+Act+Fem+Sg+Nom: rakdama
-     rakt+V+PrsPrc+Act+Msc+Pl+Nom: rakdami
-     rakt+V+PrsPrc+Act+Fem+Pl+Nom: rakdamas
+     rakt+V+PrsPrc+Act+Pred2+Msc+Sg+Nom+Indef: rakdams
+     rakt+V+PrsPrc+Act+Pred2+Fem+Sg+Nom+Indef: rakdama
+     rakt+V+PrsPrc+Act+Pred2+Msc+Pl+Nom+Indef: rakdami
+     rakt+V+PrsPrc+Act+Pred2+Fem+Pl+Nom+Indef: rakdamas
      rakt+V+Prc: rokot
      rakt+V+Ind+Prs+Sg1: roku
      rakt+V+Ind+Prs+Sg2: roc

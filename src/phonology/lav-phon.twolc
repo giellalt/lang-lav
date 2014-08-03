@@ -16,7 +16,7 @@ Alphabet
  %^VowRM:0 !!≈ * __@CODE@__ vowel removal redzēt:redzu
  %^K2C:0 !!≈ * __@CODE@__ rakt:roc
  %^JPal:0 !!≈ * __@CODE@__ sakne:sakņu
- %>:0 ;
+ %> %< ;
 
 Sets
 
@@ -36,6 +36,14 @@ Rules
 !€# rak%^RVow%^K2C
 !€0 roc00
 
+"a2ā"
+!! __@RULENAME@__
+ a:ā <=> ī: %^VowRM: %> _ [ m | t ] [ # | %> ] ;
+
+!€# dalī%^VowRM%>am
+!€0 dal000ām
+
+
 "ē20"
 !! __@RULENAME@__
  ē:0 <=> _ %^VowRM: %> [ u | i | a m | a: ];
@@ -44,6 +52,11 @@ Rules
 !! __@RULENAME@__
  a:0 <=> ē: %^VowRM: %> _ # ;
 
+"ī20"
+!! __@RULENAME@__
+ ī:0 <=> _ %^VowRM: %> [ u | i | a: | o ] ;
+!€# dalī%^VowRM%>u
+!€0 dal000u
 
 !! !!CONSONANTS
 

@@ -28,5 +28,6 @@ silt:sil V_15_5_SALT ;
 dejot:dejo V_16_DEJOT ;
 
 redzēt:redzē V_17_REDZĒT ;
+dalīt:dalī V_17_REDZĒT ;
 
 ! vim: set ft=xfst-lexc:
