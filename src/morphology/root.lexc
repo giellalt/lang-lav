@@ -122,8 +122,8 @@ LEXICON Root
    Verbs   ;
 000@R.DEB.ON@:jā%<@R.DEB.ON@   Verbs   ;
    Adjectives  ;
-   Pronouns    ;
-   Numerals    ;
-   Prefixes    ;
+!   Pronouns    ;
+!   Numerals    ;
+!   Prefixes    ;
 
 ! vim: set ft=xfst-lexc:
