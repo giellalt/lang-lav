@@ -1,0 +1,261 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - salt: # Verb 'eng freeze/fin pakastaa' - _SALT_ full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/salt/
+     salt+V+Inf: salt
+     salt+V+Ind+Act+Fut+Sg1: salšu
+     salt+V+Ind+Act+Fut+Sg2: salsi
+     salt+V+Ind+Act+Fut+Pl1: salsim
+     salt+V+Ind+Act+Fut+Pl2: salsiet
+     salt+V+Ind+Act+Fut+SP3: sals
+
+     salt+V+Ind+Act+Prs+Sg1: salstu
+     salt+V+Ind+Act+Prs+Sg2: salsti
+     salt+V+Ind+Act+Prs+Pl1: salstam
+     salt+V+Ind+Act+Prs+Pl2: salstat
+     salt+V+Ind+Act+Prs+SP3: salst
+
+     salt+V+Ind+Act+Prt+Sg1: salu
+     salt+V+Ind+Act+Prt+Sg2: sali
+     salt+V+Ind+Act+Prt+Pl1: salām
+     salt+V+Ind+Act+Prt+Pl2: salāt
+     salt+V+Ind+Act+Prt+SP3: sala
+
+     salt+V+Deb+Prs: jāsalst
+     salt+V+Quo+Prs: salstot
+     salt+V+Quo+Fut: salšot
+     salt+V+Imprt+Sg2: salsti
+     salt+V+Imprt+Pl2: salstiet
+
+     salt+V+PrsPrc+Act+Msc+Sg+Nom+Indef: salstošs
+     salt+V+PrsPrc+Act+Msc+Sg+Gen+Indef: salstoša
+     salt+V+PrsPrc+Act+Msc+Sg+Dat+Indef: salstošam
+     salt+V+PrsPrc+Act+Msc+Sg+Acc+Indef: salstošu
+     salt+V+PrsPrc+Act+Msc+Sg+Loc+Indef: salstošā
+     salt+V+PrsPrc+Act+Msc+Pl+Nom+Indef: salstoši
+     salt+V+PrsPrc+Act+Msc+Pl+Gen+Indef: salstošu
+     salt+V+PrsPrc+Act+Msc+Pl+Dat+Indef: salstošiem
+     salt+V+PrsPrc+Act+Msc+Pl+Acc+Indef: salstošus
+     salt+V+PrsPrc+Act+Msc+Pl+Loc+Indef: salstošos
+     salt+V+PrsPrc+Act+Msc+Sg+Nom+Def: salstošais
+     salt+V+PrsPrc+Act+Msc+Sg+Gen+Def: salstošā
+     salt+V+PrsPrc+Act+Msc+Sg+Dat+Def: salstošajam
+     salt+V+PrsPrc+Act+Msc+Sg+Acc+Def: salstošo
+     salt+V+PrsPrc+Act+Msc+Sg+Loc+Def: salstošajā
+     salt+V+PrsPrc+Act+Msc+Sg+Voc+Def: [salstošais, salstošo]
+     salt+V+PrsPrc+Act+Msc+Pl+Nom+Def: salstošie
+     salt+V+PrsPrc+Act+Msc+Pl+Gen+Def: salstošo
+     salt+V+PrsPrc+Act+Msc+Pl+Dat+Def: salstošajiem
+     salt+V+PrsPrc+Act+Msc+Pl+Acc+Def: salstošos
+     salt+V+PrsPrc+Act+Msc+Pl+Loc+Def: salstošajos
+     salt+V+PrsPrc+Act+Msc+Pl+Voc+Def: salstošie
+     salt+V+PrsPrc+Act+Fem+Sg+Nom+Indef: salstoša
+     salt+V+PrsPrc+Act+Fem+Sg+Gen+Indef: salstošas
+     salt+V+PrsPrc+Act+Fem+Sg+Dat+Indef: salstošai
+     salt+V+PrsPrc+Act+Fem+Sg+Acc+Indef: salstošu
+     salt+V+PrsPrc+Act+Fem+Sg+Loc+Indef: salstošā
+     salt+V+PrsPrc+Act+Fem+Pl+Nom+Indef: salstošas
+     salt+V+PrsPrc+Act+Fem+Pl+Gen+Indef: salstošu
+     salt+V+PrsPrc+Act+Fem+Pl+Dat+Indef: salstošām
+     salt+V+PrsPrc+Act+Fem+Pl+Acc+Indef: salstošas
+     salt+V+PrsPrc+Act+Fem+Pl+Loc+Indef: salstošās
+     salt+V+PrsPrc+Act+Fem+Sg+Nom+Def: salstošā
+     salt+V+PrsPrc+Act+Fem+Sg+Gen+Def: salstošās
+     salt+V+PrsPrc+Act+Fem+Sg+Dat+Def: salstošajai
+     salt+V+PrsPrc+Act+Fem+Sg+Acc+Def: salstošo
+     salt+V+PrsPrc+Act+Fem+Sg+Loc+Def: salstošajā
+     salt+V+PrsPrc+Act+Fem+Sg+Voc+Def: salstošā
+     salt+V+PrsPrc+Act+Fem+Pl+Nom+Def: salstošās
+     salt+V+PrsPrc+Act+Fem+Pl+Gen+Def: salstošo
+     salt+V+PrsPrc+Act+Fem+Pl+Dat+Def: salstošajām
+     salt+V+PrsPrc+Act+Fem+Pl+Acc+Def: salstošās
+     salt+V+PrsPrc+Act+Fem+Pl+Loc+Def: salstošajās
+     salt+V+PrsPrc+Act+Fem+Pl+Voc+Def: salstošās
+
+     salt+V+PrfPrc+Act+Msc+Sg+Nom+Indef: salis
+     salt+V+PrfPrc+Act+Msc+Sg+Gen+Indef: saluša
+     salt+V+PrfPrc+Act+Msc+Sg+Dat+Indef: salušam
+     salt+V+PrfPrc+Act+Msc+Sg+Acc+Indef: salušu
+     salt+V+PrfPrc+Act+Msc+Sg+Loc+Indef: salušā
+     salt+V+PrfPrc+Act+Msc+Pl+Nom+Indef: saluši
+     salt+V+PrfPrc+Act+Msc+Pl+Gen+Indef: salušu
+     salt+V+PrfPrc+Act+Msc+Pl+Dat+Indef: salušiem
+     salt+V+PrfPrc+Act+Msc+Pl+Acc+Indef: salušus
+     salt+V+PrfPrc+Act+Msc+Pl+Loc+Indef: salušos
+     salt+V+PrfPrc+Act+Msc+Sg+Nom+Def: salušais
+     salt+V+PrfPrc+Act+Msc+Sg+Gen+Def: salušā
+     salt+V+PrfPrc+Act+Msc+Sg+Dat+Def: salušajam
+     salt+V+PrfPrc+Act+Msc+Sg+Acc+Def: salušo
+     salt+V+PrfPrc+Act+Msc+Sg+Loc+Def: salušajā
+     salt+V+PrfPrc+Act+Msc+Sg+Voc+Def: salušais
+     salt+V+PrfPrc+Act+Msc+Pl+Nom+Def: salušie
+     salt+V+PrfPrc+Act+Msc+Pl+Gen+Def: salušo
+     salt+V+PrfPrc+Act+Msc+Pl+Dat+Def: salušajiem
+     salt+V+PrfPrc+Act+Msc+Pl+Acc+Def: salušos
+     salt+V+PrfPrc+Act+Msc+Pl+Loc+Def: salušajos
+     salt+V+PrfPrc+Act+Msc+Pl+Voc+Def: salušie
+     salt+V+PrfPrc+Act+Fem+Sg+Nom+Indef: salusi
+     salt+V+PrfPrc+Act+Fem+Sg+Gen+Indef: salušas
+     salt+V+PrfPrc+Act+Fem+Sg+Dat+Indef: salušai
+     salt+V+PrfPrc+Act+Fem+Sg+Acc+Indef: salušu
+     salt+V+PrfPrc+Act+Fem+Sg+Loc+Indef: salušā
+     salt+V+PrfPrc+Act+Fem+Pl+Nom+Indef: salušas
+     salt+V+PrfPrc+Act+Fem+Pl+Gen+Indef: salušu
+     salt+V+PrfPrc+Act+Fem+Pl+Dat+Indef: salušām
+     salt+V+PrfPrc+Act+Fem+Pl+Acc+Indef: salušas
+     salt+V+PrfPrc+Act+Fem+Pl+Loc+Indef: salušās
+     salt+V+PrfPrc+Act+Fem+Sg+Nom+Def: salusī
+     salt+V+PrfPrc+Act+Fem+Sg+Gen+Def: salušās
+     salt+V+PrfPrc+Act+Fem+Sg+Dat+Def: salušajai
+     salt+V+PrfPrc+Act+Fem+Sg+Acc+Def: salušo
+     salt+V+PrfPrc+Act+Fem+Sg+Loc+Def: salušajā
+     salt+V+PrfPrc+Act+Fem+Sg+Voc+Def: salusī
+     salt+V+PrfPrc+Act+Fem+Pl+Nom+Def: salušās
+     salt+V+PrfPrc+Act+Fem+Pl+Gen+Def: salušo
+     salt+V+PrfPrc+Act+Fem+Pl+Dat+Def: salušajām
+     salt+V+PrfPrc+Act+Fem+Pl+Acc+Def: salušās
+     salt+V+PrfPrc+Act+Fem+Pl+Loc+Def: salušajās
+     salt+V+PrfPrc+Act+Fem+Pl+Voc+Def: salušās
+
+     salt+V+PrsPrc+Pss+Msc+Sg+Nom+Indef: salstams
+     salt+V+PrsPrc+Pss+Msc+Sg+Gen+Indef: salstama
+     salt+V+PrsPrc+Pss+Msc+Sg+Dat+Indef: salstamam
+     salt+V+PrsPrc+Pss+Msc+Sg+Acc+Indef: salstamu
+     salt+V+PrsPrc+Pss+Msc+Sg+Loc+Indef: salstamā
+     salt+V+PrsPrc+Pss+Msc+Pl+Nom+Indef: salstami
+     salt+V+PrsPrc+Pss+Msc+Pl+Gen+Indef: salstamu
+     salt+V+PrsPrc+Pss+Msc+Pl+Dat+Indef: salstamiem
+     salt+V+PrsPrc+Pss+Msc+Pl+Acc+Indef: salstamus
+     salt+V+PrsPrc+Pss+Msc+Pl+Loc+Indef: salstamos
+     salt+V+PrsPrc+Pss+Msc+Sg+Nom+Def: salstamais
+     salt+V+PrsPrc+Pss+Msc+Sg+Gen+Def: salstamā
+     salt+V+PrsPrc+Pss+Msc+Sg+Dat+Def: salstamajam
+     salt+V+PrsPrc+Pss+Msc+Sg+Acc+Def: salstamo
+     salt+V+PrsPrc+Pss+Msc+Sg+Loc+Def: salstamajā
+     salt+V+PrsPrc+Pss+Msc+Sg+Voc+Def: [salstamais, salstamo]
+     salt+V+PrsPrc+Pss+Msc+Pl+Nom+Def: salstamie
+     salt+V+PrsPrc+Pss+Msc+Pl+Gen+Def: salstamo
+     salt+V+PrsPrc+Pss+Msc+Pl+Dat+Def: salstamajiem
+     salt+V+PrsPrc+Pss+Msc+Pl+Acc+Def: salstamos
+     salt+V+PrsPrc+Pss+Msc+Pl+Loc+Def: salstamajos
+     salt+V+PrsPrc+Pss+Msc+Pl+Voc+Def: salstamie
+     salt+V+PrsPrc+Pss+Fem+Sg+Nom+Indef: salstama
+     salt+V+PrsPrc+Pss+Fem+Sg+Gen+Indef: salstamas
+     salt+V+PrsPrc+Pss+Fem+Sg+Dat+Indef: salstamai
+     salt+V+PrsPrc+Pss+Fem+Sg+Acc+Indef: salstamu
+     salt+V+PrsPrc+Pss+Fem+Sg+Loc+Indef: salstamā
+     salt+V+PrsPrc+Pss+Fem+Pl+Nom+Indef: salstamas
+     salt+V+PrsPrc+Pss+Fem+Pl+Gen+Indef: salstamu
+     salt+V+PrsPrc+Pss+Fem+Pl+Dat+Indef: salstamām
+     salt+V+PrsPrc+Pss+Fem+Pl+Acc+Indef: salstamas
+     salt+V+PrsPrc+Pss+Fem+Pl+Loc+Indef: salstamās
+     salt+V+PrsPrc+Pss+Fem+Sg+Nom+Def: salstamā
+     salt+V+PrsPrc+Pss+Fem+Sg+Gen+Def: salstamās
+     salt+V+PrsPrc+Pss+Fem+Sg+Dat+Def: salstamajai
+     salt+V+PrsPrc+Pss+Fem+Sg+Acc+Def: salstamo
+     salt+V+PrsPrc+Pss+Fem+Sg+Loc+Def: salstamajā
+     salt+V+PrsPrc+Pss+Fem+Sg+Voc+Def: salstamā
+     salt+V+PrsPrc+Pss+Fem+Pl+Nom+Def: salstamās
+     salt+V+PrsPrc+Pss+Fem+Pl+Gen+Def: salstamo
+     salt+V+PrsPrc+Pss+Fem+Pl+Dat+Def: salstamajām
+     salt+V+PrsPrc+Pss+Fem+Pl+Acc+Def: salstamās
+     salt+V+PrsPrc+Pss+Fem+Pl+Loc+Def: salstamajās
+     salt+V+PrsPrc+Pss+Fem+Pl+Voc+Def: salstamās
+
+     salt+V+PrfPrc+Pss+Msc+Sg+Nom+Indef: salts
+     salt+V+PrfPrc+Pss+Msc+Sg+Gen+Indef: salta
+     salt+V+PrfPrc+Pss+Msc+Sg+Dat+Indef: saltam
+     salt+V+PrfPrc+Pss+Msc+Sg+Acc+Indef: saltu
+     salt+V+PrfPrc+Pss+Msc+Sg+Loc+Indef: saltā
+     salt+V+PrfPrc+Pss+Msc+Pl+Nom+Indef: salti
+     salt+V+PrfPrc+Pss+Msc+Pl+Gen+Indef: saltu
+     salt+V+PrfPrc+Pss+Msc+Pl+Dat+Indef: saltiem
+     salt+V+PrfPrc+Pss+Msc+Pl+Acc+Indef: saltus
+     salt+V+PrfPrc+Pss+Msc+Pl+Loc+Indef: saltos
+     salt+V+PrfPrc+Pss+Msc+Sg+Nom+Def: saltais
+     salt+V+PrfPrc+Pss+Msc+Sg+Gen+Def: saltā
+     salt+V+PrfPrc+Pss+Msc+Sg+Dat+Def: saltajam
+     salt+V+PrfPrc+Pss+Msc+Sg+Acc+Def: salto
+     salt+V+PrfPrc+Pss+Msc+Sg+Loc+Def: saltajā
+     salt+V+PrfPrc+Pss+Msc+Sg+Voc+Def: saltais
+     salt+V+PrfPrc+Pss+Msc+Pl+Nom+Def: saltie
+     salt+V+PrfPrc+Pss+Msc+Pl+Gen+Def: salto
+     salt+V+PrfPrc+Pss+Msc+Pl+Dat+Def: saltajiem
+     salt+V+PrfPrc+Pss+Msc+Pl+Acc+Def: saltos
+     salt+V+PrfPrc+Pss+Msc+Pl+Loc+Def: saltajos
+     salt+V+PrfPrc+Pss+Msc+Pl+Voc+Def: saltie
+     salt+V+PrfPrc+Pss+Fem+Sg+Nom+Indef: salta
+     salt+V+PrfPrc+Pss+Fem+Sg+Gen+Indef: saltas
+     salt+V+PrfPrc+Pss+Fem+Sg+Dat+Indef: saltai
+     salt+V+PrfPrc+Pss+Fem+Sg+Acc+Indef: saltu
+     salt+V+PrfPrc+Pss+Fem+Sg+Loc+Indef: saltā
+     salt+V+PrfPrc+Pss+Fem+Pl+Nom+Indef: saltas
+     salt+V+PrfPrc+Pss+Fem+Pl+Gen+Indef: saltu
+     salt+V+PrfPrc+Pss+Fem+Pl+Dat+Indef: saltām
+     salt+V+PrfPrc+Pss+Fem+Pl+Acc+Indef: saltas
+     salt+V+PrfPrc+Pss+Fem+Pl+Loc+Indef: saltās
+     salt+V+PrfPrc+Pss+Fem+Sg+Nom+Def: saltā
+     salt+V+PrfPrc+Pss+Fem+Sg+Gen+Def: saltās
+     salt+V+PrfPrc+Pss+Fem+Sg+Dat+Def: saltajai
+     salt+V+PrfPrc+Pss+Fem+Sg+Acc+Def: salto
+     salt+V+PrfPrc+Pss+Fem+Sg+Loc+Def: saltajā
+     salt+V+PrfPrc+Pss+Fem+Sg+Voc+Def: saltā
+     salt+V+PrfPrc+Pss+Fem+Pl+Nom+Def: saltās
+     salt+V+PrfPrc+Pss+Fem+Pl+Gen+Def: salto
+     salt+V+PrfPrc+Pss+Fem+Pl+Dat+Def: saltajām
+     salt+V+PrfPrc+Pss+Fem+Pl+Acc+Def: saltās
+     salt+V+PrfPrc+Pss+Fem+Pl+Loc+Def: saltajās
+     salt+V+PrfPrc+Pss+Fem+Pl+Voc+Def: saltās
+#"Declension":"4"
+     salt+V+Der/šana+N+Fem+Sg+Nom: salšana
+     salt+V+Der/šana+N+Fem+Sg+Gen: salšanas
+     salt+V+Der/šana+N+Fem+Sg+Dat: salšanai
+     salt+V+Der/šana+N+Fem+Sg+Acc: salšanu
+     salt+V+Der/šana+N+Fem+Sg+Loc: salšanā
+     salt+V+Der/šana+N+Fem+Sg+Voc: salšana
+     salt+V+Der/šana+N+Fem+Pl+Nom: salšanas
+     salt+V+Der/šana+N+Fem+Pl+Gen: salšanu
+     salt+V+Der/šana+N+Fem+Pl+Dat: salšanām
+     salt+V+Der/šana+N+Fem+Pl+Acc: salšanas
+     salt+V+Der/šana+N+Fem+Pl+Loc: salšanās
+     salt+V+Der/šana+N+Fem+Pl+Voc: salšanas
+     salt+V+PrsPrc+Act+Pred2+Msc+Sg+Nom+Indef: saldams
+     salt+V+PrsPrc+Act+Pred2+Fem+Sg+Nom+Indef: saldama
+     salt+V+PrsPrc+Act+Pred2+Msc+Pl+Nom+Indef: saldami
+     salt+V+PrsPrc+Act+Pred2+Fem+Pl+Nom+Indef: saldamas
+
+#     salt+V+Der/Adv+Adv+Pos: rokoši
+
+
+     salt+V+Der/iens+N+Msc+Sg+Nom: saliens
+     salt+V+Der/iens+N+Msc+Sg+Gen: saliena
+     salt+V+Der/iens+N+Msc+Sg+Dat: salienam
+     salt+V+Der/iens+N+Msc+Sg+Acc: salienu
+     salt+V+Der/iens+N+Msc+Sg+Loc: salienā
+     salt+V+Der/iens+N+Msc+Sg+Voc: [saliens, salien]
+     salt+V+Der/iens+N+Msc+Pl+Nom: salieni
+     salt+V+Der/iens+N+Msc+Pl+Gen: salienu
+     salt+V+Der/iens+N+Msc+Pl+Dat: salieniem
+     salt+V+Der/iens+N+Msc+Pl+Acc: salienus
+     salt+V+Der/iens+N+Msc+Pl+Loc: salienos
+     salt+V+Der/iens+N+Msc+Pl+Voc: salieni
+
+     salt+V+PrsPrc+Act+Pred2: salstot
+     salt+V+PrsPrc+Pss+Pred2: salstam
+     salt+V+Cond: saltu
+     salt+V+Deb+Quo: jāsalstot
