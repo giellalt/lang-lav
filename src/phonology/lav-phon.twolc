@@ -17,6 +17,7 @@ Alphabet
  %^VowL:0 !!≈ * __@CODE@__ vowel lengthening celt:cēlu
  %^K2C:0 !!≈ * __@CODE@__ rakt:roc
  %^JPal:0 !!≈ * __@CODE@__ sakne:sakņu
+ %^SP3:0 !!≈ * __@CODE@__ stum%^JPal%^SP3:stumj0 
  %> %< ;
 
 Sets
@@ -40,19 +41,28 @@ Rules
 "a2ā"
 !! __@RULENAME@__
  a:ā <=> ī: %^VowRM: %> _ [ m | t ] [ # | %> ] ;
-
 !€# dalī%^VowRM%>am
 !€0 dal000ām
+       # Cns* Vow: Cns (%^VowL:) %> _ [ m | t ] ;
 
 "e2ē"
 !! __@RULENAME@__
- e:ē <=> _ Cns %^VowL: ;
+ e:ē <=> _ Cns:+ %^VowL: ;
+!€# cel%^VowL
+!€0 cēl0
+
+"u2ū"
+!! __@RULENAME@__
+ u:ū <=> _ Cns:+ %^VowL: ;
+!€# stum%^VowL
+!€0 stūm0
+
 
 
 
 "ē20"
 !! __@RULENAME@__
- ē:0 <=> _ %^VowRM: %> [ u | i | a m | a: ];
+ ē:0 <=> _ %^VowRM: %> [ u | i | a m | a: | o ];
 
 "a20"
 !! __@RULENAME@__
@@ -65,20 +75,24 @@ Rules
 !€0 dal000u
 
 !! !!CONSONANTS
+"02j"
+!! __@RULENAME@__
+ 0:j <=> o :0* _ %> o t ; 
 
 "%^VowRM:j"
 !! __@RULENAME@__
  %^VowRM:j <=> ē _ %> a t #  ;
 
-
 !! !J_PALATALIZATION
 "%^JPal:j"
 !! __@RULENAME@__
- %^JPal:j <=> CnsLab _  ;
+ %^JPal:j <=> CnsLab _ [ %> [ Vow: - i ] | %^SP3: ] ;
+
 
 "s2š"
  !! __@RULENAME@__
  s:š <=> _  %^JPal: ;
+     [ ļ ] %> _  ;
 
 "t2š"
  !! __@RULENAME@__

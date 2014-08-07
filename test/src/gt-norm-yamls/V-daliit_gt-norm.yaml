@@ -36,7 +36,7 @@ Tests:
      dalīt+V+Ind+Act+Prt+Pl2: dalījāt
      dalīt+V+Ind+Act+Prt+SP3: dalīja
 
-     dalīt+V+Deb: jādala
+     dalīt+V+Deb+Prs: jādala
      dalīt+V+Quo+Prs: dalot
      dalīt+V+Quo+Fut: dalīšot
      dalīt+V+Imprt+Sg2: dali
@@ -255,7 +255,7 @@ Tests:
 #     dalīt+V+Der/iens+N+Msc+Pl+Loc: racienos
 #     dalīt+V+Der/iens+N+Msc+Pl+Voc: racieni
 
-     dalīt+V+Prc: dalot
+     dalīt+V+PrsPrc+Act+Pred2: dalot
      dalīt+V+PrsPrc+Pss+Pred2: dalām
      dalīt+V+Cond: dalītu
-     dalīt+V+Deb: jādalot
+     dalīt+V+Deb+Quo: jādalot

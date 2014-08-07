@@ -44,7 +44,9 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
- +Comp +Superl
+ +Pos     !!≈ * __@CODE@__ positive grade 
+ +Comp    !!≈ * __@CODE@__ comparative grade
+ +Superl  !!≈ * __@CODE@__ superlative grade
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
@@ -104,30 +106,31 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! And following triggers to control variation
  {front} {back}
- %^RVow !!≈ * __@CODE@__ raise vowel rakt:roc
+ %^RVow  !!≈ * __@CODE@__ raise vowel rakt:roc
  %^VowRM !!≈ * __@CODE@__ vowel removal redzēt:redzu
- %^VowL !!≈ * __@CODE@__ vowel lengthening celt:cēlu
- %^K2C !!≈ * __@CODE@__ rakt:roc
- %^JPal !!≈ * __@CODE@__ sakne:sakņu
+ %^VowL  !!≈ * __@CODE@__ vowel lengthening celt:cēlu
+ %^K2C   !!≈ * __@CODE@__ rakt:roc
+ %^JPal  !!≈ * __@CODE@__ sakne:sakņu
+ %^SP3 	 !!≈ * __@CODE@__ stum%^JPal%^SP3:stumj0 
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
 @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
 
-@R.DEB.ON@ !!≈ * __@CODE@__ This is for debitive in verbs
-@R.SUPERL.ON@ !!≈ * __@CODE@__ This is for superlative in adjectives
+@U.DEB.ON@ !!≈ * __@CODE@__ This is for debitive in verbs
+@U.DEB.OFF@ !!≈ * __@CODE@__ This is for debitive in verbs
+@U.SUPERL.OFF@ !!≈ * __@CODE@__ This is for superlative in adjectives
+@U.SUPERL.ON@ !!≈ * __@CODE@__ This is for superlative in adjectives
 
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! The word forms in the LATVIAN language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0000@R.SUPERL.ON@:vis%<@R.SUPERL.ON@   Adjectives  ;
-   Adjectives  ;
+@U.SUPERL.OFF@   Adjectives  ;
    Nouns   ;
-   Verbs   ;
-000@R.DEB.ON@:jā%<@R.DEB.ON@   Verbs   ;
+   Prefixes    ;
+@U.DEB.OFF@   Verbs   ;
 !   Pronouns    ;
 !   Numerals    ;
-!   Prefixes    ;
 
 ! vim: set ft=xfst-lexc:

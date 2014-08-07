@@ -36,7 +36,7 @@ Tests:
      redzēt+V+Ind+Act+Prt+Pl2: redzējāt
      redzēt+V+Ind+Act+Prt+SP3: redzēja
 
-     redzēt+V+Deb: jāredz
+     redzēt+V+Deb+Prs: jāredz
      redzēt+V+Quo+Prs: redzot
      redzēt+V+Quo+Fut: redzēšot
      redzēt+V+Imprt+Sg2: redzi
@@ -258,4 +258,4 @@ Tests:
      redzēt+V+PrsPrc+Act+Pred2: redzot
      redzēt+V+PrsPrc+Pss+Pred2: redzam
      redzēt+V+Cond: redzētu
-     redzēt+V+Deb: jāredzot
+     redzēt+V+Deb+Quo: jāredzot

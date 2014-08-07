@@ -4,6 +4,7 @@
 
 LEXICON Adjectives
 adjective    Comparisons   ;
+jauns:jaun A_13_ ;
 zaļš:zaļ A_14ZAĻŠ_ ;
 
 ! vim: set ft=xfst-lexc:

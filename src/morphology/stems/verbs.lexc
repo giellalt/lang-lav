@@ -10,7 +10,7 @@ sviest:svied V_15_ ;
 dzēst:dzēs V_15_ ;
 bāzt:bāz V_15_ ;
 kult:kul V_15_ ;
-rakt:rak V_15_ ;
+rakt:rak V_15_RAKT ;
 
 stumt:stum V_15_4_STUMT ;
 glābt:glāb V_15_4_STUMT ;
@@ -18,7 +18,6 @@ kāpt:kāp V_15_4_STUMT ;
 stiept:stiep V_15_4_STUMT ;
 strebt:streb V_15_4_STUMT ;
 celt:cel V_15_4_STUMT ;
-t: V_15_4_STUMT ;
 
 atbilst:atbils V_15_5_SALT ;
 kļut:kļu V_15_5_SALT ;

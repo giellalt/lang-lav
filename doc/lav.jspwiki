@@ -32,6 +32,9 @@ The nominals are inflected in the following Case and Number
 
 The possession is marked as such:
 The comparative forms are:
+ * __+Pos__ positive grade 
+ * __+Comp__ comparative grade
+ * __+Superl__ superlative grade
 Numerals are classified under:
 Verb moods are:
 Verb personal forms are:
@@ -62,14 +65,17 @@ And following triggers to control variation
  * __%^VowL__ vowel lengthening celt:cēlu
  * __%^K2C__ rakt:roc
  * __%^JPal__ sakne:sakņu
+ * __%^SP3 	__ stum%^JPal%^SP3:stumj0 
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
 
- * __@R.DEB.ON@__ This is for debitive in verbs
- * __@R.SUPERL.ON@__ This is for superlative in adjectives
+ * __@U.DEB.ON@__ This is for debitive in verbs
+ * __@U.DEB.OFF@__ This is for debitive in verbs
+ * __@U.SUPERL.OFF@__ This is for superlative in adjectives
+ * __@U.SUPERL.ON@__ This is for superlative in adjectives
 
 
-The word forms in UNDEFINED language start from the lexeme roots of basic
+The word forms in the LATVIAN language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 

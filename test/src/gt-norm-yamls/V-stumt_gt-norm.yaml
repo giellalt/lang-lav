@@ -18,17 +18,17 @@ Tests:
 
   Verb - stumt: # Verb 'eng push/fin työntää' - _STUMT_ full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/stumt/
      stumt+V+Inf: stumt
-     stumt+V+Ind+Fut+Sg1: stumšu
-     stumt+V+Ind+Fut+Sg2: stumsi
-     stumt+V+Ind+Fut+Pl1: stumsim
-     stumt+V+Ind+Fut+Pl2: stumsiet
-     stumt+V+Ind+Fut+SP3: stums
+     stumt+V+Ind+Act+Fut+Sg1: stumšu
+     stumt+V+Ind+Act+Fut+Sg2: stumsi
+     stumt+V+Ind+Act+Fut+Pl1: stumsim
+     stumt+V+Ind+Act+Fut+Pl2: stumsiet
+     stumt+V+Ind+Act+Fut+SP3: stums
 
-     stumt+V+Ind+Prs+Sg1: stumju
-     stumt+V+Ind+Prs+Sg2: stum
-     stumt+V+Ind+Prs+Pl1: stumjam
-     stumt+V+Ind+Prs+Pl2: stumjat
-     stumt+V+Ind+Prs+SP3: stumj
+     stumt+V+Ind+Act+Prs+Sg1: stumju
+     stumt+V+Ind+Act+Prs+Sg2: stum
+     stumt+V+Ind+Act+Prs+Pl1: stumjam
+     stumt+V+Ind+Act+Prs+Pl2: stumjat
+     stumt+V+Ind+Act+Prs+SP3: stumj
 
      stumt+V+Ind+Act+Prt+Sg1: stūmu
      stumt+V+Ind+Act+Prt+Sg2: stūmi
@@ -192,7 +192,7 @@ Tests:
      stumt+V+PrfPrc+Pss+Msc+Sg+Dat+Def: stumtajam
      stumt+V+PrfPrc+Pss+Msc+Sg+Acc+Def: stumto
      stumt+V+PrfPrc+Pss+Msc+Sg+Loc+Def: stumtajā
-     stumt+V+PrfPrc+Pss+Msc+Sg+Voc+Def: [stumtais, stumto]
+     stumt+V+PrfPrc+Pss+Msc+Sg+Voc+Def: stumtais
      stumt+V+PrfPrc+Pss+Msc+Pl+Nom+Def: stumtie
      stumt+V+PrfPrc+Pss+Msc+Pl+Gen+Def: stumto
      stumt+V+PrfPrc+Pss+Msc+Pl+Dat+Def: stumtajiem

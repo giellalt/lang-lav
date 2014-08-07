@@ -18,11 +18,11 @@ Tests:
 
   Verb - rakt: # Verb 'eng dig/fin kaivaa' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/rakt/
      rakt+V+Inf: rakt
-     rakt+V+Ind+Fut+Sg1: rakšu
-     rakt+V+Ind+Fut+Sg2: raksi
-     rakt+V+Ind+Fut+Pl1: raksim
-     rakt+V+Ind+Fut+Pl2: raksiet
-     rakt+V+Ind+Fut+SP3: raks
+     rakt+V+Ind+Act+Fut+Sg1: rakšu
+     rakt+V+Ind+Act+Fut+Sg2: raksi
+     rakt+V+Ind+Act+Fut+Pl1: raksim
+     rakt+V+Ind+Act+Fut+Pl2: raksiet
+     rakt+V+Ind+Act+Fut+SP3: raks
      rakt+V+Quo+Fut: rakšot
      rakt+V+PrfPrc+Pss+Msc+Sg+Nom+Indef: rakts
      rakt+V+PrfPrc+Pss+Msc+Sg+Gen+Indef: rakta
@@ -85,14 +85,14 @@ Tests:
      rakt+V+PrsPrc+Act+Pred2+Fem+Sg+Nom+Indef: rakdama
      rakt+V+PrsPrc+Act+Pred2+Msc+Pl+Nom+Indef: rakdami
      rakt+V+PrsPrc+Act+Pred2+Fem+Pl+Nom+Indef: rakdamas
-     rakt+V+Prc: rokot
-     rakt+V+Ind+Prs+Sg1: roku
-     rakt+V+Ind+Prs+Sg2: roc
-     rakt+V+Ind+Prs+Pl1: rokam
-     rakt+V+Ind+Prs+Pl2: rokat
-     rakt+V+Ind+Prs+SP3: rok
-     rakt+V+Deb: jārok
-     rakt+V+Quo: rokot
+     rakt+V+PrsPrc+Act+Pred2: rokot
+     rakt+V+Ind+Act+Prs+Sg1: roku
+     rakt+V+Ind+Act+Prs+Sg2: roc
+     rakt+V+Ind+Act+Prs+Pl1: rokam
+     rakt+V+Ind+Act+Prs+Pl2: rokat
+     rakt+V+Ind+Act+Prs+SP3: rok
+     rakt+V+Deb+Prs: jārok
+     rakt+V+Quo+Prs: rokot
      rakt+V+Imprt+Sg2: roc
      rakt+V+Imprt+Pl2: rociet
      rakt+V+PrsPrc+Act+Msc+Sg+Nom+Indef: rokošs
@@ -247,4 +247,4 @@ Tests:
      rakt+V+Der/iens+N+Msc+Pl+Voc: racieni
      rakt+V+PrsPrc+Pss+Pred2: rokam
      rakt+V+Cond: raktu
-     rakt+V+Deb: jārokot
+     rakt+V+Deb+Quo: jārokot

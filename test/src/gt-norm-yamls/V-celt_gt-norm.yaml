@@ -192,7 +192,7 @@ Tests:
      celt+V+PrfPrc+Pss+Msc+Sg+Dat+Def: celtajam
      celt+V+PrfPrc+Pss+Msc+Sg+Acc+Def: celto
      celt+V+PrfPrc+Pss+Msc+Sg+Loc+Def: celtajā
-     celt+V+PrfPrc+Pss+Msc+Sg+Voc+Def: [celtais, celto]
+     celt+V+PrfPrc+Pss+Msc+Sg+Voc+Def: celtais
      celt+V+PrfPrc+Pss+Msc+Pl+Nom+Def: celtie
      celt+V+PrfPrc+Pss+Msc+Pl+Gen+Def: celto
      celt+V+PrfPrc+Pss+Msc+Pl+Dat+Def: celtajiem

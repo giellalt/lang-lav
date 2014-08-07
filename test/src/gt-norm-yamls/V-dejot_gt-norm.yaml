@@ -36,7 +36,7 @@ Tests:
      dejot+V+Ind+Act+Prt+Pl2: dejojāt
      dejot+V+Ind+Act+Prt+SP3: dejoja
 
-     dejot+V+Deb: jādejo
+     dejot+V+Deb+Prs: jādejo
      dejot+V+Quo+Prs: dejojot
      dejot+V+Quo+Fut: dejošot
      dejot+V+Imprt+Sg2: dejo
@@ -258,4 +258,4 @@ Tests:
      dejot+V+PrsPrc+Act+Pred2: dejojot
      dejot+V+PrsPrc+Pss+Pred2: dejojam
      dejot+V+Cond: dejotu
-     dejot+V+Deb+Prs: jādejojot
+     dejot+V+Deb+Quo: jādejojot
