@@ -11,7 +11,7 @@ LEXICON Cases
 +N+Pl+Acc:iat   #   ;
 #:0   Nouns   ;
 
-LEXICON 1_
+LEXICON N_1_
 +N+Msc+Sg+Nom:s     #   ;
 +N+Msc+Pl+Nom:i     #   ;
 +N+Msc+Sg+Gen:a     #   ;
@@ -99,14 +99,14 @@ LEXICON 6_
 +N+Msc+Sg+Voc:u    #   ;
 +N+Msc+Pl+Voc:i   #   ;
 
-LEXICON 7_
+LEXICON N_7ROKA_  !!= * __@CODE@__ roka:rok
 +N+Fem+Sg+Nom:a     #   ;
 +N+Fem+Sg+Gen:as     #   ;
 +N+Fem+Sg+Dat:ai     #   ;
 +N+Fem+Sg+Acc:u    #   ;
 +N+Fem+Sg+Loc:ā    #   ;
 +N+Fem+Sg+Voc:a    #   ;
-+N+Fem+Sg+Voc:    #   ;
++N+Fem+Sg+Voc+Err/Sub:    #   ;
 +N+Fem+Pl+Nom:as     #   ;
 +N+Fem+Pl+Gen:u     #   ;
 +N+Fem+Pl+Dat:ām     #   ;

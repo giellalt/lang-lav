@@ -4,5 +4,6 @@
 
 LEXICON Nouns
 noun    Cases   ;
+roka:rok N_7ROKA_ ;
 
 ! vim: set ft=xfst-lexc:

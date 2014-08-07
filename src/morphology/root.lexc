@@ -115,14 +115,17 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
 
 @R.DEB.ON@ !!≈ * __@CODE@__ This is for debitive in verbs
+@R.SUPERL.ON@ !!≈ * __@CODE@__ This is for superlative in adjectives
+
 
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
+0000@R.SUPERL.ON@:vis%<@R.SUPERL.ON@   Adjectives  ;
+   Adjectives  ;
    Nouns   ;
    Verbs   ;
 000@R.DEB.ON@:jā%<@R.DEB.ON@   Verbs   ;
-   Adjectives  ;
 !   Pronouns    ;
 !   Numerals    ;
 !   Prefixes    ;

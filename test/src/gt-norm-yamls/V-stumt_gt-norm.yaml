@@ -1,0 +1,261 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - stumt: # Verb 'eng push/fin työntää' - _STUMT_ full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/stumt/
+     stumt+V+Inf: stumt
+     stumt+V+Ind+Fut+Sg1: stumšu
+     stumt+V+Ind+Fut+Sg2: stumsi
+     stumt+V+Ind+Fut+Pl1: stumsim
+     stumt+V+Ind+Fut+Pl2: stumsiet
+     stumt+V+Ind+Fut+SP3: stums
+
+     stumt+V+Ind+Prs+Sg1: stumju
+     stumt+V+Ind+Prs+Sg2: stum
+     stumt+V+Ind+Prs+Pl1: stumjam
+     stumt+V+Ind+Prs+Pl2: stumjat
+     stumt+V+Ind+Prs+SP3: stumj
+
+     stumt+V+Ind+Act+Prt+Sg1: stūmu
+     stumt+V+Ind+Act+Prt+Sg2: stūmi
+     stumt+V+Ind+Act+Prt+Pl1: stūmām
+     stumt+V+Ind+Act+Prt+Pl2: stūmāt
+     stumt+V+Ind+Act+Prt+SP3: stūma
+
+     stumt+V+Deb+Prs: jāstum
+     stumt+V+Quo+Prs: stumjot
+     stumt+V+Quo+Fut: stumšot
+     stumt+V+Imprt+Sg2: stum
+     stumt+V+Imprt+Pl2: stumiet
+
+     stumt+V+PrsPrc+Act+Msc+Sg+Nom+Indef: stumjošs
+     stumt+V+PrsPrc+Act+Msc+Sg+Gen+Indef: stumjoša
+     stumt+V+PrsPrc+Act+Msc+Sg+Dat+Indef: stumjošam
+     stumt+V+PrsPrc+Act+Msc+Sg+Acc+Indef: stumjošu
+     stumt+V+PrsPrc+Act+Msc+Sg+Loc+Indef: stumjošā
+     stumt+V+PrsPrc+Act+Msc+Pl+Nom+Indef: stumjoši
+     stumt+V+PrsPrc+Act+Msc+Pl+Gen+Indef: stumjošu
+     stumt+V+PrsPrc+Act+Msc+Pl+Dat+Indef: stumjošiem
+     stumt+V+PrsPrc+Act+Msc+Pl+Acc+Indef: stumjošus
+     stumt+V+PrsPrc+Act+Msc+Pl+Loc+Indef: stumjošos
+     stumt+V+PrsPrc+Act+Msc+Sg+Nom+Def: stumjošais
+     stumt+V+PrsPrc+Act+Msc+Sg+Gen+Def: stumjošā
+     stumt+V+PrsPrc+Act+Msc+Sg+Dat+Def: stumjošajam
+     stumt+V+PrsPrc+Act+Msc+Sg+Acc+Def: stumjošo
+     stumt+V+PrsPrc+Act+Msc+Sg+Loc+Def: stumjošajā
+     stumt+V+PrsPrc+Act+Msc+Sg+Voc+Def: [stumjošais, stumjošo]
+     stumt+V+PrsPrc+Act+Msc+Pl+Nom+Def: stumjošie
+     stumt+V+PrsPrc+Act+Msc+Pl+Gen+Def: stumjošo
+     stumt+V+PrsPrc+Act+Msc+Pl+Dat+Def: stumjošajiem
+     stumt+V+PrsPrc+Act+Msc+Pl+Acc+Def: stumjošos
+     stumt+V+PrsPrc+Act+Msc+Pl+Loc+Def: stumjošajos
+     stumt+V+PrsPrc+Act+Msc+Pl+Voc+Def: stumjošie
+     stumt+V+PrsPrc+Act+Fem+Sg+Nom+Indef: stumjoša
+     stumt+V+PrsPrc+Act+Fem+Sg+Gen+Indef: stumjošas
+     stumt+V+PrsPrc+Act+Fem+Sg+Dat+Indef: stumjošai
+     stumt+V+PrsPrc+Act+Fem+Sg+Acc+Indef: stumjošu
+     stumt+V+PrsPrc+Act+Fem+Sg+Loc+Indef: stumjošā
+     stumt+V+PrsPrc+Act+Fem+Pl+Nom+Indef: stumjošas
+     stumt+V+PrsPrc+Act+Fem+Pl+Gen+Indef: stumjošu
+     stumt+V+PrsPrc+Act+Fem+Pl+Dat+Indef: stumjošām
+     stumt+V+PrsPrc+Act+Fem+Pl+Acc+Indef: stumjošas
+     stumt+V+PrsPrc+Act+Fem+Pl+Loc+Indef: stumjošās
+     stumt+V+PrsPrc+Act+Fem+Sg+Nom+Def: stumjošā
+     stumt+V+PrsPrc+Act+Fem+Sg+Gen+Def: stumjošās
+     stumt+V+PrsPrc+Act+Fem+Sg+Dat+Def: stumjošajai
+     stumt+V+PrsPrc+Act+Fem+Sg+Acc+Def: stumjošo
+     stumt+V+PrsPrc+Act+Fem+Sg+Loc+Def: stumjošajā
+     stumt+V+PrsPrc+Act+Fem+Sg+Voc+Def: stumjošā
+     stumt+V+PrsPrc+Act+Fem+Pl+Nom+Def: stumjošās
+     stumt+V+PrsPrc+Act+Fem+Pl+Gen+Def: stumjošo
+     stumt+V+PrsPrc+Act+Fem+Pl+Dat+Def: stumjošajām
+     stumt+V+PrsPrc+Act+Fem+Pl+Acc+Def: stumjošās
+     stumt+V+PrsPrc+Act+Fem+Pl+Loc+Def: stumjošajās
+     stumt+V+PrsPrc+Act+Fem+Pl+Voc+Def: stumjošās
+
+     stumt+V+PrfPrc+Act+Msc+Sg+Nom+Indef: stūmis
+     stumt+V+PrfPrc+Act+Msc+Sg+Gen+Indef: stūmuša
+     stumt+V+PrfPrc+Act+Msc+Sg+Dat+Indef: stūmušam
+     stumt+V+PrfPrc+Act+Msc+Sg+Acc+Indef: stūmušu
+     stumt+V+PrfPrc+Act+Msc+Sg+Loc+Indef: stūmušā
+     stumt+V+PrfPrc+Act+Msc+Pl+Nom+Indef: stūmuši
+     stumt+V+PrfPrc+Act+Msc+Pl+Gen+Indef: stūmušu
+     stumt+V+PrfPrc+Act+Msc+Pl+Dat+Indef: stūmušiem
+     stumt+V+PrfPrc+Act+Msc+Pl+Acc+Indef: stūmušus
+     stumt+V+PrfPrc+Act+Msc+Pl+Loc+Indef: stūmušos
+     stumt+V+PrfPrc+Act+Msc+Sg+Nom+Def: stūmušais
+     stumt+V+PrfPrc+Act+Msc+Sg+Gen+Def: stūmušā
+     stumt+V+PrfPrc+Act+Msc+Sg+Dat+Def: stūmušajam
+     stumt+V+PrfPrc+Act+Msc+Sg+Acc+Def: stūmušo
+     stumt+V+PrfPrc+Act+Msc+Sg+Loc+Def: stūmušajā
+     stumt+V+PrfPrc+Act+Msc+Sg+Voc+Def: stūmušais
+     stumt+V+PrfPrc+Act+Msc+Pl+Nom+Def: stūmušie
+     stumt+V+PrfPrc+Act+Msc+Pl+Gen+Def: stūmušo
+     stumt+V+PrfPrc+Act+Msc+Pl+Dat+Def: stūmušajiem
+     stumt+V+PrfPrc+Act+Msc+Pl+Acc+Def: stūmušos
+     stumt+V+PrfPrc+Act+Msc+Pl+Loc+Def: stūmušajos
+     stumt+V+PrfPrc+Act+Msc+Pl+Voc+Def: stūmušie
+     stumt+V+PrfPrc+Act+Fem+Sg+Nom+Indef: stūmusi
+     stumt+V+PrfPrc+Act+Fem+Sg+Gen+Indef: stūmušas
+     stumt+V+PrfPrc+Act+Fem+Sg+Dat+Indef: stūmušai
+     stumt+V+PrfPrc+Act+Fem+Sg+Acc+Indef: stūmušu
+     stumt+V+PrfPrc+Act+Fem+Sg+Loc+Indef: stūmušā
+     stumt+V+PrfPrc+Act+Fem+Pl+Nom+Indef: stūmušas
+     stumt+V+PrfPrc+Act+Fem+Pl+Gen+Indef: stūmušu
+     stumt+V+PrfPrc+Act+Fem+Pl+Dat+Indef: stūmušām
+     stumt+V+PrfPrc+Act+Fem+Pl+Acc+Indef: stūmušas
+     stumt+V+PrfPrc+Act+Fem+Pl+Loc+Indef: stūmušās
+     stumt+V+PrfPrc+Act+Fem+Sg+Nom+Def: stūmusī
+     stumt+V+PrfPrc+Act+Fem+Sg+Gen+Def: stūmušās
+     stumt+V+PrfPrc+Act+Fem+Sg+Dat+Def: stūmušajai
+     stumt+V+PrfPrc+Act+Fem+Sg+Acc+Def: stūmušo
+     stumt+V+PrfPrc+Act+Fem+Sg+Loc+Def: stūmušajā
+     stumt+V+PrfPrc+Act+Fem+Sg+Voc+Def: stūmusī
+     stumt+V+PrfPrc+Act+Fem+Pl+Nom+Def: stūmušās
+     stumt+V+PrfPrc+Act+Fem+Pl+Gen+Def: stūmušo
+     stumt+V+PrfPrc+Act+Fem+Pl+Dat+Def: stūmušajām
+     stumt+V+PrfPrc+Act+Fem+Pl+Acc+Def: stūmušās
+     stumt+V+PrfPrc+Act+Fem+Pl+Loc+Def: stūmušajās
+     stumt+V+PrfPrc+Act+Fem+Pl+Voc+Def: stūmušās
+
+     stumt+V+PrsPrc+Pss+Msc+Sg+Nom+Indef: stumjams
+     stumt+V+PrsPrc+Pss+Msc+Sg+Gen+Indef: stumjama
+     stumt+V+PrsPrc+Pss+Msc+Sg+Dat+Indef: stumjamam
+     stumt+V+PrsPrc+Pss+Msc+Sg+Acc+Indef: stumjamu
+     stumt+V+PrsPrc+Pss+Msc+Sg+Loc+Indef: stumjamā
+     stumt+V+PrsPrc+Pss+Msc+Pl+Nom+Indef: stumjami
+     stumt+V+PrsPrc+Pss+Msc+Pl+Gen+Indef: stumjamu
+     stumt+V+PrsPrc+Pss+Msc+Pl+Dat+Indef: stumjamiem
+     stumt+V+PrsPrc+Pss+Msc+Pl+Acc+Indef: stumjamus
+     stumt+V+PrsPrc+Pss+Msc+Pl+Loc+Indef: stumjamos
+     stumt+V+PrsPrc+Pss+Msc+Sg+Nom+Def: stumjamais
+     stumt+V+PrsPrc+Pss+Msc+Sg+Gen+Def: stumjamā
+     stumt+V+PrsPrc+Pss+Msc+Sg+Dat+Def: stumjamajam
+     stumt+V+PrsPrc+Pss+Msc+Sg+Acc+Def: stumjamo
+     stumt+V+PrsPrc+Pss+Msc+Sg+Loc+Def: stumjamajā
+     stumt+V+PrsPrc+Pss+Msc+Sg+Voc+Def: [stumjamais, stumjamo]
+     stumt+V+PrsPrc+Pss+Msc+Pl+Nom+Def: stumjamie
+     stumt+V+PrsPrc+Pss+Msc+Pl+Gen+Def: stumjamo
+     stumt+V+PrsPrc+Pss+Msc+Pl+Dat+Def: stumjamajiem
+     stumt+V+PrsPrc+Pss+Msc+Pl+Acc+Def: stumjamos
+     stumt+V+PrsPrc+Pss+Msc+Pl+Loc+Def: stumjamajos
+     stumt+V+PrsPrc+Pss+Msc+Pl+Voc+Def: stumjamie
+     stumt+V+PrsPrc+Pss+Fem+Sg+Nom+Indef: stumjama
+     stumt+V+PrsPrc+Pss+Fem+Sg+Gen+Indef: stumjamas
+     stumt+V+PrsPrc+Pss+Fem+Sg+Dat+Indef: stumjamai
+     stumt+V+PrsPrc+Pss+Fem+Sg+Acc+Indef: stumjamu
+     stumt+V+PrsPrc+Pss+Fem+Sg+Loc+Indef: stumjamā
+     stumt+V+PrsPrc+Pss+Fem+Pl+Nom+Indef: stumjamas
+     stumt+V+PrsPrc+Pss+Fem+Pl+Gen+Indef: stumjamu
+     stumt+V+PrsPrc+Pss+Fem+Pl+Dat+Indef: stumjamām
+     stumt+V+PrsPrc+Pss+Fem+Pl+Acc+Indef: stumjamas
+     stumt+V+PrsPrc+Pss+Fem+Pl+Loc+Indef: stumjamās
+     stumt+V+PrsPrc+Pss+Fem+Sg+Nom+Def: stumjamā
+     stumt+V+PrsPrc+Pss+Fem+Sg+Gen+Def: stumjamās
+     stumt+V+PrsPrc+Pss+Fem+Sg+Dat+Def: stumjamajai
+     stumt+V+PrsPrc+Pss+Fem+Sg+Acc+Def: stumjamo
+     stumt+V+PrsPrc+Pss+Fem+Sg+Loc+Def: stumjamajā
+     stumt+V+PrsPrc+Pss+Fem+Sg+Voc+Def: stumjamā
+     stumt+V+PrsPrc+Pss+Fem+Pl+Nom+Def: stumjamās
+     stumt+V+PrsPrc+Pss+Fem+Pl+Gen+Def: stumjamo
+     stumt+V+PrsPrc+Pss+Fem+Pl+Dat+Def: stumjamajām
+     stumt+V+PrsPrc+Pss+Fem+Pl+Acc+Def: stumjamās
+     stumt+V+PrsPrc+Pss+Fem+Pl+Loc+Def: stumjamajās
+     stumt+V+PrsPrc+Pss+Fem+Pl+Voc+Def: stumjamās
+
+     stumt+V+PrfPrc+Pss+Msc+Sg+Nom+Indef: stumts
+     stumt+V+PrfPrc+Pss+Msc+Sg+Gen+Indef: stumta
+     stumt+V+PrfPrc+Pss+Msc+Sg+Dat+Indef: stumtam
+     stumt+V+PrfPrc+Pss+Msc+Sg+Acc+Indef: stumtu
+     stumt+V+PrfPrc+Pss+Msc+Sg+Loc+Indef: stumtā
+     stumt+V+PrfPrc+Pss+Msc+Pl+Nom+Indef: stumti
+     stumt+V+PrfPrc+Pss+Msc+Pl+Gen+Indef: stumtu
+     stumt+V+PrfPrc+Pss+Msc+Pl+Dat+Indef: stumtiem
+     stumt+V+PrfPrc+Pss+Msc+Pl+Acc+Indef: stumtus
+     stumt+V+PrfPrc+Pss+Msc+Pl+Loc+Indef: stumtos
+     stumt+V+PrfPrc+Pss+Msc+Sg+Nom+Def: stumtais
+     stumt+V+PrfPrc+Pss+Msc+Sg+Gen+Def: stumtā
+     stumt+V+PrfPrc+Pss+Msc+Sg+Dat+Def: stumtajam
+     stumt+V+PrfPrc+Pss+Msc+Sg+Acc+Def: stumto
+     stumt+V+PrfPrc+Pss+Msc+Sg+Loc+Def: stumtajā
+     stumt+V+PrfPrc+Pss+Msc+Sg+Voc+Def: [stumtais, stumto]
+     stumt+V+PrfPrc+Pss+Msc+Pl+Nom+Def: stumtie
+     stumt+V+PrfPrc+Pss+Msc+Pl+Gen+Def: stumto
+     stumt+V+PrfPrc+Pss+Msc+Pl+Dat+Def: stumtajiem
+     stumt+V+PrfPrc+Pss+Msc+Pl+Acc+Def: stumtos
+     stumt+V+PrfPrc+Pss+Msc+Pl+Loc+Def: stumtajos
+     stumt+V+PrfPrc+Pss+Msc+Pl+Voc+Def: stumtie
+     stumt+V+PrfPrc+Pss+Fem+Sg+Nom+Indef: stumta
+     stumt+V+PrfPrc+Pss+Fem+Sg+Gen+Indef: stumtas
+     stumt+V+PrfPrc+Pss+Fem+Sg+Dat+Indef: stumtai
+     stumt+V+PrfPrc+Pss+Fem+Sg+Acc+Indef: stumtu
+     stumt+V+PrfPrc+Pss+Fem+Sg+Loc+Indef: stumtā
+     stumt+V+PrfPrc+Pss+Fem+Pl+Nom+Indef: stumtas
+     stumt+V+PrfPrc+Pss+Fem+Pl+Gen+Indef: stumtu
+     stumt+V+PrfPrc+Pss+Fem+Pl+Dat+Indef: stumtām
+     stumt+V+PrfPrc+Pss+Fem+Pl+Acc+Indef: stumtas
+     stumt+V+PrfPrc+Pss+Fem+Pl+Loc+Indef: stumtās
+     stumt+V+PrfPrc+Pss+Fem+Sg+Nom+Def: stumtā
+     stumt+V+PrfPrc+Pss+Fem+Sg+Gen+Def: stumtās
+     stumt+V+PrfPrc+Pss+Fem+Sg+Dat+Def: stumtajai
+     stumt+V+PrfPrc+Pss+Fem+Sg+Acc+Def: stumto
+     stumt+V+PrfPrc+Pss+Fem+Sg+Loc+Def: stumtajā
+     stumt+V+PrfPrc+Pss+Fem+Sg+Voc+Def: stumtā
+     stumt+V+PrfPrc+Pss+Fem+Pl+Nom+Def: stumtās
+     stumt+V+PrfPrc+Pss+Fem+Pl+Gen+Def: stumto
+     stumt+V+PrfPrc+Pss+Fem+Pl+Dat+Def: stumtajām
+     stumt+V+PrfPrc+Pss+Fem+Pl+Acc+Def: stumtās
+     stumt+V+PrfPrc+Pss+Fem+Pl+Loc+Def: stumtajās
+     stumt+V+PrfPrc+Pss+Fem+Pl+Voc+Def: stumtās
+#"Declension":"4"
+     stumt+V+Der/šana+N+Fem+Sg+Nom: stumšana
+     stumt+V+Der/šana+N+Fem+Sg+Gen: stumšanas
+     stumt+V+Der/šana+N+Fem+Sg+Dat: stumšanai
+     stumt+V+Der/šana+N+Fem+Sg+Acc: stumšanu
+     stumt+V+Der/šana+N+Fem+Sg+Loc: stumšanā
+     stumt+V+Der/šana+N+Fem+Sg+Voc: stumšana
+     stumt+V+Der/šana+N+Fem+Pl+Nom: stumšanas
+     stumt+V+Der/šana+N+Fem+Pl+Gen: stumšanu
+     stumt+V+Der/šana+N+Fem+Pl+Dat: stumšanām
+     stumt+V+Der/šana+N+Fem+Pl+Acc: stumšanas
+     stumt+V+Der/šana+N+Fem+Pl+Loc: stumšanās
+     stumt+V+Der/šana+N+Fem+Pl+Voc: stumšanas
+     stumt+V+PrsPrc+Act+Pred2+Msc+Sg+Nom+Indef: stūmdams
+     stumt+V+PrsPrc+Act+Pred2+Fem+Sg+Nom+Indef: stūmdama
+     stumt+V+PrsPrc+Act+Pred2+Msc+Pl+Nom+Indef: stūmdami
+     stumt+V+PrsPrc+Act+Pred2+Fem+Pl+Nom+Indef: stūmdamas
+
+#     stumt+V+Der/Adv+Adv+Pos: rokoši
+
+
+     stumt+V+Der/iens+N+Msc+Sg+Nom: stūmiens
+     stumt+V+Der/iens+N+Msc+Sg+Gen: stūmiena
+     stumt+V+Der/iens+N+Msc+Sg+Dat: stūmienam
+     stumt+V+Der/iens+N+Msc+Sg+Acc: stūmienu
+     stumt+V+Der/iens+N+Msc+Sg+Loc: stūmienā
+     stumt+V+Der/iens+N+Msc+Sg+Voc: [stūmiens, stūmien]
+     stumt+V+Der/iens+N+Msc+Pl+Nom: stūmieni
+     stumt+V+Der/iens+N+Msc+Pl+Gen: stūmienu
+     stumt+V+Der/iens+N+Msc+Pl+Dat: stūmieniem
+     stumt+V+Der/iens+N+Msc+Pl+Acc: stūmienus
+     stumt+V+Der/iens+N+Msc+Pl+Loc: stūmienos
+     stumt+V+Der/iens+N+Msc+Pl+Voc: stūmieni
+
+     stumt+V+PrsPrc+Act+Pred2: stumjot
+     stumt+V+PrsPrc+Pss+Pred2: stumjam
+     stumt+V+Cond: stumtu
+     stumt+V+Deb+Quo: jāstumjot

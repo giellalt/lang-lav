@@ -1,8 +1,9 @@
 !! Adjectives
 !! ----------
-!! Adjectives in UNDEFINED language describe things.
+!! Adjectives in LATVIAN language describe things.
 
 LEXICON Adjectives
 adjective    Comparisons   ;
+zaļš:zaļ A_14ZAĻŠ_ ;
 
 ! vim: set ft=xfst-lexc:

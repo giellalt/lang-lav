@@ -16,16 +16,16 @@ Tests:
 # Then: run analyser, then correct.
 
 
-  Noun - roka: # Noun 'eng dig/fin kaivaa' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/roka/ declension_4
-     roka+N+Sg+Fem+Nom: roka
-     roka+N+Sg+Fem+Gen: rokas
-     roka+N+Sg+Fem+Dat: rokai
-     roka+N+Sg+Fem+Acc: roku
-     roka+N+Sg+Fem+Loc: rokā
-     roka+N+Sg+Fem+Voc: roka
-     roka+N+Pl+Fem+Nom: rokas
-     roka+N+Pl+Fem+Gen: roku
-     roka+N+Pl+Fem+Dat: rokām
-     roka+N+Pl+Fem+Acc: rokas
-     roka+N+Pl+Fem+Loc: rokās
-     roka+N+Pl+Fem+Voc: rokas
+  Noun - roka: # Noun 'eng hand, arm/fin käsi' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/roka/ declension_4
+     roka+N+Fem+Sg+Nom: roka
+     roka+N+Fem+Sg+Gen: rokas
+     roka+N+Fem+Sg+Dat: rokai
+     roka+N+Fem+Sg+Acc: roku
+     roka+N+Fem+Sg+Loc: rokā
+     roka+N+Fem+Sg+Voc: roka
+     roka+N+Fem+Pl+Nom: rokas
+     roka+N+Fem+Pl+Gen: roku
+     roka+N+Fem+Pl+Dat: rokām
+     roka+N+Fem+Pl+Acc: rokas
+     roka+N+Fem+Pl+Loc: rokās
+     roka+N+Fem+Pl+Voc: rokas

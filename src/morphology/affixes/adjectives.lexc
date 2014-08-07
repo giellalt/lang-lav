@@ -8,11 +8,14 @@ LEXICON Comparisons
 +A+Superl:est      Cases   ;
 
 LEXICON 13_
-+A: NMN_13_ ;
-
-LEXICON 14_
-+A: NMN_14_ ;
++A+Pos: NMN_13_ ;
 +A+Der/āk+Comp:āk NMN_13_ ;
++A+Der/āk+Superl@R.SUPERL.ON@:āk0@R.SUPERL.ON@ NMN_13_ ;
+
+LEXICON A_14ZAĻŠ_
++A+Pos: NMN_14ZAĻŠ_ ;
++A+Der/āk+Comp:%>āk NMN_13_ ;
++A+Der/āk+Superl@R.SUPERL.ON@:%>āk@R.SUPERL.ON@ NMN_13_ ;
 
 LEXICON NMN_13_
 +Msc+Sg+Nom+Indef:%>s     #   ;
@@ -61,7 +64,7 @@ LEXICON NMN_13_
 +Fem+Pl+Voc+Def:%>ās   #   ;
 +Der/Adv+Adv: # ;
 
-LEXICON NMN_14_
+LEXICON NMN_14ZAĻŠ_ !!= * __@CODE@__ zaļš:zaļ
 +Msc+Sg+Nom+Indef:%>š     #   ;
 +Msc+Pl+Nom+Indef:%>i     #   ;
 +Msc+Sg+Gen+Indef:%>a     #   ;
