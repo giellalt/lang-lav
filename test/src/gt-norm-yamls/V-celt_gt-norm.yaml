@@ -18,17 +18,17 @@ Tests:
 
   Verb - celt: # Verb 'eng bring/fin tuoda' - _STUMT_ full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/celt/
      celt+V+Inf: celt
-     celt+V+Ind+Fut+Sg1: celšu
-     celt+V+Ind+Fut+Sg2: celsi
-     celt+V+Ind+Fut+Pl1: celsim
-     celt+V+Ind+Fut+Pl2: celsiet
-     celt+V+Ind+Fut+SP3: cels
+     celt+V+Ind+Act+Fut+Sg1: celšu
+     celt+V+Ind+Act+Fut+Sg2: celsi
+     celt+V+Ind+Act+Fut+Pl1: celsim
+     celt+V+Ind+Act+Fut+Pl2: celsiet
+     celt+V+Ind+Act+Fut+SP3: cels
 
-     celt+V+Ind+Prs+Sg1: ceļu
-     celt+V+Ind+Prs+Sg2: ceļ
-     celt+V+Ind+Prs+Pl1: ceļam
-     celt+V+Ind+Prs+Pl2: ceļat
-     celt+V+Ind+Prs+SP3: ceļ
+     celt+V+Ind+Act+Prs+Sg1: ceļu
+     celt+V+Ind+Act+Prs+Sg2: ceļ
+     celt+V+Ind+Act+Prs+Pl1: ceļam
+     celt+V+Ind+Act+Prs+Pl2: ceļat
+     celt+V+Ind+Act+Prs+SP3: ceļ
 
      celt+V+Ind+Act+Prt+Sg1: cēlu
      celt+V+Ind+Act+Prt+Sg2: cēli

@@ -82,13 +82,13 @@ LEXICON V_15_4_STUMT !!≈ * __@CODE@__ stumt:stum
 +V+Ind+Act+Prs+SP3@U.DEB.OFF@:%^JPal%^SP3000@U.DEB.OFF@  # ;
 +V+Ind+Act+Prt+SP3@U.DEB.OFF@:%^VowL%>a%^SP3000@U.DEB.OFF@  # ;
 +V+Ind+Act+Prs+Sg2@U.DEB.OFF@:%^JPal0000@U.DEB.OFF@  # ;
-+V+Imprt+Sg2@U.DEB.OFF@:%^JPal@U.DEB.OFF@  # ;
-+V+Imprt+Pl2000@U.DEB.OFF@:%^JPal%>iet@U.DEB.OFF@  # ;
++V+Imprt+Sg2@U.DEB.OFF@:000@U.DEB.OFF@  # ;
++V+Imprt+Pl20@U.DEB.OFF@:%>iet@U.DEB.OFF@  # ;
 +V+PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^VowL%>is000@U.DEB.OFF@  # ;
 +V+Der/iens0@U.DEB.OFF@:%^VowL%>ien@U.DEB.OFF@  N_1_ ;
 
-00@U.DEB.OFF@:%^JPal@U.DEB.OFF@  V_15_PRS-SG1-STEM ;
-00@U.DEB.OFF@:%^VowL@U.DEB.OFF@  V_15_PRT-SG1-STEM ;
+0@U.DEB.OFF@:%^JPal@U.DEB.OFF@  V_15_PRS-SG1-STEM ;
+0@U.DEB.OFF@:%^VowL@U.DEB.OFF@  V_15_PRT-SG1-STEM ;
 @U.DEB.OFF@:@U.DEB.OFF@ V_15_FUT-SG1-STEM ;
 
 
@@ -117,14 +117,16 @@ LEXICON V_15_5_SALT !!≈ * __@CODE@__ salt:sal
 +V@U.DEB.ON@:st@U.DEB.ON@ DEB ;
 !@U.DEB.OFF@  V_15_5_SALT_FINITE_ ;
 !@U.DEB.OFF@  V_15_NONFINITE_ ;
++V+Ind+Act+Prs+SP3@U.DEB.OFF@:st000@U.DEB.OFF@  # ;
 +V+Ind+Act+Prs+Sg2@U.DEB.OFF@:sti00@U.DEB.OFF@  # ;
 +V+Imprt+Sg2@U.DEB.OFF@:sti@U.DEB.OFF@  # ;
 +V+Imprt+Pl2000@U.DEB.OFF@:st%>iet@U.DEB.OFF@  # ;
++V+Ind+Act+Prt+SP3@U.DEB.OFF@:a0000@U.DEB.OFF@  # ;
 +V+PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^VowL%>is000@U.DEB.OFF@  # ;
 +V+Der/iens0@U.DEB.OFF@:%^K2C%>ien@U.DEB.OFF@  N_1_ ;
 
 00@U.DEB.OFF@:st@U.DEB.OFF@  V_15_PRS-SG1-STEM ;
-00@U.DEB.OFF@:st@U.DEB.OFF@  V_15_PRT-SG1-STEM ;
+00@U.DEB.OFF@:@U.DEB.OFF@  V_15_PRT-SG1-STEM ;
 @U.DEB.OFF@:@U.DEB.OFF@ V_15_FUT-SG1-STEM ;
 
 LEXICON V_15_5_SALT_FINITE_
