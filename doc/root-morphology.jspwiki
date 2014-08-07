@@ -56,6 +56,8 @@ We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
 
  * __@R.DEB.ON@__ This is for debitive in verbs
+ * __@R.SUPERL.ON@__ This is for superlative in adjectives
+
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
