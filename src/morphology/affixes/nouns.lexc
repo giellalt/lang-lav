@@ -99,7 +99,7 @@ LEXICON 6_
 +N+Msc+Sg+Voc:u    #   ;
 +N+Msc+Pl+Voc:i   #   ;
 
-LEXICON N_7ROKA_  !!= * __@CODE@__ roka:rok
+LEXICON N-FEM_7ROKA_  !!= * __@CODE@__ roka:rok
 +N+Fem+Sg+Nom:a     #   ;
 +N+Fem+Sg+Gen:as     #   ;
 +N+Fem+Sg+Dat:ai     #   ;
@@ -114,18 +114,18 @@ LEXICON N_7ROKA_  !!= * __@CODE@__ roka:rok
 +N+Fem+Pl+Loc:ās   #   ;
 +N+Fem+Pl+Voc:as   #   ;
 
-LEXICON 8_
+LEXICON N-MSC_8PUIKA_ !!= * __@CODE@__ puika:puik
 +N+Msc+Sg+Nom:a     #   ;
-+N+Msc+Pl+Nom:as     #   ;
 +N+Msc+Sg+Gen:as     #   ;
-+N+Msc+Pl+Gen:u     #   ;
 +N+Msc+Sg+Dat:am     #   ;
-+N+Msc+Pl+Dat:ām     #   ;
 +N+Msc+Sg+Acc:u    #   ;
-+N+Msc+Pl+Acc:as   #   ;
 +N+Msc+Sg+Loc:ā    #   ;
-+N+Msc+Pl+Loc:ās   #   ;
 +N+Msc+Sg+Voc:a    #   ;
++N+Msc+Pl+Nom:as     #   ;
++N+Msc+Pl+Gen:u     #   ;
++N+Msc+Pl+Dat:ām     #   ;
++N+Msc+Pl+Acc:as   #   ;
++N+Msc+Pl+Loc:ās   #   ;
 +N+Msc+Pl+Voc:as   #   ;
 
 LEXICON 9_

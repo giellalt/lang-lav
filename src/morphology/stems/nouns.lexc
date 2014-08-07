@@ -1,9 +1,10 @@
 !! Nouns
 !! -----
-!! Nouns in UNDEFINED language are things.
+!! Nouns in the LATVIAN language are things.
 
 LEXICON Nouns
 noun    Cases   ;
-roka:rok N_7ROKA_ ;
+roka:rok N-FEM_7ROKA_ ;
+puika:puik N-MSC_8PUIKA_ ;
 
 ! vim: set ft=xfst-lexc:

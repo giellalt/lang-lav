@@ -154,7 +154,7 @@ LEXICON V_15_5_SALT_FINITE_
 
 LEXICON V_15_NONFINITE_
 +V+PrfPrc+Pss:%>t NMN_13_ ;
-+V+Der/šana:%>šan N_7ROKA_ ;
++V+Der/šana:%>šan N-FEM_7ROKA_ ;
 +V+PrsPrc+Act+Pred2:%^VowL%>dam PRSPRC-ACT-PRED2 ;
 +V+PrfPrc+Act+Msc+Sg+Nom+Indef:%>is # ;
 +V+PrfPrc+Act: PSTPRC-ACT-OBLIQUE ;
@@ -188,7 +188,7 @@ LEXICON V_15_FUT-SG1-STEM
 +V+Cond:%>tu # ;
 
 +V+PrfPrc+Pss:%>t NMN_13_ ;
-+V+Der/šana:%>šan N_7ROKA_ ;
++V+Der/šana:%>šan N-FEM_7ROKA_ ;
 +V+PrsPrc+Act+Pred2:%^VowL%>dam PRSPRC-ACT-PRED2 ;
 !+V+PrfPrc+Act: PSTPRC-ACT-OBLIQUE ;
 
@@ -221,7 +221,7 @@ LEXICON V_15_PRT-SG1-STEM
 
 LEXICON V_15_RAKT_NONFINITE_
 +V+PrfPrc+Pss:%>t NMN_13_ ;
-+V+Der/šana:%>šan N_7ROKA_ ;
++V+Der/šana:%>šan N-FEM_7ROKA_ ;
 +V+PrsPrc+Act+Pred2:%^VowL%>dam PRSPRC-ACT-PRED2 ;
 +V+PrfPrc+Act+Msc+Sg+Nom+Indef:%^K2C%>is # ;
 +V+PrfPrc+Act: PSTPRC-ACT-OBLIQUE ;
@@ -276,7 +276,7 @@ LEXICON V_16_DEJOT_NONFINITE_
 
 +V+PrfPrc+Pss:%>t NMN_13_ ;
 +V+PrfPrc+Pss+Msc+Sg+Voc+Def:%>to # ;
-+V+Der/šana:%>šan N_7ROKA_ ;
++V+Der/šana:%>šan N-FEM_7ROKA_ ;
 
 +V+PrsPrc+Act+Pred2:%>dam PRSPRC-ACT-PRED2 ;
 +V+PrsPrc+Act+Pred2:%>jot # ;
@@ -331,7 +331,7 @@ LEXICON V_17_REDZĒT_FINITE_
 LEXICON V_17_REDZĒT_NONFINITE_
 +V+Quo+Fut:%>šot # ;
 +V+PrfPrc+Pss:%>t NMN_13_ ;
-+V+Der/šana:%>šan N_7ROKA_ ;
++V+Der/šana:%>šan N-FEM_7ROKA_ ;
 
 +V+PrsPrc+Act+Pred2:%>dam PRSPRC-ACT-PRED2 ;
 +V+PrsPrc+Act+Pred2:%^VowRM%>ot # ;
