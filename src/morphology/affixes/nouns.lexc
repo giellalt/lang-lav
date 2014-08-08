@@ -2,188 +2,205 @@
 !! ---------------
 !! The LATVIAN language nouns inflect in cases.
 
-LEXICON Cases
-+N+Sg+Nom:0     #   ;
-+N+Pl+Nom:i     #   ;
-+N+Sg+Loc:as    #   ;
-+N+Pl+Loc:ias   #   ;
-+N+Sg+Acc:at    #   ;
-+N+Pl+Acc:iat   #   ;
-#:0   Nouns   ;
 
-LEXICON N_1_
-+N+Msc+Sg+Nom:s     #   ;
-+N+Msc+Pl+Nom:i     #   ;
-+N+Msc+Sg+Gen:a     #   ;
-+N+Msc+Pl+Gen:u     #   ;
-+N+Msc+Sg+Dat:am     #   ;
-+N+Msc+Pl+Dat:iem     #   ;
-+N+Msc+Sg+Acc:u    #   ;
-+N+Msc+Pl+Acc:us   #   ;
-+N+Msc+Sg+Loc:ā    #   ;
-+N+Msc+Pl+Loc:os   #   ;
-+N+Msc+Sg+Voc:s    #   ;
-+N+Msc+Sg+Voc:    #   ;
-+N+Msc+Pl+Voc:i   #   ;
+LEXICON N-MSC-1_1
++N: NMN_1_ ;
+LEXICON NMN_1_
++Msc+Sg+Nom:s     #   ;
++Msc+Pl+Nom:i     #   ;
++Msc+Sg+Gen:a     #   ;
++Msc+Pl+Gen:u     #   ;
++Msc+Sg+Dat:am     #   ;
++Msc+Pl+Dat:iem     #   ;
++Msc+Sg+Acc:u    #   ;
++Msc+Pl+Acc:us   #   ;
++Msc+Sg+Loc:ā    #   ;
++Msc+Pl+Loc:os   #   ;
++Msc+Sg+Voc:s    #   ;
++Msc+Sg+Voc:    #   ;
++Msc+Pl+Voc:i   #   ;
 
-LEXICON 2_
-+N+Msc+Sg+Nom:š     #   ;
-+N+Msc+Pl+Nom:i     #   ;
-+N+Msc+Sg+Gen:a     #   ;
-+N+Msc+Pl+Gen:u     #   ;
-+N+Msc+Sg+Dat:am     #   ;
-+N+Msc+Pl+Dat:iem     #   ;
-+N+Msc+Sg+Acc:u    #   ;
-+N+Msc+Pl+Acc:us   #   ;
-+N+Msc+Sg+Loc:ā    #   ;
-+N+Msc+Pl+Loc:os   #   ;
-+N+Msc+Sg+Voc:š    #   ;
-+N+Msc+Sg+Voc:    #   ;
-+N+Msc+Pl+Voc:i   #   ;
+LEXICON N-MSC-2_1
++N: NMN_2_ ;
+LEXICON NMN_2_
++Msc+Sg+Nom:š     #   ;
++Msc+Pl+Nom:i     #   ;
++Msc+Sg+Gen:a     #   ;
++Msc+Pl+Gen:u     #   ;
++Msc+Sg+Dat:am     #   ;
++Msc+Pl+Dat:iem     #   ;
++Msc+Sg+Acc:u    #   ;
++Msc+Pl+Acc:us   #   ;
++Msc+Sg+Loc:ā    #   ;
++Msc+Pl+Loc:os   #   ;
++Msc+Sg+Voc:š    #   ;
++Msc+Sg+Voc:    #   ;
++Msc+Pl+Voc:i   #   ;
 
-LEXICON 3_
-+N+Msc+Sg+Nom:is     #   ;
-+N+Msc+Pl+Nom:i     #   ;
-+N+Msc+Sg+Gen:a     #   ;
-+N+Msc+Pl+Gen:u     #   ;
-+N+Msc+Sg+Dat:im     #   ;
-+N+Msc+Pl+Dat:iem     #   ;
-+N+Msc+Sg+Acc:i    #   ;
-+N+Msc+Pl+Acc:us   #   ;
-+N+Msc+Sg+Loc:ī    #   ;
-+N+Msc+Pl+Loc:os   #   ;
-+N+Msc+Sg+Voc:i    #   ;
-+N+Msc+Pl+Voc:i   #   ;
+LEXICON N-MSC-3_2
++N: NMN_3_ ;
+LEXICON NMN_3_
++Msc+Sg+Nom:is     #   ;
++Msc+Pl+Nom:i     #   ;
++Msc+Sg+Gen:a     #   ;
++Msc+Pl+Gen:u     #   ;
++Msc+Sg+Dat:im     #   ;
++Msc+Pl+Dat:iem     #   ;
++Msc+Sg+Acc:i    #   ;
++Msc+Pl+Acc:us   #   ;
++Msc+Sg+Loc:ī    #   ;
++Msc+Pl+Loc:os   #   ;
++Msc+Sg+Voc:i    #   ;
++Msc+Pl+Voc:i   #   ;
 
-LEXICON 4_
-+N+Msc+Sg+Nom:s     #   ;
-+N+Msc+Pl+Nom:i     #   ;
-+N+Msc+Sg+Gen:s     #   ;
-+N+Msc+Pl+Gen:u     #   ;
-+N+Msc+Sg+Dat:im     #   ;
-+N+Msc+Pl+Dat:iem     #   ;
-+N+Msc+Sg+Acc:i    #   ;
-+N+Msc+Pl+Acc:us   #   ;
-+N+Msc+Sg+Loc:ī    #   ;
-+N+Msc+Pl+Loc:os   #   ;
-+N+Msc+Sg+Voc:0    #   ;
-+N+Msc+Sg+Voc:s    #   ;
-+N+Msc+Pl+Voc:i   #   ;
+LEXICON N-MSC-4_2
++N: NMN_4_ ;
+LEXICON NMN_4_
++Msc+Sg+Nom:s     #   ;
++Msc+Pl+Nom:i     #   ;
++Msc+Sg+Gen:s     #   ;
++Msc+Pl+Gen:u     #   ;
++Msc+Sg+Dat:im     #   ;
++Msc+Pl+Dat:iem     #   ;
++Msc+Sg+Acc:i    #   ;
++Msc+Pl+Acc:us   #   ;
++Msc+Sg+Loc:ī    #   ;
++Msc+Pl+Loc:os   #   ;
++Msc+Sg+Voc:0    #   ;
++Msc+Sg+Voc:s    #   ;
++Msc+Pl+Voc:i   #   ;
 
-LEXICON 5_
-+N+Msc+Sg+Nom:s     #   ;
-+N+Msc+Pl+Nom:i     #   ;
-+N+Msc+Sg+Gen:a     #   ;
-+N+Msc+Pl+Gen:u     #   ;
-+N+Msc+Sg+Dat:im     #   ;
-+N+Msc+Pl+Dat:iem     #   ;
-+N+Msc+Sg+Acc:i    #   ;
-+N+Msc+Pl+Acc:us   #   ;
-+N+Msc+Sg+Loc:ī    #   ;
-+N+Msc+Pl+Loc:os   #   ;
-+N+Msc+Sg+Voc:i    #   ;
-+N+Msc+Pl+Voc:i   #   ;
+LEXICON N-MSC-5_2
++N: NMN_5_ ;
+LEXICON NMN_5_
++Msc+Sg+Nom:s     #   ;
++Msc+Pl+Nom:i     #   ;
++Msc+Sg+Gen:a     #   ;
++Msc+Pl+Gen:u     #   ;
++Msc+Sg+Dat:im     #   ;
++Msc+Pl+Dat:iem     #   ;
++Msc+Sg+Acc:i    #   ;
++Msc+Pl+Acc:us   #   ;
++Msc+Sg+Loc:ī    #   ;
++Msc+Pl+Loc:os   #   ;
++Msc+Sg+Voc:i    #   ;
++Msc+Pl+Voc:i   #   ;
 
-LEXICON 6_
-+N+Msc+Sg+Nom:us     #   ;
-+N+Msc+Pl+Nom:i     #   ;
-+N+Msc+Sg+Gen:us     #   ;
-+N+Msc+Pl+Gen:u     #   ;
-+N+Msc+Sg+Dat:um     #   ;
-+N+Msc+Pl+Dat:iem     #   ;
-+N+Msc+Sg+Acc:u    #   ;
-+N+Msc+Pl+Acc:us   #   ;
-+N+Msc+Sg+Loc:ū    #   ;
-+N+Msc+Pl+Loc:os   #   ;
-+N+Msc+Sg+Voc:us    #   ;
-+N+Msc+Sg+Voc:u    #   ;
-+N+Msc+Pl+Voc:i   #   ;
+LEXICON N-MSC-6_3
++N: NMN_6_ ;
+LEXICON NMN_6_
++Msc+Sg+Nom:us     #   ;
++Msc+Pl+Nom:i     #   ;
++Msc+Sg+Gen:us     #   ;
++Msc+Pl+Gen:u     #   ;
++Msc+Sg+Dat:um     #   ;
++Msc+Pl+Dat:iem     #   ;
++Msc+Sg+Acc:u    #   ;
++Msc+Pl+Acc:us   #   ;
++Msc+Sg+Loc:ū    #   ;
++Msc+Pl+Loc:os   #   ;
++Msc+Sg+Voc:us    #   ;
++Msc+Sg+Voc:u    #   ;
++Msc+Pl+Voc:i   #   ;
 
-LEXICON N-FEM_7ROKA_  !!= * __@CODE@__ roka:rok
-+N+Fem+Sg+Nom:a     #   ;
-+N+Fem+Sg+Gen:as     #   ;
-+N+Fem+Sg+Dat:ai     #   ;
-+N+Fem+Sg+Acc:u    #   ;
-+N+Fem+Sg+Loc:ā    #   ;
-+N+Fem+Sg+Voc:a    #   ;
-+N+Fem+Sg+Voc+Err/Sub:    #   ;
-+N+Fem+Pl+Nom:as     #   ;
-+N+Fem+Pl+Gen:u     #   ;
-+N+Fem+Pl+Dat:ām     #   ;
-+N+Fem+Pl+Acc:as   #   ;
-+N+Fem+Pl+Loc:ās   #   ;
-+N+Fem+Pl+Voc:as   #   ;
+LEXICON N-FEM-7_4
++N: NMN-FEM_7ROKA_ ;
+LEXICON NMN-FEM_7ROKA_  !!= * __@CODE@__ roka:rok
++Fem+Sg+Nom:a     #   ;
++Fem+Sg+Gen:as     #   ;
++Fem+Sg+Dat:ai     #   ;
++Fem+Sg+Acc:u    #   ;
++Fem+Sg+Loc:ā    #   ;
++Fem+Sg+Voc:a    #   ;
++Fem+Sg+Voc+Err/Sub:    #   ;
++Fem+Pl+Nom:as     #   ;
++Fem+Pl+Gen:u     #   ;
++Fem+Pl+Dat:ām     #   ;
++Fem+Pl+Acc:as   #   ;
++Fem+Pl+Loc:ās   #   ;
++Fem+Pl+Voc:as   #   ;
 
-LEXICON N-MSC_8PUIKA_ !!= * __@CODE@__ puika:puik
-+N+Msc+Sg+Nom:a     #   ;
-+N+Msc+Sg+Gen:as     #   ;
-+N+Msc+Sg+Dat:am     #   ;
-+N+Msc+Sg+Acc:u    #   ;
-+N+Msc+Sg+Loc:ā    #   ;
-+N+Msc+Sg+Voc:a    #   ;
-+N+Msc+Pl+Nom:as     #   ;
-+N+Msc+Pl+Gen:u     #   ;
-+N+Msc+Pl+Dat:ām     #   ;
-+N+Msc+Pl+Acc:as   #   ;
-+N+Msc+Pl+Loc:ās   #   ;
-+N+Msc+Pl+Voc:as   #   ;
 
-LEXICON 9_
-+N+Fem+Sg+Nom:e     #   ;
-+N+Fem+Sg+Gen:es     #   ;
-+N+Fem+Sg+Dat:ei     #   ;
-+N+Fem+Sg+Acc:i    #   ;
-+N+Fem+Sg+Loc:ē    #   ;
-+N+Fem+Sg+Voc:e    #   ;
-+N+Fem+Sg+Voc:    #   ;
-+N+Fem+Pl+Nom:es     #   ;
-+N+Fem+Pl+Gen:u     #   ;
-+N+Fem+Pl+Dat:ēm     #   ;
-+N+Fem+Pl+Acc:es   #   ;
-+N+Fem+Pl+Loc:ēs   #   ;
-+N+Fem+Pl+Voc:es   #   ;
+LEXICON N-MSC-8_4
++N: NMN-MSC_8PUIKA_ ;
+LEXICON NMN-MSC_8PUIKA_ !!= * __@CODE@__ puika:puik
++Msc+Sg+Nom:a     #   ;
++Msc+Sg+Gen:as     #   ;
++Msc+Sg+Dat:am     #   ;
++Msc+Sg+Acc:u    #   ;
++Msc+Sg+Loc:ā    #   ;
++Msc+Sg+Voc:a    #   ;
++Msc+Pl+Nom:as     #   ;
++Msc+Pl+Gen:u     #   ;
++Msc+Pl+Dat:ām     #   ;
++Msc+Pl+Acc:as   #   ;
++Msc+Pl+Loc:ās   #   ;
++Msc+Pl+Voc:as   #   ;
 
-LEXICON 10_
-+N+Msc+Sg+Nom:e     #   ;
-+N+Msc+Pl+Nom:es     #   ;
-+N+Msc+Sg+Gen:es     #   ;
-+N+Msc+Pl+Gen:u     #   ;
-+N+Msc+Sg+Dat:em     #   ;
-+N+Msc+Pl+Dat:ēm     #   ;
-+N+Msc+Sg+Acc:i    #   ;
-+N+Msc+Pl+Acc:es   #   ;
-+N+Msc+Sg+Loc:ē    #   ;
-+N+Msc+Pl+Loc:ēs   #   ;
-+N+Msc+Sg+Voc:e    #   ;
-+N+Msc+Pl+Voc:es   #   ;
+LEXICON N-FEM-9_5
++N: NMN_9_ ;
+LEXICON NMN_9_
++Fem+Sg+Nom:e     #   ;
++Fem+Sg+Gen:es     #   ;
++Fem+Sg+Dat:ei     #   ;
++Fem+Sg+Acc:i    #   ;
++Fem+Sg+Loc:ē    #   ;
++Fem+Sg+Voc:e    #   ;
++Fem+Sg+Voc:    #   ;
++Fem+Pl+Nom:es     #   ;
++Fem+Pl+Gen:u     #   ;
++Fem+Pl+Dat:ēm     #   ;
++Fem+Pl+Acc:es   #   ;
++Fem+Pl+Loc:ēs   #   ;
++Fem+Pl+Voc:es   #   ;
 
-LEXICON 11_
-+N+Fem+Sg+Nom:s     #   ;
-+N+Fem+Pl+Nom:is     #   ;
-+N+Fem+Sg+Gen:s     #   ;
-+N+Fem+Pl+Gen:u     #   ;
-+N+Fem+Sg+Dat:ij     #   ;
-+N+Fem+Pl+Dat:īm     #   ;
-+N+Fem+Sg+Acc:i    #   ;
-+N+Fem+Pl+Acc:is   #   ;
-+N+Fem+Sg+Loc:ī    #   ;
-+N+Fem+Pl+Loc:īs   #   ;
-+N+Fem+Sg+Voc:s    #   ;
-+N+Fem+Pl+Voc:is   #   ;
+LEXICON N-MSC-10_5
++N: NMN_10_ ;
+LEXICON NMN_10_
++Msc+Sg+Nom:e     #   ;
++Msc+Pl+Nom:es     #   ;
++Msc+Sg+Gen:es     #   ;
++Msc+Pl+Gen:u     #   ;
++Msc+Sg+Dat:em     #   ;
++Msc+Pl+Dat:ēm     #   ;
++Msc+Sg+Acc:i    #   ;
++Msc+Pl+Acc:es   #   ;
++Msc+Sg+Loc:ē    #   ;
++Msc+Pl+Loc:ēs   #   ;
++Msc+Sg+Voc:e    #   ;
++Msc+Pl+Voc:es   #   ;
 
-LEXICON 12_
-+N+Fem+Sg+Nom:     #   ;
-+N+Fem+Pl+Nom:     #   ;
-+N+Fem+Sg+Gen:     #   ;
-+N+Fem+Pl+Gen:     #   ;
-+N+Fem+Sg+Dat:     #   ;
-+N+Fem+Pl+Dat:     #   ;
-+N+Fem+Sg+Acc:    #   ;
-+N+Fem+Pl+Acc:   #   ;
-+N+Fem+Sg+Loc:    #   ;
-+N+Fem+Pl+Loc:   #   ;
-+N+Fem+Sg+Voc:    #   ;
-+N+Fem+Pl+Voc:   #   ;
+LEXICON N-FEM-11_6
++N: NMN_11_;
+LEXICON NMN_11_
++Fem+Sg+Nom:s     #   ;
++Fem+Pl+Nom:is     #   ;
++Fem+Sg+Gen:s     #   ;
++Fem+Pl+Gen:u     #   ;
++Fem+Sg+Dat:ij     #   ;
++Fem+Pl+Dat:īm     #   ;
++Fem+Sg+Acc:i    #   ;
++Fem+Pl+Acc:is   #   ;
++Fem+Sg+Loc:ī    #   ;
++Fem+Pl+Loc:īs   #   ;
++Fem+Sg+Voc:s    #   ;
++Fem+Pl+Voc:is   #   ;
+
+LEXICON N--12_Nepiemīt 
++N: NMN_12_;
+LEXICON NMN_12_
++Fem+Sg+Nom:     #   ;
++Fem+Pl+Nom:     #   ;
++Fem+Sg+Gen:     #   ;
++Fem+Pl+Gen:     #   ;
++Fem+Sg+Dat:     #   ;
++Fem+Pl+Dat:     #   ;
++Fem+Sg+Acc:    #   ;
++Fem+Pl+Acc:   #   ;
++Fem+Sg+Loc:    #   ;
++Fem+Pl+Loc:   #   ;
++Fem+Sg+Voc:    #   ;
++Fem+Pl+Voc:   #   ;
 
 
 

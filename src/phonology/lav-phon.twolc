@@ -89,10 +89,10 @@ Rules
  %^JPal:j <=> CnsLab _ [ %> [ Vow: - i ] | %^SP3: ] ;
 
 
-"s2š"
+"s2š THIS CAN BE REMOVED"
  !! __@RULENAME@__
  s:š <=> _  %^JPal: ;
-     [ ļ ] %> _  ;
+     [ j | ļ | ņ ] %> _  ;
 
 "t2š"
  !! __@RULENAME@__

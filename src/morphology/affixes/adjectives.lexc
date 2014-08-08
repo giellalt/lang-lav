@@ -2,27 +2,26 @@
 !! --------------------
 !! The LATVIAN language adjectives compare.
 
-LEXICON Comparisons
-+A+Pos:0        Cases   ;
-+A+Comp:er       Cases   ;
-+A+Superl:est      Cases   ;
 
-LEXICON A_13_
+LEXICON A_13JAUNS_
++A+Pos+Msc+Sg+Nom+Indef:%>s     #   ;
 +A+Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ # ;
 +A+Pos@U.SUPERL.OFF@:00@U.SUPERL.OFF@ NMN_13_ ;
 +A+Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ # ;
 +A+Der/āk+Comp@U.SUPERL.OFF@:%>āk@U.SUPERL.OFF@ NMN_13_ ;
++A+Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ # ;
 +A+Der/āk+Superl@U.SUPERL.ON@:āk0@U.SUPERL.ON@ NMN_13_ ;
 
 LEXICON A_14ZAĻŠ_  !!≈ * __@CODE@__ zaļš:zaļ
++A+Pos+Msc+Sg+Nom+Indef:%>s     #   ;
 +A+Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ # ;
 +A+Pos@U.SUPERL.OFF@:00@U.SUPERL.OFF@ NMN_13_ ;
 +A+Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ # ;
 +A+Der/āk+Comp@U.SUPERL.OFF@:%>āk@U.SUPERL.OFF@ NMN_13_ ;
++A+Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ # ;
 +A+Der/āk+Superl@U.SUPERL.ON@:%>āk@U.SUPERL.ON@ NMN_13-DEF_ ;
 
 LEXICON NMN_13_
-+Msc+Sg+Nom+Indef:%>s     #   ;
 +Msc+Pl+Nom+Indef:%>i     #   ;
 +Msc+Sg+Gen+Indef:%>a     #   ;
 +Msc+Pl+Gen+Indef:%>u     #   ;

@@ -20,6 +20,7 @@
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
++WORK   !!≈ * __@CODE@__ Underdeveloped
 !! !!Analysis symbols
 !! ----------------
 !! The morphological analyses of wordforms of UNDEFINED language are presented
@@ -126,10 +127,11 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 LEXICON Root
 !! The word forms in the LATVIAN language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-@U.SUPERL.OFF@   Adjectives  ;
-   Nouns   ;
+@U.SUPERL.OFF@   adjectives  ;
+   nouns   ;
    Prefixes    ;
-@U.DEB.OFF@   Verbs   ;
+   propernouns   ;
+@U.DEB.OFF@   verbs   ;
 !   Pronouns    ;
 !   Numerals    ;
 
