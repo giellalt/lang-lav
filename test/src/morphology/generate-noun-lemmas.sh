@@ -66,15 +66,15 @@ for f in $fsttype; do
 		let "transducer_found += 1"
 
 ###### Test non-comopunds: #######
-		# generate nouns in Singular, extract the resulting generated lemma,
+		# generate nouns in Feminine Singular, extract the resulting generated lemma,
 		# store it:
-		sed 's/$/+N+Sg+Nom/' $lemmas | $lookuptool $generatorfile.$f \
-			| cut -f2 | fgrep -v "+N+Sg" | grep -v "^$" | sort -u \
+		sed 's/$/+N+Fem+Sg+Nom/' $lemmas | $lookuptool $generatorfile.$f \
+			| cut -f2 | fgrep -v "+N+Fem+Sg" | grep -v "^$" | sort -u \
 			> $generatedlemmas.$f.txt 
-		# Generate nouns, extract those that do not generate in singular,
-		# generate the rest in plural:
-		sed 's/$/+N+Sg+Nom/' $lemmas | $lookuptool $generatorfile.$f \
-			| cut -f2 | grep "N+" | cut -d "+" -f1 | sed 's/$/+N+Pl+Nom/' \
+		# Generate nouns, extract those that do not generate in feminine singular,
+		# generate the rest in Masculine Singular:
+		sed 's/$/+N+Fem+Sg+Nom/' $lemmas | $lookuptool $generatorfile.$f \
+			| cut -f2 | grep "N+" | cut -d "+" -f1 | sed 's/$/+N+Msc+Sg+Nom/' \
 			| $lookuptool $generatorfile.$f | cut -f2 \
 			| grep -v "^$" >> $generatedlemmas.$f.txt 
 
