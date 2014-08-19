@@ -5,19 +5,19 @@
 
 LEXICON N-MSC-1_1
 +N: NMN_1_ ;
-LEXICON NMN_1_
+LEXICON NMN_1_ !!= * _@CODE@_ abinieks:abiniek
 +Msc+Sg+Nom:s     #   ;
-+Msc+Pl+Nom:i     #   ;
 +Msc+Sg+Gen:a     #   ;
-+Msc+Pl+Gen:u     #   ;
 +Msc+Sg+Dat:am     #   ;
-+Msc+Pl+Dat:iem     #   ;
 +Msc+Sg+Acc:u    #   ;
-+Msc+Pl+Acc:us   #   ;
 +Msc+Sg+Loc:ā    #   ;
-+Msc+Pl+Loc:os   #   ;
 +Msc+Sg+Voc:s    #   ;
 +Msc+Sg+Voc:    #   ;
++Msc+Pl+Nom:i     #   ;
++Msc+Pl+Gen:u     #   ;
++Msc+Pl+Dat:iem     #   ;
++Msc+Pl+Acc:us   #   ;
++Msc+Pl+Loc:os   #   ;
 +Msc+Pl+Voc:i   #   ;
 
 LEXICON N-MSC-2_1
