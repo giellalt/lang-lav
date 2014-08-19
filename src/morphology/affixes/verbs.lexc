@@ -87,6 +87,7 @@ LEXICON V_15_FUT-SG1-STEM
 +Cond:%>tu # ;
 
 +PrfPrc+Pss:%>t NMN_13_ ;
++PrfPrc+Pss+Msc+Sg+Nom+Indef:%>ts # ;
 +Der/šana+N:%>šan NMN-FEM_7ROKA_ ;
 +PrsPrc+Act+Pred2:%^VowL%>dam PRSPRC-ACT-PRED2 ;
 
@@ -99,11 +100,13 @@ LEXICON V_15_PRS-SG1-STEM
 +Quo+Prs:%>ot # ;
 
 +PrsPrc+Act:%>oš NMN_13_ ;
++PrsPrc+Act+Msc+Sg+Nom+Indef:%>ošs # ;
 +PrsPrc+Act+Msc+Sg+Voc+Def:%>ošais # ;
 +PrsPrc+Act+Msc+Sg+Voc+Def:%>ošo # ;
 
 +Der/Adv+Adv+Pos:%>oši # ;
 +PrsPrc+Pss:%>am NMN_13_ ;
++PrsPrc+Pss+Msc+Sg+Nom+Indef:%>ams # ;
 +PrsPrc+Pss+Msc+Sg+Voc+Def:%>amo # ;
 +PrsPrc+Pss+Pred2:%>am # ;
 

@@ -642,14 +642,6 @@
   </e>
   <e>
     <lg>
-      <l pos="N" ID="1002430">Allāhs</l>
-      <stg>
-        <st Contlex="N-MSC-1_1">allāh</st>
-      </stg>
-    </lg>
-  </e>
-  <e>
-    <lg>
       <l pos="N" ID="1002439">almanahs</l>
       <stg>
         <st Contlex="N-MSC-1_1">almanah</st>
@@ -14325,14 +14317,6 @@
       <l pos="N" ID="1011413">koraļļpolips</l>
       <stg>
         <st Contlex="N-MSC-1_1">koraļļpolip</st>
-      </stg>
-    </lg>
-  </e>
-  <e>
-    <lg>
-      <l pos="N" ID="1011416">Korāns</l>
-      <stg>
-        <st Contlex="N-MSC-1_1">korān</st>
       </stg>
     </lg>
   </e>
@@ -43461,22 +43445,6 @@
       <l pos="N" ID="1028195">talmudists</l>
       <stg>
         <st Contlex="N-MSC-1_1">talmudist</st>
-      </stg>
-    </lg>
-  </e>
-  <e>
-    <lg>
-      <l pos="N" ID="1028197">Talmūds</l>
-      <stg>
-        <st Contlex="N-MSC-1_1">talmūd</st>
-      </stg>
-    </lg>
-  </e>
-  <e>
-    <lg>
-      <l pos="N" ID="1028198">Talmuds</l>
-      <stg>
-        <st Contlex="N-MSC-1_1">talmud</st>
       </stg>
     </lg>
   </e>
