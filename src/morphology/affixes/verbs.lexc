@@ -119,6 +119,10 @@ LEXICON V_15_PRT-SG1-STEM
 
 +PrfPrc+Act: PSTPRC-ACT-OBLIQUE ;
 
+LEXICON V-_16_2-Nē_
+!! WORK
+IV_16_2-Nē_ ;
+TV_16_2-Nē_ ;
 
 LEXICON IV_16_2-Nē_
 +V+IV: V_16_DEJOT ;
@@ -182,6 +186,11 @@ LEXICON V_16_DEJOT_NONFINITE_
 +PrsPrc+Pss+Pred2:%^RVow%>jam # ;
 +Cond:%>tu # ;
 
+LEXICON	   V-_17_3-Nē_
+!! WORK
+IV_17_3-Nē_ ;
+TV_17_3-Nē_ ;
+
 LEXICON IV_17_3-Nē_
 +V+IV: V_17_REDZĒT ;
 LEXICON TV_17_3-Nē_
@@ -216,6 +225,7 @@ LEXICON V_17_REDZĒT_FINITE_
 LEXICON V_17_REDZĒT_NONFINITE_
 +Quo+Fut:%>šot # ;
 +PrfPrc+Pss:%>t NMN_13_ ;
++PrfPrc+Pss+Msc+Sg+Nom+Indef:%>ts # ;
 +Der/šana+N:%>šan NMN-FEM_7ROKA_ ;
 
 +PrsPrc+Act+Pred2:%>dam PRSPRC-ACT-PRED2 ;
@@ -226,12 +236,14 @@ LEXICON V_17_REDZĒT_NONFINITE_
 +Imprt+Pl2:%^VowRM%>iet # ;
 
 +PrsPrc+Act:%^VowRM%>oš NMN_13_ ;
++PrsPrc+Act+Msc+Sg+Nom+Indef:%^VowRM%>ošs # ;
 +PrsPrc+Act+Msc+Sg+Voc+Def:%^VowRM%>ošais # ;
 +PrsPrc+Act+Msc+Sg+Voc+Def:%^VowRM%>ošo # ;
 
 +Der/Adv+Adv+Pos:%^VowRM%>oši # ;
 
 +PrsPrc+Pss:%^VowRM%>am NMN_13_ ;
++PrsPrc+Pss+Msc+Sg+Nom+Indef:%^VowRM%>am%>s # ;
 +PrsPrc+Pss+Msc+Sg+Voc+Def:%^VowRM%>am%>o # ;
 
 +PrfPrc+Act+Msc+Sg+Nom+Indef:jis # ;
@@ -241,6 +253,7 @@ LEXICON V_17_REDZĒT_NONFINITE_
 +PrsPrc+Pss+Pred2:%^VowRM%>am # ;
 +Cond:%>tu # ;
 :%^RVow DEB ;
+
 
 LEXICON IV_18_1-REFL_
 +V+IV+Refl: V_18_4_CELTIES ;
@@ -303,10 +316,24 @@ LEXICON V_18_PRT-SG1-STEM
 
 +PrfPrc+Act: PSTPRC-ACT-OBLIQUE ;
 
-
+LEXICON V-_19_2-Jā_
+ IV_19_2-Jā_	;
+ TV_19_2-Jā_	;
+LEXICON IV_19_2-Jā_
++WORK: #;
+LEXICON TV_19_2-Jā_
++WORK: #;
 LEXICON IV_19_2-REFL_
 +WORK: # ;
 LEXICON TV_19_2-REFL_
++WORK: # ;
+
+LEXICON V-_20_3-Jā_
+IV_20_3-Jā_ ;
+TV_20_3-Jā_ ;
+LEXICON IV_20_3-Jā_
++WORK: # ;
+LEXICON	 TV_20_3-Jā_
 +WORK: # ;
 
 LEXICON IV_20_3-REFL_
