@@ -161,6 +161,7 @@ LEXICON V_16_DEJOT_NONFINITE_
 +Quo+Fut:%>šot # ;
 
 +PrfPrc+Pss:%>t NMN_13_ ;
++PrfPrc+Pss+Msc+Sg+Nom+Indef:%>ts # ;
 +PrfPrc+Pss+Msc+Sg+Voc+Def:%>to # ;
 +Der/šana+N:%>šan NMN-FEM_7ROKA_ ;
 
@@ -171,12 +172,14 @@ LEXICON V_16_DEJOT_NONFINITE_
 +Imprt+Pl2:j%>iet # ;
 
 +PrsPrc+Act:%^RVow%>još NMN_13_ ;
++PrsPrc+Act+Msc+Sg+Nom+Indef:%^RVow%>jošs # ;
 +PrsPrc+Act+Msc+Sg+Voc+Def:%^RVow%>jošais # ;
 +PrsPrc+Act+Msc+Sg+Voc+Def:%^RVow%>jošo # ;
 
 +Der/Adv+Adv+Pos:%^RVow%>joši # ;
 
 +PrsPrc+Pss:%^RVow%>jam NMN_13_ ;
++PrsPrc+Pss+Msc+Sg+Nom+Indef:%^RVow%>jams # ;
 +PrsPrc+Pss+Msc+Sg+Voc+Def:%^RVow%>jamo # ;
 
 +PrfPrc+Act+Msc+Sg+Nom+Indef:%>jis # ;
