@@ -15,9 +15,9 @@
 sourcefile=${srcdir}/../../../src/morphology/stems/nouns.lexc
 lemmas=./nouns.txt
 generatedlemmas=./gen-nouns
-failedlemmas=./fail-lemmas
+failedlemmas=./fail-noun-lemmas
 generatorfile=./../../../src/generator-gt-norm
-resultfile=lemma-gen-diff
+resultfile=lemma-gen-noun-diff
 
 # FAIL if source file does not exist:
 if [ ! -f $sourcefile ]; then
@@ -65,24 +65,44 @@ for f in $fsttype; do
 	if [ -f "$generatorfile.$f" ]; then
 		let "transducer_found += 1"
 
-###### Test non-comopunds: #######
-		# generate nouns in Singular, extract the resulting generated lemma,
-		# store it:
-		sed 's/$/+N+Sg+Nom/' $lemmas | $lookuptool $generatorfile.$f \
-			| cut -f2 | fgrep -v "+N+Sg" | grep -v "^$" | sort -u \
-			> $generatedlemmas.$f.txt 
-		# Generate nouns, extract those that do not generate in singular,
-		# generate the rest in plural:
-		sed 's/$/+N+Sg+Nom/' $lemmas | $lookuptool $generatorfile.$f \
-			| cut -f2 | grep "N+" | cut -d "+" -f1 | sed 's/$/+N+Pl+Nom/' \
-			| $lookuptool $generatorfile.$f | cut -f2 \
-			| grep -v "^$" >> $generatedlemmas.$f.txt 
+###### Test non-compounds: #######
+		# generate Masculine Singular Nouns:
+		# $lemmas (subsequently $failedlemmas.$f.txt) = lemmas that haven't passed yet
+		# $generatedlemmas.$f.tmp.txt = output of generator (replaced for each tagset)
+		# $generatedlemmas.$f.txt = cumulative list of lemmas that generate output
+		
+		# to begin with, all lemmas have failed (i.e. none have passed yet)
+		cat $lemmas > $failedlemmas.$f.txt
+		
+		# loop over tagsets and generate lemmas
+		for gender in +Msc +Fem +MFN ; do
+		    for number in +Sg +Pl ; do
+			for grammcase in +Nom ; do
+			    sed 's/$/+N'$gender$number$grammcase'/' $failedlemmas.$f.txt \
+				| $lookuptool $generatorfile.$f \
+				| cut -f2 > $generatedlemmas.$f.tmp.txt
+			    fgrep -v "+N+" $generatedlemmas.$f.tmp.txt | grep -v "^$" \
+				| sort -u >> $generatedlemmas.$f.txt
+			    fgrep    "+N+" $generatedlemmas.$f.tmp.txt | cut -d'+' -f1 \
+				| sort -u  > $failedlemmas.$f.txt
+			done
+		    done
+		done
+		sed 's/$/+N+MFN+Pl+Gen/' $failedlemmas.$f.txt \
+			| $lookuptool $generatorfile.$f \
+			| cut -f2 > $generatedlemmas.$f.tmp.txt
+		fgrep -v "+N+" $generatedlemmas.$f.tmp.txt | grep -v "^$" \
+			| sort -u >> $generatedlemmas.$f.txt
+		fgrep    "+N+" $generatedlemmas.$f.tmp.txt | cut -d'+' -f1 \
+			| sort -u  > $failedlemmas.$f.txt
 
 ###### Collect results: #######
 		# Sort and compare original input with resulting output - the diff is
 		# stored and opened in SEE:
 		sort -u -o $generatedlemmas.$f.txt $generatedlemmas.$f.txt 
-		comm -23 $lemmas $generatedlemmas.$f.txt > $resultfile.$f.txt
+		sed 's/[¹²³⁴⁵⁶⁷⁸⁹⁰⁻]*$//' $lemmas | uniq | sort -u > ./strippednouns.txt
+		comm -23 ./strippednouns.txt $generatedlemmas.$f.txt | sort \
+		> $resultfile.$f.txt
 
 		# if at least one word is found, the test failed, and the list of failed
 		# lemmas is opened in SubEthaEdit:
@@ -101,6 +121,7 @@ done
 
 # When done, remove the generated data file:
 rm -f $lemmas
+rm -r ./strippednouns.txt
 
 # At least one of the Xerox or HFST tests failed:
 if [ "$Fail" = "1" ]; then
