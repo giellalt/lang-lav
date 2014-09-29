@@ -59,6 +59,14 @@ GT_XML_SRCS=\
 			stems/propernouns.xml                      \
 			stems/verbs.xml 
 
+# Define any additional sources here (compiled on their own, or just included
+# in the distro):
+GT_LOCAL_SRCS=
+
+### BEGIN: Local processing: ###
+
+
+### END: Local processing: ###
 
 include $(top_srcdir)/am-shared/src-morphology-dir-include.am
 
