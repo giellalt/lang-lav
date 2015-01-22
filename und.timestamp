@@ -1,4 +1,13 @@
-$Rev: 105926 $
+$Rev: 105950 $
+Last change to get hyperminimisation to produce the correct output: made the derived-proper downcase script being processed by autoconf, so that we can require a symbol in a certain context, and at the same time in the end let the symbol be empty if not needed.
+
+r105935:
+Added optional flag diacritic inserted by Hfst hyperminimisation. This resolves
+the remaining cases of errors after the hfst team fixed a bug in lexc
+compilation with hyperminimisation turned on. Since it is optional, it does not
+make any harm when using Xerox or when not using hyperminimisation.
+
+r105926:
 Added xerox variable flag-is-epsilon to the tag reorder regex. This fixes most
 of the cases of errors after the hyperminimisation bug was fixed in hfst-lexc.
 The remaining errors must be fixed in the downcase-derived-proper regex.
