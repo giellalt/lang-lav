@@ -1,0 +1,133 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - jauns: # Adjective 'eng green/fin vihreä' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/za%C4%BC%C5%A1/
+     jauns+A+Pos+Msc+Sg+Nom+Indef: jauns
+     jauns+A+Pos+Msc+Sg+Gen+Indef: jauna
+     jauns+A+Der/āk+Comp+Msc+Sg+Gen+Indef: jaunāka
+     jauns+A+Pos+Msc+Sg+Dat+Indef: jaunam
+     jauns+A+Der/āk+Comp+Msc+Sg+Dat+Indef: jaunākam
+     jauns+A+Pos+Msc+Sg+Acc+Indef: jaunu
+     jauns+A+Der/āk+Comp+Msc+Sg+Acc+Indef: jaunāku
+     jauns+A+Pos+Msc+Sg+Loc+Indef: jaunā
+     jauns+A+Der/āk+Comp+Msc+Sg+Loc+Indef: jaunākā
+     jauns+A+Pos+Msc+Pl+Nom+Indef: jauni
+     jauns+A+Der/āk+Comp+Msc+Pl+Nom+Indef: jaunāki
+     jauns+A+Pos+Msc+Pl+Gen+Indef: jaunu
+     jauns+A+Der/āk+Comp+Msc+Pl+Gen+Indef: jaunāku
+     jauns+A+Pos+Msc+Pl+Dat+Indef: jauniem
+     jauns+A+Der/āk+Comp+Msc+Pl+Dat+Indef: jaunākiem
+     jauns+A+Pos+Msc+Pl+Acc+Indef: jaunus
+     jauns+A+Der/āk+Comp+Msc+Pl+Acc+Indef: jaunākus
+     jauns+A+Pos+Msc+Pl+Loc+Indef: jaunos
+     jauns+A+Der/āk+Comp+Msc+Pl+Loc+Indef: jaunākos
+     jauns+A+Pos+Msc+Sg+Nom+Def: jaunais
+     jauns+A+Der/āk+Comp+Msc+Sg+Nom+Def: jaunākais
+     jauns+A+Der/āk+Superl+Msc+Sg+Nom+Def: visjaunākais
+     jauns+A+Pos+Msc+Sg+Gen+Def: jaunā
+     jauns+A+Der/āk+Comp+Msc+Sg+Gen+Def: jaunākā
+     jauns+A+Der/āk+Superl+Msc+Sg+Gen+Def: visjaunākā
+     jauns+A+Pos+Msc+Sg+Dat+Def: jaunajam
+     jauns+A+Der/āk+Comp+Msc+Sg+Dat+Def: jaunākajam
+     jauns+A+Der/āk+Superl+Msc+Sg+Dat+Def: visjaunākajam
+     jauns+A+Pos+Msc+Sg+Acc+Def: jauno
+     jauns+A+Der/āk+Comp+Msc+Sg+Acc+Def: jaunāko
+     jauns+A+Der/āk+Superl+Msc+Sg+Acc+Def: visjaunāko
+     jauns+A+Pos+Msc+Sg+Loc+Def: jaunajā
+     jauns+A+Der/āk+Comp+Msc+Sg+Loc+Def: jaunākajā
+     jauns+A+Der/āk+Superl+Msc+Sg+Loc+Def: visjaunākajā
+     jauns+A+Pos+Msc+Sg+Voc+Def: jaunais
+     jauns+A+Der/āk+Comp+Msc+Sg+Voc+Def: jaunākais
+     jauns+A+Der/āk+Superl+Msc+Sg+Voc+Def: visjaunākais
+     jauns+A+Pos+Msc+Pl+Nom+Def: jaunie
+     jauns+A+Der/āk+Comp+Msc+Pl+Nom+Def: jaunākie
+     jauns+A+Der/āk+Superl+Msc+Pl+Nom+Def: visjaunākie
+     jauns+A+Pos+Msc+Pl+Gen+Def: jauno
+     jauns+A+Der/āk+Comp+Msc+Pl+Gen+Def: jaunāko
+     jauns+A+Der/āk+Superl+Msc+Pl+Gen+Def: visjaunāko
+     jauns+A+Pos+Msc+Pl+Dat+Def: jaunajiem
+     jauns+A+Der/āk+Comp+Msc+Pl+Dat+Def: jaunākajiem
+     jauns+A+Der/āk+Superl+Msc+Pl+Dat+Def: visjaunākajiem
+     jauns+A+Pos+Msc+Pl+Acc+Def: jaunos
+     jauns+A+Der/āk+Comp+Msc+Pl+Acc+Def: jaunākos
+     jauns+A+Der/āk+Superl+Msc+Pl+Acc+Def: visjaunākos
+     jauns+A+Pos+Msc+Pl+Loc+Def: jaunajos
+     jauns+A+Der/āk+Comp+Msc+Pl+Loc+Def: jaunākajos
+     jauns+A+Der/āk+Superl+Msc+Pl+Loc+Def: visjaunākajos
+     jauns+A+Pos+Msc+Pl+Voc+Def: jaunie
+     jauns+A+Der/āk+Comp+Msc+Pl+Voc+Def: jaunākie
+     jauns+A+Der/āk+Superl+Msc+Pl+Voc+Def: visjaunākie
+     jauns+A+Pos+Fem+Sg+Nom+Indef: jauna
+     jauns+A+Der/āk+Comp+Fem+Sg+Nom+Indef: jaunāka
+     jauns+A+Pos+Fem+Sg+Gen+Indef: jaunas
+     jauns+A+Der/āk+Comp+Fem+Sg+Gen+Indef: jaunākas
+     jauns+A+Pos+Fem+Sg+Dat+Indef: jaunai
+     jauns+A+Der/āk+Comp+Fem+Sg+Dat+Indef: jaunākai
+     jauns+A+Pos+Fem+Sg+Acc+Indef: jaunu
+     jauns+A+Der/āk+Comp+Fem+Sg+Acc+Indef: jaunāku
+     jauns+A+Pos+Fem+Sg+Loc+Indef: jaunā
+     jauns+A+Der/āk+Comp+Fem+Sg+Loc+Indef: jaunākā
+     jauns+A+Pos+Fem+Pl+Nom+Indef: jaunas
+     jauns+A+Der/āk+Comp+Fem+Pl+Nom+Indef: jaunākas
+     jauns+A+Pos+Fem+Pl+Gen+Indef: jaunu
+     jauns+A+Der/āk+Comp+Fem+Pl+Gen+Indef: jaunāku
+     jauns+A+Pos+Fem+Pl+Dat+Indef: jaunām
+     jauns+A+Der/āk+Comp+Fem+Pl+Dat+Indef: jaunākām
+     jauns+A+Pos+Fem+Pl+Acc+Indef: jaunas
+     jauns+A+Der/āk+Comp+Fem+Pl+Acc+Indef: jaunākas
+     jauns+A+Pos+Fem+Pl+Loc+Indef: jaunās
+     jauns+A+Der/āk+Comp+Fem+Pl+Loc+Indef: jaunākās
+     jauns+A+Pos+Fem+Sg+Nom+Def: jaunā
+     jauns+A+Der/āk+Comp+Fem+Sg+Nom+Def: jaunākā
+     jauns+A+Der/āk+Superl+Fem+Sg+Nom+Def: visjaunākā
+     jauns+A+Pos+Fem+Sg+Gen+Def: jaunās
+     jauns+A+Der/āk+Comp+Fem+Sg+Gen+Def: jaunākās
+     jauns+A+Der/āk+Superl+Fem+Sg+Gen+Def: visjaunākās
+     jauns+A+Pos+Fem+Sg+Dat+Def: jaunajai
+     jauns+A+Der/āk+Comp+Fem+Sg+Dat+Def: jaunākajai
+     jauns+A+Der/āk+Superl+Fem+Sg+Dat+Def: visjaunākajai
+     jauns+A+Pos+Fem+Sg+Acc+Def: jauno
+     jauns+A+Der/āk+Comp+Fem+Sg+Acc+Def: jaunāko
+     jauns+A+Der/āk+Superl+Fem+Sg+Acc+Def: visjaunāko
+     jauns+A+Pos+Fem+Sg+Loc+Def: jaunajā
+     jauns+A+Der/āk+Comp+Fem+Sg+Loc+Def: jaunākajā
+     jauns+A+Der/āk+Superl+Fem+Sg+Loc+Def: visjaunākajā
+     jauns+A+Pos+Fem+Sg+Voc+Def: jaunā
+     jauns+A+Der/āk+Comp+Fem+Sg+Voc+Def: jaunākā
+     jauns+A+Der/āk+Superl+Fem+Sg+Voc+Def: visjaunākā
+     jauns+A+Pos+Fem+Pl+Nom+Def: jaunās
+     jauns+A+Der/āk+Comp+Fem+Pl+Nom+Def: jaunākās
+     jauns+A+Der/āk+Superl+Fem+Pl+Nom+Def: visjaunākās
+     jauns+A+Pos+Fem+Pl+Gen+Def: jauno
+     jauns+A+Der/āk+Comp+Fem+Pl+Gen+Def: jaunāko
+     jauns+A+Der/āk+Superl+Fem+Pl+Gen+Def: visjaunāko
+     jauns+A+Pos+Fem+Pl+Dat+Def: jaunajām
+     jauns+A+Der/āk+Comp+Fem+Pl+Dat+Def: jaunākajām
+     jauns+A+Der/āk+Superl+Fem+Pl+Dat+Def: visjaunākajām
+     jauns+A+Pos+Fem+Pl+Acc+Def: jaunās
+     jauns+A+Der/āk+Comp+Fem+Pl+Acc+Def: jaunākās
+     jauns+A+Der/āk+Superl+Fem+Pl+Acc+Def: visjaunākās
+     jauns+A+Pos+Fem+Pl+Loc+Def: jaunajās
+     jauns+A+Der/āk+Comp+Fem+Pl+Loc+Def: jaunākajās
+     jauns+A+Der/āk+Superl+Fem+Pl+Loc+Def: visjaunākajās
+     jauns+A+Pos+Fem+Pl+Voc+Def: jaunās
+     jauns+A+Der/āk+Comp+Fem+Pl+Voc+Def: jaunākās
+     jauns+A+Der/āk+Superl+Fem+Pl+Voc+Def: visjaunākās
+     jauns+A+Pos+Der/Adv+Adv: jauni
+     jauns+A+Der/āk+Comp+Msc+Sg+Nom+Indef: jaunāks
+     jauns+A+Der/āk+Comp+Der/Adv+Adv: jaunāk

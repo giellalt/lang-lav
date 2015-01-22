@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - roka: # Noun 'eng hand, arm/fin käsi' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/roka/ declension_4
+     roka+N+Fem+Sg+Nom: roka
+     roka+N+Fem+Sg+Gen: rokas
+     roka+N+Fem+Sg+Dat: rokai
+     roka+N+Fem+Sg+Acc: roku
+     roka+N+Fem+Sg+Loc: rokā
+     roka+N+Fem+Sg+Voc: roka
+     roka+N+Fem+Pl+Nom: rokas
+     roka+N+Fem+Pl+Gen: roku
+     roka+N+Fem+Pl+Dat: rokām
+     roka+N+Fem+Pl+Acc: rokas
+     roka+N+Fem+Pl+Loc: rokās
+     roka+N+Fem+Pl+Voc: rokas

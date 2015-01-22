@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - puika: # Noun 'eng boy, arm/fin poika' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/puika/ declension_4
+     puika+N+Msc+Sg+Nom: puika
+     puika+N+Msc+Sg+Gen: puikas
+     puika+N+Msc+Sg+Dat: puikam
+     puika+N+Msc+Sg+Acc: puiku
+     puika+N+Msc+Sg+Loc: puikā
+     puika+N+Msc+Sg+Voc: puika
+     puika+N+Msc+Pl+Nom: puikas
+     puika+N+Msc+Pl+Gen: puiku
+     puika+N+Msc+Pl+Dat: puikām
+     puika+N+Msc+Pl+Acc: puikas
+     puika+N+Msc+Pl+Loc: puikās
+     puika+N+Msc+Pl+Voc: puikas

@@ -1,0 +1,89 @@
+!! Proper noun inflection
+!! ----------------------
+!! The UNDEFINED language proper nouns inflect in the same cases as regular
+!! nouns, but with a colon (':') as separator.
+
+LEXICON PROP-PLC-MSC-1_1
++N+Prop+Plc: NMN_1_ ;
+
+LEXICON PROP-PLC-MSC-2_1
++N+Prop+Plc: NMN_2_ ;
+
+LEXICON PROP-PLC-MSC-3_2
++N+Prop+Plc: NMN_3_ ;
+
+LEXICON PROP-PLC-MSC-4_2
++N+Prop+Plc: NMN_4_ ;
+
+LEXICON PROP-PLC-MSC-5_2
++N+Prop+Plc: NMN_5_ ;
+
+LEXICON PROP-PLC-MSC-6_3
++N+Prop+Plc: NMN_6_ ;
+
+LEXICON PROP-PLC-FEM-7_4
++N+Prop+Plc: NMN-FEM_7ROKA_ ;
+
+LEXICON PROP-PLC-MSC-8_4
++N+Prop+Plc: NMN-MSC_8PUIKA_ ;
+
+LEXICON PROP-PLC-FEM-9_5
++N+Prop+Plc: NMN_9_ ;
+
+LEXICON PROP-PLC-MSC-10_5
++N+Prop+Plc: NMN_10_ ;
+
+LEXICON PROP-PLC-FEM-11_6
++N+Prop+Plc: NMN_11_ ;
+
+LEXICON PROP-PLC--12_Nepiemīt
++N+Prop+Plc: NMN_1_ ;
+
+
+
+!! HUMANS
+LEXICON PROP-MSC-1_1
++N+Prop+Mal: NMN_1_ ;
+
+LEXICON PROP-MSC-2_1
++N+Prop+Mal: NMN_2_ ;
+
+LEXICON PROP-MSC-3_2
++N+Prop+Mal: NMN_3_ ;
+
+LEXICON PROP-MSC-4_2
++N+Prop+Mal: NMN_4_ ;
+
+LEXICON PROP-MSC-5_2
++N+Prop+Mal: NMN_5_ ;
+
+LEXICON PROP-MSC-6_3
++N+Prop+Mal: NMN_6_ ;
+
+LEXICON PROP-FEM-7_4
++N+Prop+Fem: NMN-FEM_7ROKA_ ;
+
+LEXICON PROP-MSC-8_4
++N+Prop+Mal: NMN-MSC_8PUIKA_ ;
+
+LEXICON PROP-FEM-9_5
++N+Prop+Fem: NMN_9_ ;
+
+LEXICON PROP-MSC-10_5
++N+Prop+Mal: NMN_10_ ;
+
+LEXICON PROP-FEM-11_6
++N+Prop+Fem: NMN_11_ ;
+
+
+LEXICON PROP--12_Nepiemīt
++N+Prop: NMN_1_ ;
+
+
+
+
+
+
+
+! vim: set ft=xfst-lexc:
+

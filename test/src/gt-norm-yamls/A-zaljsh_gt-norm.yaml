@@ -1,0 +1,133 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - zaļš: # Adjective 'eng green/fin vihreä' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/za%C4%BC%C5%A1/
+     zaļš+A+Pos+Msc+Sg+Nom+Indef: zaļš
+     zaļš+A+Pos+Msc+Sg+Gen+Indef: zaļa
+     zaļš+A+Der/āk+Comp+Msc+Sg+Gen+Indef: zaļāka
+     zaļš+A+Pos+Msc+Sg+Dat+Indef: zaļam
+     zaļš+A+Der/āk+Comp+Msc+Sg+Dat+Indef: zaļākam
+     zaļš+A+Pos+Msc+Sg+Acc+Indef: zaļu
+     zaļš+A+Der/āk+Comp+Msc+Sg+Acc+Indef: zaļāku
+     zaļš+A+Pos+Msc+Sg+Loc+Indef: zaļā
+     zaļš+A+Der/āk+Comp+Msc+Sg+Loc+Indef: zaļākā
+     zaļš+A+Pos+Msc+Pl+Nom+Indef: zaļi
+     zaļš+A+Der/āk+Comp+Msc+Pl+Nom+Indef: zaļāki
+     zaļš+A+Pos+Msc+Pl+Gen+Indef: zaļu
+     zaļš+A+Der/āk+Comp+Msc+Pl+Gen+Indef: zaļāku
+     zaļš+A+Pos+Msc+Pl+Dat+Indef: zaļiem
+     zaļš+A+Der/āk+Comp+Msc+Pl+Dat+Indef: zaļākiem
+     zaļš+A+Pos+Msc+Pl+Acc+Indef: zaļus
+     zaļš+A+Der/āk+Comp+Msc+Pl+Acc+Indef: zaļākus
+     zaļš+A+Pos+Msc+Pl+Loc+Indef: zaļos
+     zaļš+A+Der/āk+Comp+Msc+Pl+Loc+Indef: zaļākos
+     zaļš+A+Pos+Msc+Sg+Nom+Def: zaļais
+     zaļš+A+Der/āk+Comp+Msc+Sg+Nom+Def: zaļākais
+     zaļš+A+Der/āk+Superl+Msc+Sg+Nom+Def: viszaļākais
+     zaļš+A+Pos+Msc+Sg+Gen+Def: zaļā
+     zaļš+A+Der/āk+Comp+Msc+Sg+Gen+Def: zaļākā
+     zaļš+A+Der/āk+Superl+Msc+Sg+Gen+Def: viszaļākā
+     zaļš+A+Pos+Msc+Sg+Dat+Def: zaļajam
+     zaļš+A+Der/āk+Comp+Msc+Sg+Dat+Def: zaļākajam
+     zaļš+A+Der/āk+Superl+Msc+Sg+Dat+Def: viszaļākajam
+     zaļš+A+Pos+Msc+Sg+Acc+Def: zaļo
+     zaļš+A+Der/āk+Comp+Msc+Sg+Acc+Def: zaļāko
+     zaļš+A+Der/āk+Superl+Msc+Sg+Acc+Def: viszaļāko
+     zaļš+A+Pos+Msc+Sg+Loc+Def: zaļajā
+     zaļš+A+Der/āk+Comp+Msc+Sg+Loc+Def: zaļākajā
+     zaļš+A+Der/āk+Superl+Msc+Sg+Loc+Def: viszaļākajā
+     zaļš+A+Pos+Msc+Sg+Voc+Def: zaļais
+     zaļš+A+Der/āk+Comp+Msc+Sg+Voc+Def: zaļākais
+     zaļš+A+Der/āk+Superl+Msc+Sg+Voc+Def: viszaļākais
+     zaļš+A+Pos+Msc+Pl+Nom+Def: zaļie
+     zaļš+A+Der/āk+Comp+Msc+Pl+Nom+Def: zaļākie
+     zaļš+A+Der/āk+Superl+Msc+Pl+Nom+Def: viszaļākie
+     zaļš+A+Pos+Msc+Pl+Gen+Def: zaļo
+     zaļš+A+Der/āk+Comp+Msc+Pl+Gen+Def: zaļāko
+     zaļš+A+Der/āk+Superl+Msc+Pl+Gen+Def: viszaļāko
+     zaļš+A+Pos+Msc+Pl+Dat+Def: zaļajiem
+     zaļš+A+Der/āk+Comp+Msc+Pl+Dat+Def: zaļākajiem
+     zaļš+A+Der/āk+Superl+Msc+Pl+Dat+Def: viszaļākajiem
+     zaļš+A+Pos+Msc+Pl+Acc+Def: zaļos
+     zaļš+A+Der/āk+Comp+Msc+Pl+Acc+Def: zaļākos
+     zaļš+A+Der/āk+Superl+Msc+Pl+Acc+Def: viszaļākos
+     zaļš+A+Pos+Msc+Pl+Loc+Def: zaļajos
+     zaļš+A+Der/āk+Comp+Msc+Pl+Loc+Def: zaļākajos
+     zaļš+A+Der/āk+Superl+Msc+Pl+Loc+Def: viszaļākajos
+     zaļš+A+Pos+Msc+Pl+Voc+Def: zaļie
+     zaļš+A+Der/āk+Comp+Msc+Pl+Voc+Def: zaļākie
+     zaļš+A+Der/āk+Superl+Msc+Pl+Voc+Def: viszaļākie
+     zaļš+A+Pos+Fem+Sg+Nom+Indef: zaļa
+     zaļš+A+Der/āk+Comp+Fem+Sg+Nom+Indef: zaļāka
+     zaļš+A+Pos+Fem+Sg+Gen+Indef: zaļas
+     zaļš+A+Der/āk+Comp+Fem+Sg+Gen+Indef: zaļākas
+     zaļš+A+Pos+Fem+Sg+Dat+Indef: zaļai
+     zaļš+A+Der/āk+Comp+Fem+Sg+Dat+Indef: zaļākai
+     zaļš+A+Pos+Fem+Sg+Acc+Indef: zaļu
+     zaļš+A+Der/āk+Comp+Fem+Sg+Acc+Indef: zaļāku
+     zaļš+A+Pos+Fem+Sg+Loc+Indef: zaļā
+     zaļš+A+Der/āk+Comp+Fem+Sg+Loc+Indef: zaļākā
+     zaļš+A+Pos+Fem+Pl+Nom+Indef: zaļas
+     zaļš+A+Der/āk+Comp+Fem+Pl+Nom+Indef: zaļākas
+     zaļš+A+Pos+Fem+Pl+Gen+Indef: zaļu
+     zaļš+A+Der/āk+Comp+Fem+Pl+Gen+Indef: zaļāku
+     zaļš+A+Pos+Fem+Pl+Dat+Indef: zaļām
+     zaļš+A+Der/āk+Comp+Fem+Pl+Dat+Indef: zaļākām
+     zaļš+A+Pos+Fem+Pl+Acc+Indef: zaļas
+     zaļš+A+Der/āk+Comp+Fem+Pl+Acc+Indef: zaļākas
+     zaļš+A+Pos+Fem+Pl+Loc+Indef: zaļās
+     zaļš+A+Der/āk+Comp+Fem+Pl+Loc+Indef: zaļākās
+     zaļš+A+Pos+Fem+Sg+Nom+Def: zaļā
+     zaļš+A+Der/āk+Comp+Fem+Sg+Nom+Def: zaļākā
+     zaļš+A+Der/āk+Superl+Fem+Sg+Nom+Def: viszaļākā
+     zaļš+A+Pos+Fem+Sg+Gen+Def: zaļās
+     zaļš+A+Der/āk+Comp+Fem+Sg+Gen+Def: zaļākās
+     zaļš+A+Der/āk+Superl+Fem+Sg+Gen+Def: viszaļākās
+     zaļš+A+Pos+Fem+Sg+Dat+Def: zaļajai
+     zaļš+A+Der/āk+Comp+Fem+Sg+Dat+Def: zaļākajai
+     zaļš+A+Der/āk+Superl+Fem+Sg+Dat+Def: viszaļākajai
+     zaļš+A+Pos+Fem+Sg+Acc+Def: zaļo
+     zaļš+A+Der/āk+Comp+Fem+Sg+Acc+Def: zaļāko
+     zaļš+A+Der/āk+Superl+Fem+Sg+Acc+Def: viszaļāko
+     zaļš+A+Pos+Fem+Sg+Loc+Def: zaļajā
+     zaļš+A+Der/āk+Comp+Fem+Sg+Loc+Def: zaļākajā
+     zaļš+A+Der/āk+Superl+Fem+Sg+Loc+Def: viszaļākajā
+     zaļš+A+Pos+Fem+Sg+Voc+Def: zaļā
+     zaļš+A+Der/āk+Comp+Fem+Sg+Voc+Def: zaļākā
+     zaļš+A+Der/āk+Superl+Fem+Sg+Voc+Def: viszaļākā
+     zaļš+A+Pos+Fem+Pl+Nom+Def: zaļās
+     zaļš+A+Der/āk+Comp+Fem+Pl+Nom+Def: zaļākās
+     zaļš+A+Der/āk+Superl+Fem+Pl+Nom+Def: viszaļākās
+     zaļš+A+Pos+Fem+Pl+Gen+Def: zaļo
+     zaļš+A+Der/āk+Comp+Fem+Pl+Gen+Def: zaļāko
+     zaļš+A+Der/āk+Superl+Fem+Pl+Gen+Def: viszaļāko
+     zaļš+A+Pos+Fem+Pl+Dat+Def: zaļajām
+     zaļš+A+Der/āk+Comp+Fem+Pl+Dat+Def: zaļākajām
+     zaļš+A+Der/āk+Superl+Fem+Pl+Dat+Def: viszaļākajām
+     zaļš+A+Pos+Fem+Pl+Acc+Def: zaļās
+     zaļš+A+Der/āk+Comp+Fem+Pl+Acc+Def: zaļākās
+     zaļš+A+Der/āk+Superl+Fem+Pl+Acc+Def: viszaļākās
+     zaļš+A+Pos+Fem+Pl+Loc+Def: zaļajās
+     zaļš+A+Der/āk+Comp+Fem+Pl+Loc+Def: zaļākajās
+     zaļš+A+Der/āk+Superl+Fem+Pl+Loc+Def: viszaļākajās
+     zaļš+A+Pos+Fem+Pl+Voc+Def: zaļās
+     zaļš+A+Der/āk+Comp+Fem+Pl+Voc+Def: zaļākās
+     zaļš+A+Der/āk+Superl+Fem+Pl+Voc+Def: viszaļākās
+     zaļš+A+Pos+Der/Adv+Adv: zaļi
+     zaļš+A+Der/āk+Comp+Msc+Sg+Nom+Indef: zaļāks
+     zaļš+A+Der/āk+Comp+Der/Adv+Adv: zaļāk

@@ -1,0 +1,261 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - dalīt: # Verb 'eng divide/fin jakaa' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/dalīt/
+     dalīt+V+TV+Inf: dalīt
+     dalīt+V+TV+Ind+Fut+Sg1: dalīšu
+     dalīt+V+TV+Ind+Fut+Sg2: dalīsi
+     dalīt+V+TV+Ind+Fut+Pl1: dalīsim
+     dalīt+V+TV+Ind+Fut+Pl2: dalīsiet
+     dalīt+V+TV+Ind+Fut+SP3: dalīs
+
+     dalīt+V+TV+Ind+Prs+Sg1: dalu
+     dalīt+V+TV+Ind+Prs+Sg2: dali
+     dalīt+V+TV+Ind+Prs+Pl1: dalām
+     dalīt+V+TV+Ind+Prs+Pl2: dalāt
+     dalīt+V+TV+Ind+Prs+SP3: dala
+
+     dalīt+V+TV+Ind+Act+Prt+Sg1: dalīju
+     dalīt+V+TV+Ind+Act+Prt+Sg2: dalīji
+     dalīt+V+TV+Ind+Act+Prt+Pl1: dalījām
+     dalīt+V+TV+Ind+Act+Prt+Pl2: dalījāt
+     dalīt+V+TV+Ind+Act+Prt+SP3: dalīja
+
+     dalīt+V+TV+Deb+Prs: jādala
+     dalīt+V+TV+Quo+Prs: dalot
+     dalīt+V+TV+Quo+Fut: dalīšot
+     dalīt+V+TV+Imprt+Sg2: dali
+     dalīt+V+TV+Imprt+Pl2: daliet
+
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Nom+Indef: dalošs
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Gen+Indef: daloša
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Dat+Indef: dalošam
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Acc+Indef: dalošu
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Loc+Indef: dalošā
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Nom+Indef: daloši
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Gen+Indef: dalošu
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Dat+Indef: dalošiem
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Acc+Indef: dalošus
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Loc+Indef: dalošos
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Nom+Def: dalošais
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Gen+Def: dalošā
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Dat+Def: dalošajam
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Acc+Def: dalošo
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Loc+Def: dalošajā
+     dalīt+V+TV+PrsPrc+Act+Msc+Sg+Voc+Def: [dalošais, dalošo]
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Nom+Def: dalošie
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Gen+Def: dalošo
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Dat+Def: dalošajiem
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Acc+Def: dalošos
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Loc+Def: dalošajos
+     dalīt+V+TV+PrsPrc+Act+Msc+Pl+Voc+Def: dalošie
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Nom+Indef: daloša
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Gen+Indef: dalošas
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Dat+Indef: dalošai
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Acc+Indef: dalošu
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Loc+Indef: dalošā
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Nom+Indef: dalošas
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Gen+Indef: dalošu
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Dat+Indef: dalošām
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Acc+Indef: dalošas
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Loc+Indef: dalošās
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Nom+Def: dalošā
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Gen+Def: dalošās
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Dat+Def: dalošajai
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Acc+Def: dalošo
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Loc+Def: dalošajā
+     dalīt+V+TV+PrsPrc+Act+Fem+Sg+Voc+Def: dalošā
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Nom+Def: dalošās
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Gen+Def: dalošo
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Dat+Def: dalošajām
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Acc+Def: dalošās
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Loc+Def: dalošajās
+     dalīt+V+TV+PrsPrc+Act+Fem+Pl+Voc+Def: dalošās
+
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Nom+Indef: dalījis
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Gen+Indef: dalījuša
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Dat+Indef: dalījušam
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Acc+Indef: dalījušu
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Loc+Indef: dalījušā
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Nom+Indef: dalījuši
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Gen+Indef: dalījušu
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Dat+Indef: dalījušiem
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Acc+Indef: dalījušus
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Loc+Indef: dalījušos
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Nom+Def: dalījušais
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Gen+Def: dalījušā
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Dat+Def: dalījušajam
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Acc+Def: dalījušo
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Loc+Def: dalījušajā
+     dalīt+V+TV+PrfPrc+Act+Msc+Sg+Voc+Def: dalījušais
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Nom+Def: dalījušie
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Gen+Def: dalījušo
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Dat+Def: dalījušajiem
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Acc+Def: dalījušos
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Loc+Def: dalījušajos
+     dalīt+V+TV+PrfPrc+Act+Msc+Pl+Voc+Def: dalījušie
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Nom+Indef: dalījusi
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Gen+Indef: dalījušas
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Dat+Indef: dalījušai
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Acc+Indef: dalījušu
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Loc+Indef: dalījušā
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Nom+Indef: dalījušas
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Gen+Indef: dalījušu
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Dat+Indef: dalījušām
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Acc+Indef: dalījušas
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Loc+Indef: dalījušās
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Nom+Def: dalījusī
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Gen+Def: dalījušās
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Dat+Def: dalījušajai
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Acc+Def: dalījušo
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Loc+Def: dalījušajā
+     dalīt+V+TV+PrfPrc+Act+Fem+Sg+Voc+Def: dalījusī
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Nom+Def: dalījušās
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Gen+Def: dalījušo
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Dat+Def: dalījušajām
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Acc+Def: dalījušās
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Loc+Def: dalījušajās
+     dalīt+V+TV+PrfPrc+Act+Fem+Pl+Voc+Def: dalījušās
+
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Nom+Indef: dalāms
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Gen+Indef: dalāma
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Dat+Indef: dalāmam
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Acc+Indef: dalāmu
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Loc+Indef: dalāmā
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Nom+Indef: dalāmi
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Gen+Indef: dalāmu
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Dat+Indef: dalāmiem
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Acc+Indef: dalāmus
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Loc+Indef: dalāmos
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Nom+Def: dalāmais
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Gen+Def: dalāmā
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Dat+Def: dalāmajam
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Acc+Def: dalāmo
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Loc+Def: dalāmajā
+     dalīt+V+TV+PrsPrc+Pss+Msc+Sg+Voc+Def: [dalāmais, dalāmo]
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Nom+Def: dalāmie
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Gen+Def: dalāmo
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Dat+Def: dalāmajiem
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Acc+Def: dalāmos
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Loc+Def: dalāmajos
+     dalīt+V+TV+PrsPrc+Pss+Msc+Pl+Voc+Def: dalāmie
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Nom+Indef: dalāma
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Gen+Indef: dalāmas
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Dat+Indef: dalāmai
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Acc+Indef: dalāmu
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Loc+Indef: dalāmā
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Nom+Indef: dalāmas
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Gen+Indef: dalāmu
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Dat+Indef: dalāmām
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Acc+Indef: dalāmas
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Loc+Indef: dalāmās
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Nom+Def: dalāmā
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Gen+Def: dalāmās
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Dat+Def: dalāmajai
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Acc+Def: dalāmo
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Loc+Def: dalāmajā
+     dalīt+V+TV+PrsPrc+Pss+Fem+Sg+Voc+Def: dalāmā
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Nom+Def: dalāmās
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Gen+Def: dalāmo
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Dat+Def: dalāmajām
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Acc+Def: dalāmās
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Loc+Def: dalāmajās
+     dalīt+V+TV+PrsPrc+Pss+Fem+Pl+Voc+Def: dalāmās
+
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Nom+Indef: dalīts
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Gen+Indef: dalīta
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Dat+Indef: dalītam
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Acc+Indef: dalītu
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Loc+Indef: dalītā
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Nom+Indef: dalīti
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Gen+Indef: dalītu
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Dat+Indef: dalītiem
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Acc+Indef: dalītus
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Loc+Indef: dalītos
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Nom+Def: dalītais
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Gen+Def: dalītā
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Dat+Def: dalītajam
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Acc+Def: dalīto
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Loc+Def: dalītajā
+     dalīt+V+TV+PrfPrc+Pss+Msc+Sg+Voc+Def: [dalītais, dalīto]
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Nom+Def: dalītie
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Gen+Def: dalīto
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Dat+Def: dalītajiem
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Acc+Def: dalītos
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Loc+Def: dalītajos
+     dalīt+V+TV+PrfPrc+Pss+Msc+Pl+Voc+Def: dalītie
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Nom+Indef: dalīta
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Gen+Indef: dalītas
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Dat+Indef: dalītai
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Acc+Indef: dalītu
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Loc+Indef: dalītā
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Nom+Indef: dalītas
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Gen+Indef: dalītu
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Dat+Indef: dalītām
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Acc+Indef: dalītas
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Loc+Indef: dalītās
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Nom+Def: dalītā
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Gen+Def: dalītās
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Dat+Def: dalītajai
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Acc+Def: dalīto
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Loc+Def: dalītajā
+     dalīt+V+TV+PrfPrc+Pss+Fem+Sg+Voc+Def: dalītā
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Nom+Def: dalītās
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Gen+Def: dalīto
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Dat+Def: dalītajām
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Acc+Def: dalītās
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Loc+Def: dalītajās
+     dalīt+V+TV+PrfPrc+Pss+Fem+Pl+Voc+Def: dalītās
+#"Declension":"4"
+     dalīt+V+TV+Der/šana+N+Fem+Sg+Nom: dalīšana
+     dalīt+V+TV+Der/šana+N+Fem+Sg+Gen: dalīšanas
+     dalīt+V+TV+Der/šana+N+Fem+Sg+Dat: dalīšanai
+     dalīt+V+TV+Der/šana+N+Fem+Sg+Acc: dalīšanu
+     dalīt+V+TV+Der/šana+N+Fem+Sg+Loc: dalīšanā
+     dalīt+V+TV+Der/šana+N+Fem+Sg+Voc: dalīšana
+     dalīt+V+TV+Der/šana+N+Fem+Pl+Nom: dalīšanas
+     dalīt+V+TV+Der/šana+N+Fem+Pl+Gen: dalīšanu
+     dalīt+V+TV+Der/šana+N+Fem+Pl+Dat: dalīšanām
+     dalīt+V+TV+Der/šana+N+Fem+Pl+Acc: dalīšanas
+     dalīt+V+TV+Der/šana+N+Fem+Pl+Loc: dalīšanās
+     dalīt+V+TV+Der/šana+N+Fem+Pl+Voc: dalīšanas
+     dalīt+V+TV+PrsPrc+Act+Pred2+Msc+Sg+Nom+Indef: dalīdams
+     dalīt+V+TV+PrsPrc+Act+Pred2+Fem+Sg+Nom+Indef: dalīdama
+     dalīt+V+TV+PrsPrc+Act+Pred2+Msc+Pl+Nom+Indef: dalīdami
+     dalīt+V+TV+PrsPrc+Act+Pred2+Fem+Pl+Nom+Indef: dalīdamas
+
+#     dalīt+V+TV+Der/Adv+Adv+Pos: rokoši
+
+
+#     dalīt+V+TV+Der/iens+N+Msc+Sg+Nom: raciens
+#     dalīt+V+TV+Der/iens+N+Msc+Sg+Gen: raciena
+#     dalīt+V+TV+Der/iens+N+Msc+Sg+Dat: racienam
+#     dalīt+V+TV+Der/iens+N+Msc+Sg+Acc: racienu
+#     dalīt+V+TV+Der/iens+N+Msc+Sg+Loc: racienā
+#     dalīt+V+TV+Der/iens+N+Msc+Sg+Voc: [raciens, racien]
+#     dalīt+V+TV+Der/iens+N+Msc+Pl+Nom: racieni
+#     dalīt+V+TV+Der/iens+N+Msc+Pl+Gen: racienu
+#     dalīt+V+TV+Der/iens+N+Msc+Pl+Dat: racieniem
+#     dalīt+V+TV+Der/iens+N+Msc+Pl+Acc: racienus
+#     dalīt+V+TV+Der/iens+N+Msc+Pl+Loc: racienos
+#     dalīt+V+TV+Der/iens+N+Msc+Pl+Voc: racieni
+
+     dalīt+V+TV+PrsPrc+Act+Pred2: dalot
+     dalīt+V+TV+PrsPrc+Pss+Pred2: dalām
+     dalīt+V+TV+Cond: dalītu
+     dalīt+V+TV+Deb+Quo: jādalot

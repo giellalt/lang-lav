@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+datadir=@datarootdir@
+gtlang=lav
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-lav
+Description: Finite-state language processing tools for Latvian
+URL: http://giellatekno.uit.no/doc/index.html
+Version: @VERSION@
