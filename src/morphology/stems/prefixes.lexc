@@ -1,0 +1,11 @@
+!! Prefixes
+!! --------
+!! Prefixes in the LATVIAN language are bound to beginning of other words.
+
+LEXICON Prefixes
+0000@U.SUPERL.ON@:vis%<@U.SUPERL.ON@   adjectives  ;
+000@U.DEB.ON@:jā%<@U.DEB.ON@   verbs   ;
+
+
+
+! vim: set ft=xfst-lexc:

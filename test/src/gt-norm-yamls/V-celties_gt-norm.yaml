@@ -1,0 +1,261 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - celties: # Verb 'eng bring/fin tuoda' - _STUMT_ full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/celties/
+     celties+V+TV+Refl+Inf: celties
+     celties+V+TV+Refl+Ind+Act+Fut+Sg1: celšos
+     celties+V+TV+Refl+Ind+Act+Fut+Sg2: celsies
+     celties+V+TV+Refl+Ind+Act+Fut+Pl1: celsimies
+     celties+V+TV+Refl+Ind+Act+Fut+Pl2: [celsieties, celsities]
+     celties+V+TV+Refl+Ind+Act+Fut+SP3: celsies
+
+     celties+V+TV+Refl+Ind+Act+Prs+Sg1: ceļos
+     celties+V+TV+Refl+Ind+Act+Prs+Sg2: ceļies
+     celties+V+TV+Refl+Ind+Act+Prs+Pl1: ceļamies
+     celties+V+TV+Refl+Ind+Act+Prs+Pl2: ceļaties
+     celties+V+TV+Refl+Ind+Act+Prs+SP3: ceļas
+
+     celties+V+TV+Refl+Ind+Act+Prt+Sg1: cēlos
+     celties+V+TV+Refl+Ind+Act+Prt+Sg2: cēlies
+     celties+V+TV+Refl+Ind+Act+Prt+Pl1: cēlāmies
+     celties+V+TV+Refl+Ind+Act+Prt+Pl2: cēlāties
+     celties+V+TV+Refl+Ind+Act+Prt+SP3: cēlās
+
+     celties+V+TV+Refl+Deb+Prs: jāceļas
+     celties+V+TV+Refl+Quo+Prs: ceļoties
+     celties+V+TV+Refl+Quo+Fut: celšot
+     celties+V+TV+Refl+Imprt+Sg2: celies
+     celties+V+TV+Refl+Imprt+Pl2: celieties
+
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Nom+Indef: ceļošs
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Gen+Indef: ceļoša
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Dat+Indef: ceļošam
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Acc+Indef: ceļošu
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Loc+Indef: ceļošā
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Nom+Indef: ceļoši
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Gen+Indef: ceļošu
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Dat+Indef: ceļošiem
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Acc+Indef: ceļošus
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Loc+Indef: ceļošos
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Nom+Def: ceļošais
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Gen+Def: ceļošā
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Dat+Def: ceļošajam
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Acc+Def: ceļošo
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Loc+Def: ceļošajā
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Sg+Voc+Def: [ceļošais, ceļošo]
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Nom+Def: ceļošie
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Gen+Def: ceļošo
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Dat+Def: ceļošajiem
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Acc+Def: ceļošos
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Loc+Def: ceļošajos
+#     celties+V+TV+Refl+PrsPrc+Act+Msc+Pl+Voc+Def: ceļošie
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Nom+Indef: ceļoša
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Gen+Indef: ceļošas
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Dat+Indef: ceļošai
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Acc+Indef: ceļošu
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Loc+Indef: ceļošā
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Nom+Indef: ceļošas
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Gen+Indef: ceļošu
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Dat+Indef: ceļošām
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Acc+Indef: ceļošas
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Loc+Indef: ceļošās
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Nom+Def: ceļošā
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Gen+Def: ceļošās
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Dat+Def: ceļošajai
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Acc+Def: ceļošo
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Loc+Def: ceļošajā
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Sg+Voc+Def: ceļošā
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Nom+Def: ceļošās
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Gen+Def: ceļošo
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Dat+Def: ceļošajām
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Acc+Def: ceļošās
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Loc+Def: ceļošajās
+#     celties+V+TV+Refl+PrsPrc+Act+Fem+Pl+Voc+Def: ceļošās
+
+     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Nom+Indef: cēlies
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Gen+Indef: cēluša
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Dat+Indef: cēlušam
+     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Acc+Indef: cēlušos
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Loc+Indef: cēlušā
+     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Nom+Indef: cēlušies
+     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Gen+Indef: cēlušos
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Dat+Indef: cēlušiem
+     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Acc+Indef: cēlušos
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Loc+Indef: cēlušos
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Nom+Def: cēlušais
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Gen+Def: cēlušā
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Dat+Def: cēlušajam
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Acc+Def: cēlušo
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Loc+Def: cēlušajā
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Sg+Voc+Def: cēlušais
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Nom+Def: cēlušie
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Gen+Def: cēlušo
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Dat+Def: cēlušajiem
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Acc+Def: cēlušos
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Loc+Def: cēlušajos
+#     celties+V+TV+Refl+PrfPrc+Act+Msc+Pl+Voc+Def: cēlušie
+     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Nom+Indef: cēlusies
+     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Gen+Indef: cēlušās
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Dat+Indef: cēlušai
+     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Acc+Indef: cēlušos
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Loc+Indef: cēlušā
+     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Nom+Indef: cēlušās
+     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Gen+Indef: cēlušos
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Dat+Indef: cēlušām
+     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Acc+Indef: cēlušos
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Loc+Indef: cēlušās
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Nom+Def: cēlusī
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Gen+Def: cēlušās
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Dat+Def: cēlušajai
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Acc+Def: cēlušo
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Loc+Def: cēlušajā
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Sg+Voc+Def: cēlusī
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Nom+Def: cēlušās
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Gen+Def: cēlušo
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Dat+Def: cēlušajām
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Acc+Def: cēlušās
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Loc+Def: cēlušajās
+#     celties+V+TV+Refl+PrfPrc+Act+Fem+Pl+Voc+Def: cēlušās
+
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Nom+Indef: ceļams
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Gen+Indef: ceļama
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Dat+Indef: ceļamam
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Acc+Indef: ceļamu
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Loc+Indef: ceļamā
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Nom+Indef: ceļami
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Gen+Indef: ceļamu
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Dat+Indef: ceļamiem
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Acc+Indef: ceļamus
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Loc+Indef: ceļamos
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Nom+Def: ceļamais
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Gen+Def: ceļamā
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Dat+Def: ceļamajam
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Acc+Def: ceļamo
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Loc+Def: ceļamajā
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Sg+Voc+Def: [ceļamais, ceļamo]
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Nom+Def: ceļamie
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Gen+Def: ceļamo
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Dat+Def: ceļamajiem
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Acc+Def: ceļamos
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Loc+Def: ceļamajos
+#     celties+V+TV+Refl+PrsPrc+Pss+Msc+Pl+Voc+Def: ceļamie
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Nom+Indef: ceļama
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Gen+Indef: ceļamas
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Dat+Indef: ceļamai
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Acc+Indef: ceļamu
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Loc+Indef: ceļamā
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Nom+Indef: ceļamas
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Gen+Indef: ceļamu
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Dat+Indef: ceļamām
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Acc+Indef: ceļamas
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Loc+Indef: ceļamās
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Nom+Def: ceļamā
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Gen+Def: ceļamās
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Dat+Def: ceļamajai
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Acc+Def: ceļamo
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Loc+Def: ceļamajā
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Sg+Voc+Def: ceļamā
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Nom+Def: ceļamās
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Gen+Def: ceļamo
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Dat+Def: ceļamajām
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Acc+Def: ceļamās
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Loc+Def: ceļamajās
+#     celties+V+TV+Refl+PrsPrc+Pss+Fem+Pl+Voc+Def: ceļamās
+
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Nom+Indef: celtiess
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Gen+Indef: celtiesa
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Dat+Indef: celtiesam
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Acc+Indef: celtiesu
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Loc+Indef: celtiesā
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Nom+Indef: celtiesi
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Gen+Indef: celtiesu
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Dat+Indef: celtiesiem
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Acc+Indef: celtiesus
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Loc+Indef: celtiesos
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Nom+Def: celtiesais
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Gen+Def: celtiesā
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Dat+Def: celtiesajam
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Acc+Def: celtieso
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Loc+Def: celtiesajā
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Sg+Voc+Def: celtiesais
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Nom+Def: celtiesie
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Gen+Def: celtieso
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Dat+Def: celtiesajiem
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Acc+Def: celtiesos
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Loc+Def: celtiesajos
+#     celties+V+TV+Refl+PrfPrc+Pss+Msc+Pl+Voc+Def: celtiesie
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Nom+Indef: celtiesa
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Gen+Indef: celtiesas
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Dat+Indef: celtiesai
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Acc+Indef: celtiesu
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Loc+Indef: celtiesā
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Nom+Indef: celtiesas
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Gen+Indef: celtiesu
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Dat+Indef: celtiesām
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Acc+Indef: celtiesas
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Loc+Indef: celtiesās
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Nom+Def: celtiesā
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Gen+Def: celtiesās
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Dat+Def: celtiesajai
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Acc+Def: celtieso
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Loc+Def: celtiesajā
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Sg+Voc+Def: celtiesā
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Nom+Def: celtiesās
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Gen+Def: celtieso
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Dat+Def: celtiesajām
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Acc+Def: celtiesās
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Loc+Def: celtiesajās
+#     celties+V+TV+Refl+PrfPrc+Pss+Fem+Pl+Voc+Def: celtiesās
+#"Declension":"4"
+     celties+V+TV+Refl+Der/šana+N+Fem+Sg+Nom: celšanās
+     celties+V+TV+Refl+Der/šana+N+Fem+Sg+Gen: celšanās
+#     celties+V+TV+Refl+Der/šana+N+Fem+Sg+Dat: celšanai
+     celties+V+TV+Refl+Der/šana+N+Fem+Sg+Acc: celšanos
+     celties+V+TV+Refl+Der/šana+N+Fem+Sg+Loc: celšanā
+     celties+V+TV+Refl+Der/šana+N+Fem+Sg+Voc: celšana
+     celties+V+TV+Refl+Der/šana+N+Fem+Pl+Nom: celšanās
+     celties+V+TV+Refl+Der/šana+N+Fem+Pl+Gen: celšanos
+#     celties+V+TV+Refl+Der/šana+N+Fem+Pl+Dat: celšanām
+#     celties+V+TV+Refl+Der/šana+N+Fem+Pl+Acc: celšanās
+#     celties+V+TV+Refl+Der/šana+N+Fem+Pl+Loc: celšanās
+#     celties+V+TV+Refl+Der/šana+N+Fem+Pl+Voc: celšanas
+     celties+V+TV+Refl+PrsPrc+Act+Pred2+Msc+Sg+Nom+Indef: cēldamiess
+     celties+V+TV+Refl+PrsPrc+Act+Pred2+Fem+Sg+Nom+Indef: cēldamās
+#     celties+V+TV+Refl+PrsPrc+Act+Pred2+Msc+Pl+Nom+Indef: cēldami
+#     celties+V+TV+Refl+PrsPrc+Act+Pred2+Fem+Pl+Nom+Indef: cēldamas
+
+#     celties+V+TV+Refl+Der/Adv+Adv+Pos: rokoši
+
+
+#     celties+V+TV+Refl+Der/iens+N+Msc+Sg+Nom: cēliens
+#     celties+V+TV+Refl+Der/iens+N+Msc+Sg+Gen: cēliena
+#     celties+V+TV+Refl+Der/iens+N+Msc+Sg+Dat: cēlienam
+#     celties+V+TV+Refl+Der/iens+N+Msc+Sg+Acc: cēlienu
+#     celties+V+TV+Refl+Der/iens+N+Msc+Sg+Loc: cēlienā
+#     celties+V+TV+Refl+Der/iens+N+Msc+Sg+Voc: [cēliens, cēlien]
+#     celties+V+TV+Refl+Der/iens+N+Msc+Pl+Nom: cēlieni
+#     celties+V+TV+Refl+Der/iens+N+Msc+Pl+Gen: cēlienu
+#     celties+V+TV+Refl+Der/iens+N+Msc+Pl+Dat: cēlieniem
+#     celties+V+TV+Refl+Der/iens+N+Msc+Pl+Acc: cēlienus
+#     celties+V+TV+Refl+Der/iens+N+Msc+Pl+Loc: cēlienos
+#     celties+V+TV+Refl+Der/iens+N+Msc+Pl+Voc: cēlieni
+
+     celties+V+TV+Refl+PrsPrc+Act+Pred2: ceļoties
+     celties+V+TV+Refl+PrsPrc+Pss+Pred2: ceļamies
+     celties+V+TV+Refl+Cond: celtos
+     celties+V+TV+Refl+Deb+Quo: jāceļoties

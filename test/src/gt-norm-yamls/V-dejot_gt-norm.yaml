@@ -1,0 +1,261 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - dejot: # Verb 'eng dance/fin tanssia' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/dejot/
+     dejot+V+TV+Inf: dejot
+     dejot+V+TV+Ind+Fut+Sg1: dejošu
+     dejot+V+TV+Ind+Fut+Sg2: dejosi
+     dejot+V+TV+Ind+Fut+Pl1: dejosim
+     dejot+V+TV+Ind+Fut+Pl2: dejosiet
+     dejot+V+TV+Ind+Fut+SP3: dejos
+
+     dejot+V+TV+Ind+Prs+Sg1: dejoju
+     dejot+V+TV+Ind+Prs+Sg2: dejo
+     dejot+V+TV+Ind+Prs+Pl1: dejojam
+     dejot+V+TV+Ind+Prs+Pl2: dejojat
+     dejot+V+TV+Ind+Prs+SP3: dejo
+
+     dejot+V+TV+Ind+Act+Prt+Sg1: dejoju
+     dejot+V+TV+Ind+Act+Prt+Sg2: dejoji
+     dejot+V+TV+Ind+Act+Prt+Pl1: dejojām
+     dejot+V+TV+Ind+Act+Prt+Pl2: dejojāt
+     dejot+V+TV+Ind+Act+Prt+SP3: dejoja
+
+     dejot+V+TV+Deb+Prs: jādejo
+     dejot+V+TV+Quo+Prs: dejojot
+     dejot+V+TV+Quo+Fut: dejošot
+     dejot+V+TV+Imprt+Sg2: dejo
+     dejot+V+TV+Imprt+Pl2: dejojiet
+
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Nom+Indef: dejojošs
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Gen+Indef: dejojoša
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Dat+Indef: dejojošam
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Acc+Indef: dejojošu
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Loc+Indef: dejojošā
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Nom+Indef: dejojoši
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Gen+Indef: dejojošu
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Dat+Indef: dejojošiem
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Acc+Indef: dejojošus
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Loc+Indef: dejojošos
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Nom+Def: dejojošais
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Gen+Def: dejojošā
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Dat+Def: dejojošajam
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Acc+Def: dejojošo
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Loc+Def: dejojošajā
+     dejot+V+TV+PrsPrc+Act+Msc+Sg+Voc+Def: [dejojošais, dejojošo]
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Nom+Def: dejojošie
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Gen+Def: dejojošo
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Dat+Def: dejojošajiem
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Acc+Def: dejojošos
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Loc+Def: dejojošajos
+     dejot+V+TV+PrsPrc+Act+Msc+Pl+Voc+Def: dejojošie
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Nom+Indef: dejojoša
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Gen+Indef: dejojošas
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Dat+Indef: dejojošai
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Acc+Indef: dejojošu
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Loc+Indef: dejojošā
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Nom+Indef: dejojošas
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Gen+Indef: dejojošu
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Dat+Indef: dejojošām
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Acc+Indef: dejojošas
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Loc+Indef: dejojošās
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Nom+Def: dejojošā
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Gen+Def: dejojošās
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Dat+Def: dejojošajai
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Acc+Def: dejojošo
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Loc+Def: dejojošajā
+     dejot+V+TV+PrsPrc+Act+Fem+Sg+Voc+Def: dejojošā
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Nom+Def: dejojošās
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Gen+Def: dejojošo
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Dat+Def: dejojošajām
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Acc+Def: dejojošās
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Loc+Def: dejojošajās
+     dejot+V+TV+PrsPrc+Act+Fem+Pl+Voc+Def: dejojošās
+
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Nom+Indef: dejojis
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Gen+Indef: dejojuša
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Dat+Indef: dejojušam
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Acc+Indef: dejojušu
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Loc+Indef: dejojušā
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Nom+Indef: dejojuši
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Gen+Indef: dejojušu
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Dat+Indef: dejojušiem
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Acc+Indef: dejojušus
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Loc+Indef: dejojušos
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Nom+Def: dejojušais
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Gen+Def: dejojušā
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Dat+Def: dejojušajam
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Acc+Def: dejojušo
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Loc+Def: dejojušajā
+     dejot+V+TV+PrfPrc+Act+Msc+Sg+Voc+Def: dejojušais
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Nom+Def: dejojušie
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Gen+Def: dejojušo
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Dat+Def: dejojušajiem
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Acc+Def: dejojušos
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Loc+Def: dejojušajos
+     dejot+V+TV+PrfPrc+Act+Msc+Pl+Voc+Def: dejojušie
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Nom+Indef: dejojusi
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Gen+Indef: dejojušas
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Dat+Indef: dejojušai
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Acc+Indef: dejojušu
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Loc+Indef: dejojušā
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Nom+Indef: dejojušas
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Gen+Indef: dejojušu
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Dat+Indef: dejojušām
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Acc+Indef: dejojušas
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Loc+Indef: dejojušās
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Nom+Def: dejojusī
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Gen+Def: dejojušās
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Dat+Def: dejojušajai
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Acc+Def: dejojušo
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Loc+Def: dejojušajā
+     dejot+V+TV+PrfPrc+Act+Fem+Sg+Voc+Def: dejojusī
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Nom+Def: dejojušās
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Gen+Def: dejojušo
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Dat+Def: dejojušajām
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Acc+Def: dejojušās
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Loc+Def: dejojušajās
+     dejot+V+TV+PrfPrc+Act+Fem+Pl+Voc+Def: dejojušās
+
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Nom+Indef: dejojams
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Gen+Indef: dejojama
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Dat+Indef: dejojamam
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Acc+Indef: dejojamu
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Loc+Indef: dejojamā
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Nom+Indef: dejojami
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Gen+Indef: dejojamu
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Dat+Indef: dejojamiem
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Acc+Indef: dejojamus
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Loc+Indef: dejojamos
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Nom+Def: dejojamais
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Gen+Def: dejojamā
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Dat+Def: dejojamajam
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Acc+Def: dejojamo
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Loc+Def: dejojamajā
+     dejot+V+TV+PrsPrc+Pss+Msc+Sg+Voc+Def: [dejojamais, dejojamo]
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Nom+Def: dejojamie
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Gen+Def: dejojamo
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Dat+Def: dejojamajiem
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Acc+Def: dejojamos
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Loc+Def: dejojamajos
+     dejot+V+TV+PrsPrc+Pss+Msc+Pl+Voc+Def: dejojamie
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Nom+Indef: dejojama
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Gen+Indef: dejojamas
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Dat+Indef: dejojamai
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Acc+Indef: dejojamu
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Loc+Indef: dejojamā
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Nom+Indef: dejojamas
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Gen+Indef: dejojamu
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Dat+Indef: dejojamām
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Acc+Indef: dejojamas
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Loc+Indef: dejojamās
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Nom+Def: dejojamā
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Gen+Def: dejojamās
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Dat+Def: dejojamajai
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Acc+Def: dejojamo
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Loc+Def: dejojamajā
+     dejot+V+TV+PrsPrc+Pss+Fem+Sg+Voc+Def: dejojamā
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Nom+Def: dejojamās
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Gen+Def: dejojamo
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Dat+Def: dejojamajām
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Acc+Def: dejojamās
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Loc+Def: dejojamajās
+     dejot+V+TV+PrsPrc+Pss+Fem+Pl+Voc+Def: dejojamās
+
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Nom+Indef: dejots
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Gen+Indef: dejota
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Dat+Indef: dejotam
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Acc+Indef: dejotu
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Loc+Indef: dejotā
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Nom+Indef: dejoti
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Gen+Indef: dejotu
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Dat+Indef: dejotiem
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Acc+Indef: dejotus
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Loc+Indef: dejotos
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Nom+Def: dejotais
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Gen+Def: dejotā
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Dat+Def: dejotajam
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Acc+Def: dejoto
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Loc+Def: dejotajā
+     dejot+V+TV+PrfPrc+Pss+Msc+Sg+Voc+Def: [dejotais, dejoto]
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Nom+Def: dejotie
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Gen+Def: dejoto
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Dat+Def: dejotajiem
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Acc+Def: dejotos
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Loc+Def: dejotajos
+     dejot+V+TV+PrfPrc+Pss+Msc+Pl+Voc+Def: dejotie
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Nom+Indef: dejota
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Gen+Indef: dejotas
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Dat+Indef: dejotai
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Acc+Indef: dejotu
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Loc+Indef: dejotā
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Nom+Indef: dejotas
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Gen+Indef: dejotu
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Dat+Indef: dejotām
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Acc+Indef: dejotas
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Loc+Indef: dejotās
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Nom+Def: dejotā
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Gen+Def: dejotās
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Dat+Def: dejotajai
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Acc+Def: dejoto
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Loc+Def: dejotajā
+     dejot+V+TV+PrfPrc+Pss+Fem+Sg+Voc+Def: dejotā
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Nom+Def: dejotās
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Gen+Def: dejoto
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Dat+Def: dejotajām
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Acc+Def: dejotās
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Loc+Def: dejotajās
+     dejot+V+TV+PrfPrc+Pss+Fem+Pl+Voc+Def: dejotās
+#"Declension":"4"
+     dejot+V+TV+Der/šana+N+Fem+Sg+Nom: dejošana
+     dejot+V+TV+Der/šana+N+Fem+Sg+Gen: dejošanas
+     dejot+V+TV+Der/šana+N+Fem+Sg+Dat: dejošanai
+     dejot+V+TV+Der/šana+N+Fem+Sg+Acc: dejošanu
+     dejot+V+TV+Der/šana+N+Fem+Sg+Loc: dejošanā
+     dejot+V+TV+Der/šana+N+Fem+Sg+Voc: dejošana
+     dejot+V+TV+Der/šana+N+Fem+Pl+Nom: dejošanas
+     dejot+V+TV+Der/šana+N+Fem+Pl+Gen: dejošanu
+     dejot+V+TV+Der/šana+N+Fem+Pl+Dat: dejošanām
+     dejot+V+TV+Der/šana+N+Fem+Pl+Acc: dejošanas
+     dejot+V+TV+Der/šana+N+Fem+Pl+Loc: dejošanās
+     dejot+V+TV+Der/šana+N+Fem+Pl+Voc: dejošanas
+     dejot+V+TV+PrsPrc+Act+Pred2+Msc+Sg+Nom+Indef: dejodams
+     dejot+V+TV+PrsPrc+Act+Pred2+Fem+Sg+Nom+Indef: dejodama
+     dejot+V+TV+PrsPrc+Act+Pred2+Msc+Pl+Nom+Indef: dejodami
+     dejot+V+TV+PrsPrc+Act+Pred2+Fem+Pl+Nom+Indef: dejodamas
+
+#     dejot+V+TV+Der/Adv+Adv+Pos: rokoši
+
+
+#     dejot+V+TV+Der/iens+N+Msc+Sg+Nom: raciens
+#     dejot+V+TV+Der/iens+N+Msc+Sg+Gen: raciena
+#     dejot+V+TV+Der/iens+N+Msc+Sg+Dat: racienam
+#     dejot+V+TV+Der/iens+N+Msc+Sg+Acc: racienu
+#     dejot+V+TV+Der/iens+N+Msc+Sg+Loc: racienā
+#     dejot+V+TV+Der/iens+N+Msc+Sg+Voc: [raciens, racien]
+#     dejot+V+TV+Der/iens+N+Msc+Pl+Nom: racieni
+#     dejot+V+TV+Der/iens+N+Msc+Pl+Gen: racienu
+#     dejot+V+TV+Der/iens+N+Msc+Pl+Dat: racieniem
+#     dejot+V+TV+Der/iens+N+Msc+Pl+Acc: racienus
+#     dejot+V+TV+Der/iens+N+Msc+Pl+Loc: racienos
+#     dejot+V+TV+Der/iens+N+Msc+Pl+Voc: racieni
+
+     dejot+V+TV+PrsPrc+Act+Pred2: dejojot
+     dejot+V+TV+PrsPrc+Pss+Pred2: dejojam
+     dejot+V+TV+Cond: dejotu
+     dejot+V+TV+Deb+Quo: jādejojot

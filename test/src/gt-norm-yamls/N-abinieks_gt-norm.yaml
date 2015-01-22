@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - abinieks: # Noun 'eng amphibian /fin sammakkoeläin' - full paradigm /http://ezis.ailab.lv:8182/inflect/json/en/abinieks/ declension_1
+     abinieks+N+Msc+Sg+Nom: abinieks
+     abinieks+N+Msc+Sg+Gen: abinieka
+     abinieks+N+Msc+Sg+Dat: abiniekam
+     abinieks+N+Msc+Sg+Acc: abinieku
+     abinieks+N+Msc+Sg+Loc: abiniekā
+     abinieks+N+Msc+Sg+Voc: abiniek
+     abinieks+N+Msc+Pl+Nom: abinieki
+     abinieks+N+Msc+Pl+Gen: abinieku
+     abinieks+N+Msc+Pl+Dat: abiniekiem
+     abinieks+N+Msc+Pl+Acc: abiniekus
+     abinieks+N+Msc+Pl+Loc: abiniekos
+     abinieks+N+Msc+Pl+Voc: abinieki

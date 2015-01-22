@@ -1,0 +1,71 @@
+
+           !!!Latvian morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Latvian LANGUAGE.
+
+
+ !!!Multichar_Symbols definitions
+
+ * __+WORK__ Underdeveloped
+!!Analysis symbols
+----------------
+The morphological analyses of wordforms of UNDEFINED language are presented
+in this system in terms of following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+The parts-of-speech are:
+
+The parts of speech are further split up into:
+
+The Usage extents are marked using following tags:
+
+The nominals are inflected in the following Case and Number
+
+The possession is marked as such:
+The comparative forms are:
+ * __+Pos__ positive grade 
+ * __+Comp__ comparative grade
+ * __+Superl__ superlative grade
+Numerals are classified under:
+Verb moods are:
+Verb personal forms are:
+Other verb forms are
+
+Special symbols are classified with:
+The verbs are syntactically split according to transitivity:
+Special multiword units are analysed with:
+Non-dictionary words can be recognised with:
+
+Question and Focus particles:
+
+
+Semantics are classified with
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+
+Morphophonology
+---------------
+To represent phonologic variations in word forms we use the following
+symbols in the lexicon files:
+
+And following triggers to control variation
+ * __%^RVow__ raise vowel rakt:roc
+ * __%^VowRM__ vowel removal redzēt:redzu
+ * __%^VowL__ vowel lengthening celt:cēlu
+ * __%^K2C__ rakt:roc
+ * __%^JPal__ sakne:sakņu
+ * __%^SP3 	__ stum%^JPal%^SP3:stumj0 
+
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics:
+
+ * __@U.DEB.ON@__ This is for debitive in verbs
+ * __@U.DEB.OFF@__ This is for debitive in verbs
+ * __@U.SUPERL.OFF@__ This is for superlative in adjectives
+ * __@U.SUPERL.ON@__ This is for superlative in adjectives
+
+
+The word forms in the LATVIAN language start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+
