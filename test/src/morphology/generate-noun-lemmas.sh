@@ -7,9 +7,17 @@
 # - an exit status of 99 a hard error
 # - any other exit status will denote a failure.
 
+# To run this test script only, do:
+#
+# make check TESTS=generate-noun-lemmas.sh
 
-# Test that all noun lemmas do generate as themselves:
-
+# This test script will test that all noun lemmas do generate as themselves.
+# Extend as needed, and copy to new files to adapt to other parts of speech.
+# The changes usually needed are:
+#
+# 1. change the reference to the source file (line 23)
+# 2. extend the extract lemmas egrep expression (lines 53 ff)
+# 3. adapt the tag addition and lemma generation instructions (lines 79 ff)
 
 ###### Variables: #######
 sourcefile=${srcdir}/../../../src/morphology/stems/nouns.lexc
@@ -30,7 +38,7 @@ fi
 # Use autotools mechanisms to only run the configured fst types in the tests:
 fsttype=
 fsttype="$fsttype hfst"
-fsttype="$fsttype xfst"
+#fsttype="$fsttype xfst"
 
 # Exit if both hfst and xerox have been shut off:
 if test -z "$fsttype" ; then
@@ -42,8 +50,9 @@ fi
 # Get external Mac editor for viewing failed results from configure:
 EXTEDITOR=/usr/bin/see
 
-###### Extraction: #######
-/Users/rueter/main/gtcore/scripts/extract-lemmas.sh \
+##### Extract lemmas - extend the egrep exclude pattern in the #####
+##### parenthesis as needed to exclude unwanted lexc lines:    #####
+/home/rueter/main/gtcore/scripts/extract-lemmas.sh \
 	$sourcefile "(CmpN/Last)" > $lemmas
 
 ###### Start testing: #######
@@ -53,16 +62,18 @@ Fail=0
 # The script tests both Xerox and Hfst transducers if available:
 for f in $fsttype; do
 	if [ $f == "xfst" ]; then
-		lookuptool="/Users/rueter/bin/lookup -q -flags mbTT"
+		lookuptool="false -q -flags mbTT"
+		suffix="xfst"
 	elif [ $f == "hfst" ]; then
 		lookuptool="/usr/local/bin/hfst-lookup -q"
+		suffix="hfstol"
 	else
 	    Fail=1
 		printf "ERROR: Unknown fst type! "
 	    echo "$f - FAIL"
 	    continue
 	fi
-	if [ -f "$generatorfile.$f" ]; then
+	if [ -f "$generatorfile.$suffix" ]; then
 		let "transducer_found += 1"
 
 ###### Test non-compounds: #######
@@ -79,7 +90,7 @@ for f in $fsttype; do
 		    for number in +Sg +Pl ; do
 			for grammcase in +Nom ; do
 			    sed 's/$/+N'$gender$number$grammcase'/' $failedlemmas.$f.txt \
-				| $lookuptool $generatorfile.$f \
+				| $lookuptool $generatorfile.$suffix \
 				| cut -f2 > $generatedlemmas.$f.tmp.txt
 			    fgrep -v "+N+" $generatedlemmas.$f.tmp.txt | grep -v "^$" \
 				| sort -u >> $generatedlemmas.$f.txt
@@ -89,7 +100,7 @@ for f in $fsttype; do
 		    done
 		done
 		sed 's/$/+N+MFN+Pl+Gen/' $failedlemmas.$f.txt \
-			| $lookuptool $generatorfile.$f \
+			| $lookuptool $generatorfile.$suffix \
 			| cut -f2 > $generatedlemmas.$f.tmp.txt
 		fgrep -v "+N+" $generatedlemmas.$f.tmp.txt | grep -v "^$" \
 			| sort -u >> $generatedlemmas.$f.txt
@@ -104,8 +115,7 @@ for f in $fsttype; do
 		comm -23 ./strippednouns.txt $generatedlemmas.$f.txt | sort \
 		> $resultfile.$f.txt
 
-		# if at least one word is found, the test failed, and the list of failed
-		# lemmas is opened in SubEthaEdit:
+		# Open the diff file in SubEthaEdit (if there is a diff):
 		if [ -s $resultfile.$f.txt ]; then
 			# Only open the failed lemmas in see if /usr/bin/see is defined:
 			if [ "$EXTEDITOR" ]; then
