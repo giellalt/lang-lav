@@ -4,40 +4,40 @@
 !! nouns, but with a colon (':') as separator.
 
 LEXICON PROP-PLC-MSC-1_1
-+N+Prop+Plc: NMN_1_ ;
++N+Prop+Sem/Plc: NMN_1_ ;
 
 LEXICON PROP-PLC-MSC-2_1
-+N+Prop+Plc: NMN_2_ ;
++N+Prop+Sem/Plc: NMN_2_ ;
 
 LEXICON PROP-PLC-MSC-3_2
-+N+Prop+Plc: NMN_3_ ;
++N+Prop+Sem/Plc: NMN_3_ ;
 
 LEXICON PROP-PLC-MSC-4_2
-+N+Prop+Plc: NMN_4_ ;
++N+Prop+Sem/Plc: NMN_4_ ;
 
 LEXICON PROP-PLC-MSC-5_2
-+N+Prop+Plc: NMN_5_ ;
++N+Prop+Sem/Plc: NMN_5_ ;
 
 LEXICON PROP-PLC-MSC-6_3
-+N+Prop+Plc: NMN_6_ ;
++N+Prop+Sem/Plc: NMN_6_ ;
 
 LEXICON PROP-PLC-FEM-7_4
-+N+Prop+Plc: NMN-FEM_7ROKA_ ;
++N+Prop+Sem/Plc: NMN-FEM_7ROKA_ ;
 
 LEXICON PROP-PLC-MSC-8_4
-+N+Prop+Plc: NMN-MSC_8PUIKA_ ;
++N+Prop+Sem/Plc: NMN-MSC_8PUIKA_ ;
 
 LEXICON PROP-PLC-FEM-9_5
-+N+Prop+Plc: NMN_9_ ;
++N+Prop+Sem/Plc: NMN_9_ ;
 
 LEXICON PROP-PLC-MSC-10_5
-+N+Prop+Plc: NMN_10_ ;
++N+Prop+Sem/Plc: NMN_10_ ;
 
 LEXICON PROP-PLC-FEM-11_6
-+N+Prop+Plc: NMN_11_ ;
++N+Prop+Sem/Plc: NMN_11_ ;
 
 LEXICON PROP-PLC--12_Nepiemīt
-+N+Prop+Plc: NMN_1_ ;
++N+Prop+Sem/Plc: NMN_1_ ;
 
 
 
