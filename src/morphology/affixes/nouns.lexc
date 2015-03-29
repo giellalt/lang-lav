@@ -112,7 +112,7 @@ LEXICON NMN-FEM_7ROKA_  !!= * __@CODE@__ roka:rok
 +Fem+Sg+Acc:u    #   ;
 +Fem+Sg+Loc:ā    #   ;
 +Fem+Sg+Voc:a    #   ;
-+Fem+Sg+Voc+Err/Sub:    #   ;
++Fem+Sg+Voc+Err/Orth:    #   ;
 +Fem+Pl+Nom:as     #   ;
 +Fem+Pl+Gen:u     #   ;
 +Fem+Pl+Dat:ām     #   ;
