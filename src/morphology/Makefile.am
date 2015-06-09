@@ -24,6 +24,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/nouns.lexc \
 			 affixes/verbs.lexc \
 			 affixes/propernouns.lexc \
+			 stems/punctuation.lexc   \
 			 stems/prefixes.lexc 
 #			 stems/numerals.lexc \
 #			 stems/prefixes.lexc \
