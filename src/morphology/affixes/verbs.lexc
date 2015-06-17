@@ -11,12 +11,12 @@ LEXICON TV_15_1-Nē_
 
 LEXICON V_15_
 @U.DEB.ON@:%^JPal@U.DEB.ON@ DEB ;
-+Ind+Act+Prs+SP3@U.DEB.OFF@:%^JPal%^SP3000@U.DEB.OFF@  # ;
-+Ind+Act+Prs+Sg2@U.DEB.OFF@:%^JPal%^K2C000@U.DEB.OFF@  # ;
-+Imprt+Sg2@U.DEB.OFF@:%^JPal%^K2C0@U.DEB.OFF@  # ;
-+Imprt+Pl2000@U.DEB.OFF@:%^JPal%^K2C%>iet@U.DEB.OFF@  # ;
-+Ind+Act+Prt+SP3@U.DEB.OFF@:%>a000@U.DEB.OFF@  # ;
-+PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^K2C%>is000@U.DEB.OFF@  # ;
++Ind+Act+Prs+SP3@U.DEB.OFF@:%^JPal%^SP3000@U.DEB.OFF@  K ;
++Ind+Act+Prs+Sg2@U.DEB.OFF@:%^JPal%^K2C000@U.DEB.OFF@  K ;
++Imprt+Sg2@U.DEB.OFF@:%^JPal%^K2C0@U.DEB.OFF@  K ;
++Imprt+Pl2000@U.DEB.OFF@:%^JPal%^K2C%>iet@U.DEB.OFF@  K ;
++Ind+Act+Prt+SP3@U.DEB.OFF@:%>a000@U.DEB.OFF@  K ;
++PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^K2C%>is000@U.DEB.OFF@  K ;
 +Der/iens0@U.DEB.OFF@:%^K2C%>ien@U.DEB.OFF@  N-MSC-1_1;
 00@U.DEB.OFF@:%^JPal0@U.DEB.OFF@  V_15_PRS-SG1-STEM ;
 @U.DEB.OFF@:@U.DEB.OFF@  V_15_PRT-SG1-STEM ;
@@ -28,12 +28,12 @@ LEXICON TV_15_RAKT
 +V+TV: V_15_RAKT ;
 LEXICON V_15_RAKT
 @U.DEB.ON@:%^RVow@U.DEB.ON@ DEB ;
-+Ind+Act+Prs+SP3@U.DEB.OFF@:%^RVow%^SP3000@U.DEB.OFF@  # ;
-+Ind+Act+Prs+Sg2@U.DEB.OFF@:%^RVow%^K2C000@U.DEB.OFF@  # ;
-+Imprt+Sg2@U.DEB.OFF@:%^RVow%^K2C0@U.DEB.OFF@  # ;
-+Imprt+Pl2000@U.DEB.OFF@:%^RVow%^K2C%>iet@U.DEB.OFF@  # ;
-+Ind+Act+Prt+SP3@U.DEB.OFF@:%>a000@U.DEB.OFF@  # ;
-+PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^K2C%>is000@U.DEB.OFF@  # ;
++Ind+Act+Prs+SP3@U.DEB.OFF@:%^RVow%^SP3000@U.DEB.OFF@  K ;
++Ind+Act+Prs+Sg2@U.DEB.OFF@:%^RVow%^K2C000@U.DEB.OFF@  K ;
++Imprt+Sg2@U.DEB.OFF@:%^RVow%^K2C0@U.DEB.OFF@  K ;
++Imprt+Pl2000@U.DEB.OFF@:%^RVow%^K2C%>iet@U.DEB.OFF@  K ;
++Ind+Act+Prt+SP3@U.DEB.OFF@:%>a000@U.DEB.OFF@  K ;
++PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^K2C%>is000@U.DEB.OFF@  K ;
 +Der/iens0@U.DEB.OFF@:%^K2C%>ien@U.DEB.OFF@  N-MSC-1_1;
 00@U.DEB.OFF@:%^RVow0@U.DEB.OFF@  V_15_PRS-SG1-STEM ;
 @U.DEB.OFF@:@U.DEB.OFF@  V_15_PRT-SG1-STEM ;
@@ -42,12 +42,12 @@ LEXICON V_15_RAKT
 
 LEXICON V_15_4_STUMT !!≈ * __@CODE@__ stumt:stum
 +V@U.DEB.ON@:%^JPal@U.DEB.ON@ DEB ;
-+V+Ind+Act+Prs+SP3@U.DEB.OFF@:%^JPal%^SP3000@U.DEB.OFF@  # ;
-+V+Ind+Act+Prt+SP3@U.DEB.OFF@:%^VowL%>a%^SP3000@U.DEB.OFF@  # ;
-+V+Ind+Act+Prs+Sg2@U.DEB.OFF@:%^JPal0000@U.DEB.OFF@  # ;
-+V+Imprt+Sg2@U.DEB.OFF@:000@U.DEB.OFF@  # ;
-+V+Imprt+Pl20@U.DEB.OFF@:%>iet@U.DEB.OFF@  # ;
-+V+PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^VowL%>is000@U.DEB.OFF@  # ;
++V+Ind+Act+Prs+SP3@U.DEB.OFF@:%^JPal%^SP3000@U.DEB.OFF@  K ;
++V+Ind+Act+Prt+SP3@U.DEB.OFF@:%^VowL%>a%^SP3000@U.DEB.OFF@  K ;
++V+Ind+Act+Prs+Sg2@U.DEB.OFF@:%^JPal0000@U.DEB.OFF@  K ;
++V+Imprt+Sg2@U.DEB.OFF@:000@U.DEB.OFF@  K ;
++V+Imprt+Pl20@U.DEB.OFF@:%>iet@U.DEB.OFF@  K ;
++V+PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^VowL%>is000@U.DEB.OFF@  K ;
 +V+Der/iens0@U.DEB.OFF@:%^VowL%>ien@U.DEB.OFF@  N-MSC-1_1;
 
 0@U.DEB.OFF@:%^JPal@U.DEB.OFF@  V_15_PRS-SG1-STEM ;
@@ -62,12 +62,12 @@ LEXICON TV_15_5_SALT
 
 LEXICON V_15_5_SALT !!≈ * __@CODE@__ salt:sal
 00@U.DEB.ON@:st@U.DEB.ON@ DEB ;
-+Ind+Act+Prs+SP3@U.DEB.OFF@:st000@U.DEB.OFF@  # ;
-+Ind+Act+Prs+Sg2@U.DEB.OFF@:sti00@U.DEB.OFF@  # ;
-+Imprt+Sg2@U.DEB.OFF@:sti@U.DEB.OFF@  # ;
-+Imprt+Pl2000@U.DEB.OFF@:st%>iet@U.DEB.OFF@  # ;
-+Ind+Act+Prt+SP3@U.DEB.OFF@:a0000@U.DEB.OFF@  # ;
-+PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^VowL%>is000@U.DEB.OFF@  # ;
++Ind+Act+Prs+SP3@U.DEB.OFF@:st000@U.DEB.OFF@  K ;
++Ind+Act+Prs+Sg2@U.DEB.OFF@:sti00@U.DEB.OFF@  K ;
++Imprt+Sg2@U.DEB.OFF@:sti@U.DEB.OFF@  K ;
++Imprt+Pl2000@U.DEB.OFF@:st%>iet@U.DEB.OFF@  K ;
++Ind+Act+Prt+SP3@U.DEB.OFF@:a0000@U.DEB.OFF@  K ;
++PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^VowL%>is000@U.DEB.OFF@  K ;
 +Der/iens0@U.DEB.OFF@:%^K2C%>ien@U.DEB.OFF@  N-MSC-1_1;
 
 00@U.DEB.OFF@:st@U.DEB.OFF@  V_15_PRS-SG1-STEM ;
@@ -76,46 +76,46 @@ LEXICON V_15_5_SALT !!≈ * __@CODE@__ salt:sal
 
 
 LEXICON V_15_FUT-SG1-STEM
-+Inf:%>t # ;
-+Ind+Act+Fut+Sg1:%>šu # ;
-+Ind+Act+Fut+Sg2:%>si # ;
-+Ind+Act+Fut+Pl1:%>sim # ;
-+Ind+Act+Fut+Pl2:%>siet # ;
-+Ind+Act+Fut+SP3:%>s # ;
++Inf:%>t K ;
++Ind+Act+Fut+Sg1:%>šu K ;
++Ind+Act+Fut+Sg2:%>si K ;
++Ind+Act+Fut+Pl1:%>sim K ;
++Ind+Act+Fut+Pl2:%>siet K ;
++Ind+Act+Fut+SP3:%>s K ;
 
-+Quo+Fut:%>šot # ;
-+Cond:%>tu # ;
++Quo+Fut:%>šot K ;
++Cond:%>tu K ;
 
 +PrfPrc+Pss:%>t NMN_13_ ;
-+PrfPrc+Pss+Msc+Sg+Nom+Indef:%>ts # ;
++PrfPrc+Pss+Msc+Sg+Nom+Indef:%>ts K ;
 +Der/šana+N:%>šan NMN-FEM_7ROKA_ ;
 +PrsPrc+Act+Pred2:%^VowL%>dam PRSPRC-ACT-PRED2 ;
 
 LEXICON V_15_PRS-SG1-STEM
-+Ind+Act+Prs+Sg1:%>u # ;
-+Ind+Act+Prs+Pl1:%>am # ;
-+Ind+Act+Prs+Pl2:%>at # ;
++Ind+Act+Prs+Sg1:%>u K ;
++Ind+Act+Prs+Pl1:%>am K ;
++Ind+Act+Prs+Pl2:%>at K ;
 
-+PrsPrc+Act+Pred2:%>ot # ;
-+Quo+Prs:%>ot # ;
++PrsPrc+Act+Pred2:%>ot K ;
++Quo+Prs:%>ot K ;
 
 +PrsPrc+Act:%>oš NMN_13_ ;
-+PrsPrc+Act+Msc+Sg+Nom+Indef:%>ošs # ;
-+PrsPrc+Act+Msc+Sg+Voc+Def:%>ošais # ;
-+PrsPrc+Act+Msc+Sg+Voc+Def:%>ošo # ;
++PrsPrc+Act+Msc+Sg+Nom+Indef:%>ošs K ;
++PrsPrc+Act+Msc+Sg+Voc+Def:%>ošais K ;
++PrsPrc+Act+Msc+Sg+Voc+Def:%>ošo K ;
 
-+Der/Adv+Adv+Pos:%>oši # ;
++Der/Adv+Adv+Pos:%>oši K ;
 +PrsPrc+Pss:%>am NMN_13_ ;
-+PrsPrc+Pss+Msc+Sg+Nom+Indef:%>ams # ;
-+PrsPrc+Pss+Msc+Sg+Voc+Def:%>amo # ;
-+PrsPrc+Pss+Pred2:%>am # ;
++PrsPrc+Pss+Msc+Sg+Nom+Indef:%>ams K ;
++PrsPrc+Pss+Msc+Sg+Voc+Def:%>amo K ;
++PrsPrc+Pss+Pred2:%>am K ;
 
 
 LEXICON V_15_PRT-SG1-STEM
-+Ind+Act+Prt+Sg1:%>u # ;
-+Ind+Act+Prt+Sg2:%>i # ;
-+Ind+Act+Prt+Pl1:%>am # ;
-+Ind+Act+Prt+Pl2:%>at # ;
++Ind+Act+Prt+Sg1:%>u K ;
++Ind+Act+Prt+Sg2:%>i K ;
++Ind+Act+Prt+Pl1:%>am K ;
++Ind+Act+Prt+Pl2:%>at K ;
 
 +PrfPrc+Act: PSTPRC-ACT-OBLIQUE ;
 
@@ -137,57 +137,57 @@ LEXICON V_16_DEJOT !!≈ * __@CODE@__ dejot:dejo oāēī
 @U.DEB.OFF@  V_16_DEJOT_NONFINITE_ ;
 
 LEXICON V_16_DEJOT_FINITE_
-+Inf:%>t # ;
-+Ind+Fut+Sg1:%>šu # ;
-+Ind+Fut+Sg2:%>si # ;
-+Ind+Fut+Pl1:%>sim # ;
-+Ind+Fut+Pl2:%>siet # ;
-+Ind+Fut+SP3:%>s # ;
++Inf:%>t K ;
++Ind+Fut+Sg1:%>šu K ;
++Ind+Fut+Sg2:%>si K ;
++Ind+Fut+Pl1:%>sim K ;
++Ind+Fut+Pl2:%>siet K ;
++Ind+Fut+SP3:%>s K ;
 
-+Ind+Prs+Sg1:%>ju # ;
-+Ind+Prs+Sg2: # ;
-+Ind+Prs+Pl1:%>jam # ;
-+Ind+Prs+Pl2:%>jat # ;
-+Ind+Prs+SP3: # ;
++Ind+Prs+Sg1:%>ju K ;
++Ind+Prs+Sg2: K ;
++Ind+Prs+Pl1:%>jam K ;
++Ind+Prs+Pl2:%>jat K ;
++Ind+Prs+SP3: K ;
 
-+Ind+Act+Prt+Sg1:%>ju # ;
-+Ind+Act+Prt+Sg2:%>ji # ;
-+Ind+Act+Prt+Pl1:%>jām # ;
-+Ind+Act+Prt+Pl2:%>jāt # ;
-+Ind+Act+Prt+SP3:%>ja # ;
++Ind+Act+Prt+Sg1:%>ju K ;
++Ind+Act+Prt+Sg2:%>ji K ;
++Ind+Act+Prt+Pl1:%>jām K ;
++Ind+Act+Prt+Pl2:%>jāt K ;
++Ind+Act+Prt+SP3:%>ja K ;
 
 LEXICON V_16_DEJOT_NONFINITE_
-+Quo+Prs:j%>ot # ;
-+Quo+Fut:%>šot # ;
++Quo+Prs:j%>ot K ;
++Quo+Fut:%>šot K ;
 
 +PrfPrc+Pss:%>t NMN_13_ ;
-+PrfPrc+Pss+Msc+Sg+Nom+Indef:%>ts # ;
-+PrfPrc+Pss+Msc+Sg+Voc+Def:%>to # ;
++PrfPrc+Pss+Msc+Sg+Nom+Indef:%>ts K ;
++PrfPrc+Pss+Msc+Sg+Voc+Def:%>to K ;
 +Der/šana+N:%>šan NMN-FEM_7ROKA_ ;
 
 +PrsPrc+Act+Pred2:%>dam PRSPRC-ACT-PRED2 ;
-+PrsPrc+Act+Pred2:%>jot # ;
++PrsPrc+Act+Pred2:%>jot K ;
 
-+Imprt+Sg2: # ;
-+Imprt+Pl2:j%>iet # ;
++Imprt+Sg2: K ;
++Imprt+Pl2:j%>iet K ;
 
 +PrsPrc+Act:%^RVow%>još NMN_13_ ;
-+PrsPrc+Act+Msc+Sg+Nom+Indef:%^RVow%>jošs # ;
-+PrsPrc+Act+Msc+Sg+Voc+Def:%^RVow%>jošais # ;
-+PrsPrc+Act+Msc+Sg+Voc+Def:%^RVow%>jošo # ;
++PrsPrc+Act+Msc+Sg+Nom+Indef:%^RVow%>jošs K ;
++PrsPrc+Act+Msc+Sg+Voc+Def:%^RVow%>jošais K ;
++PrsPrc+Act+Msc+Sg+Voc+Def:%^RVow%>jošo K ;
 
-+Der/Adv+Adv+Pos:%^RVow%>joši # ;
++Der/Adv+Adv+Pos:%^RVow%>joši K ;
 
 +PrsPrc+Pss:%^RVow%>jam NMN_13_ ;
-+PrsPrc+Pss+Msc+Sg+Nom+Indef:%^RVow%>jams # ;
-+PrsPrc+Pss+Msc+Sg+Voc+Def:%^RVow%>jamo # ;
++PrsPrc+Pss+Msc+Sg+Nom+Indef:%^RVow%>jams K ;
++PrsPrc+Pss+Msc+Sg+Voc+Def:%^RVow%>jamo K ;
 
-+PrfPrc+Act+Msc+Sg+Nom+Indef:%>jis # ;
++PrfPrc+Act+Msc+Sg+Nom+Indef:%>jis K ;
 +PrfPrc+Act:j PSTPRC-ACT-OBLIQUE ;
 +Der/iens:%^K2C%>ien N-MSC-1_1;
 
-+PrsPrc+Pss+Pred2:%^RVow%>jam # ;
-+Cond:%>tu # ;
++PrsPrc+Pss+Pred2:%^RVow%>jam K ;
++Cond:%>tu K ;
 
 LEXICON	   V-_17_3-Nē_
 !! WORK
@@ -199,62 +199,62 @@ LEXICON IV_17_3-Nē_
 LEXICON TV_17_3-Nē_
 +V+TV: V_17_REDZĒT ;
 LEXICON V_17_REDZĒT !!≈ * __@CODE@__ redzēt:redzē oāēī
-+Deb+Prs0@U.DEB.ON@:%^VowRM%>a@U.DEB.ON@ # ;
-+Deb+Quo00@U.DEB.ON@:%^VowRM%>ot@U.DEB.ON@ # ;
++Deb+Prs0@U.DEB.ON@:%^VowRM%>a@U.DEB.ON@ K ;
++Deb+Quo00@U.DEB.ON@:%^VowRM%>ot@U.DEB.ON@ K ;
 @U.DEB.OFF@  V_17_REDZĒT_FINITE_ ;
 @U.DEB.OFF@  V_17_REDZĒT_NONFINITE_ ;
-+PrfPrc+Pss+Msc+Sg+Voc+Def@U.DEB.OFF@:%>to0000@U.DEB.OFF@ # ;
++PrfPrc+Pss+Msc+Sg+Voc+Def@U.DEB.OFF@:%>to0000@U.DEB.OFF@ K ;
 
 LEXICON V_17_REDZĒT_FINITE_
-+Inf:%>t # ;
-+Ind+Fut+Sg1:%>šu # ;
-+Ind+Fut+Sg2:%>si # ;
-+Ind+Fut+Pl1:%>sim # ;
-+Ind+Fut+Pl2:%>siet # ;
-+Ind+Fut+SP3:%>s # ;
++Inf:%>t K ;
++Ind+Fut+Sg1:%>šu K ;
++Ind+Fut+Sg2:%>si K ;
++Ind+Fut+Pl1:%>sim K ;
++Ind+Fut+Pl2:%>siet K ;
++Ind+Fut+SP3:%>s K ;
 
-+Ind+Prs+Sg1:%^VowRM%>u # ;
-+Ind+Prs+Sg2:%^VowRM%>i # ;
-+Ind+Prs+Pl1:%^VowRM%>am # ;
-+Ind+Prs+Pl2:%^VowRM%>at # ;
-+Ind+Prs+SP3:%^VowRM%>a # ;
++Ind+Prs+Sg1:%^VowRM%>u K ;
++Ind+Prs+Sg2:%^VowRM%>i K ;
++Ind+Prs+Pl1:%^VowRM%>am K ;
++Ind+Prs+Pl2:%^VowRM%>at K ;
++Ind+Prs+SP3:%^VowRM%>a K ;
 
-+Ind+Act+Prt+Sg1:%>ju # ;
-+Ind+Act+Prt+Sg2:%>ji # ;
-+Ind+Act+Prt+Pl1:%>jām # ;
-+Ind+Act+Prt+Pl2:%>jāt # ;
-+Ind+Act+Prt+SP3:%>ja # ;
++Ind+Act+Prt+Sg1:%>ju K ;
++Ind+Act+Prt+Sg2:%>ji K ;
++Ind+Act+Prt+Pl1:%>jām K ;
++Ind+Act+Prt+Pl2:%>jāt K ;
++Ind+Act+Prt+SP3:%>ja K ;
 
 LEXICON V_17_REDZĒT_NONFINITE_
-+Quo+Fut:%>šot # ;
++Quo+Fut:%>šot K ;
 +PrfPrc+Pss:%>t NMN_13_ ;
-+PrfPrc+Pss+Msc+Sg+Nom+Indef:%>ts # ;
++PrfPrc+Pss+Msc+Sg+Nom+Indef:%>ts K ;
 +Der/šana+N:%>šan NMN-FEM_7ROKA_ ;
 
 +PrsPrc+Act+Pred2:%>dam PRSPRC-ACT-PRED2 ;
-+PrsPrc+Act+Pred2:%^VowRM%>ot # ;
++PrsPrc+Act+Pred2:%^VowRM%>ot K ;
 
-+Quo+Prs:%^VowRM%>ot # ;
-+Imprt+Sg2:%^VowRM%>i # ;
-+Imprt+Pl2:%^VowRM%>iet # ;
++Quo+Prs:%^VowRM%>ot K ;
++Imprt+Sg2:%^VowRM%>i K ;
++Imprt+Pl2:%^VowRM%>iet K ;
 
 +PrsPrc+Act:%^VowRM%>oš NMN_13_ ;
-+PrsPrc+Act+Msc+Sg+Nom+Indef:%^VowRM%>ošs # ;
-+PrsPrc+Act+Msc+Sg+Voc+Def:%^VowRM%>ošais # ;
-+PrsPrc+Act+Msc+Sg+Voc+Def:%^VowRM%>ošo # ;
++PrsPrc+Act+Msc+Sg+Nom+Indef:%^VowRM%>ošs K ;
++PrsPrc+Act+Msc+Sg+Voc+Def:%^VowRM%>ošais K ;
++PrsPrc+Act+Msc+Sg+Voc+Def:%^VowRM%>ošo K ;
 
-+Der/Adv+Adv+Pos:%^VowRM%>oši # ;
++Der/Adv+Adv+Pos:%^VowRM%>oši K ;
 
 +PrsPrc+Pss:%^VowRM%>am NMN_13_ ;
-+PrsPrc+Pss+Msc+Sg+Nom+Indef:%^VowRM%>am%>s # ;
-+PrsPrc+Pss+Msc+Sg+Voc+Def:%^VowRM%>am%>o # ;
++PrsPrc+Pss+Msc+Sg+Nom+Indef:%^VowRM%>am%>s K ;
++PrsPrc+Pss+Msc+Sg+Voc+Def:%^VowRM%>am%>o K ;
 
-+PrfPrc+Act+Msc+Sg+Nom+Indef:jis # ;
++PrfPrc+Act+Msc+Sg+Nom+Indef:jis K ;
 +PrfPrc+Act:j PSTPRC-ACT-OBLIQUE ;
 +Der/iens:%^K2C%>ien N-MSC-1_1;
 
-+PrsPrc+Pss+Pred2:%^VowRM%>am # ;
-+Cond:%>tu # ;
++PrsPrc+Pss+Pred2:%^VowRM%>am K ;
++Cond:%>tu K ;
 :%^RVow DEB ;
 
 
@@ -263,14 +263,14 @@ LEXICON IV_18_1-REFL_
 LEXICON TV_18_1-REFL_
 +V+TV+Refl: V_18_4_CELTIES ;
 LEXICON V_18_4_CELTIES !!≈ * __@CODE@__ celties:cel
-+Deb+Prs@U.DEB.ON@:%^JPal%>as@U.DEB.ON@ # ;
++Deb+Prs@U.DEB.ON@:%^JPal%>as@U.DEB.ON@ K ;
 @U.DEB.ON@:%^JPal@U.DEB.ON@ DEB ;
-+Ind+Act+Prs+SP3@U.DEB.OFF@:%^JPal%^SP3%>as@U.DEB.OFF@  # ;
-+Ind+Act+Prt+SP3@U.DEB.OFF@:%^VowL%>ās@U.DEB.OFF@  # ;
-+Ind+Act+Prs+Sg2@U.DEB.OFF@:%^JPal0000@U.DEB.OFF@  # ;
-+Imprt+Sg2@U.DEB.OFF@:ies@U.DEB.OFF@  # ;
-+Imprt+Pl20@U.DEB.OFF@:%>ieties@U.DEB.OFF@  # ;
-+PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^VowL%>is000@U.DEB.OFF@  # ;
++Ind+Act+Prs+SP3@U.DEB.OFF@:%^JPal%^SP3%>as@U.DEB.OFF@  K ;
++Ind+Act+Prt+SP3@U.DEB.OFF@:%^VowL%>ās@U.DEB.OFF@  K ;
++Ind+Act+Prs+Sg2@U.DEB.OFF@:%^JPal0000@U.DEB.OFF@  K ;
++Imprt+Sg2@U.DEB.OFF@:ies@U.DEB.OFF@  K ;
++Imprt+Pl20@U.DEB.OFF@:%>ieties@U.DEB.OFF@  K ;
++PrfPrc+Act+Msc+Sg+Nom+Indef@U.DEB.OFF@:%^VowL%>is000@U.DEB.OFF@  K ;
 +Der/iens0@U.DEB.OFF@:%^VowL%>ien@U.DEB.OFF@  N-MSC-1_1;
 
 0@U.DEB.OFF@:%^JPal@U.DEB.OFF@  V_18_PRS-SG1-STEM ;
@@ -279,43 +279,43 @@ LEXICON V_18_4_CELTIES !!≈ * __@CODE@__ celties:cel
 
 
 LEXICON V_18_FUT-SG1-STEM
-+Inf:%>t # ;
-+Ind+Act+Fut+Sg1:%>šos # ;
-+Ind+Act+Fut+Sg2:%>sies # ;
-+Ind+Act+Fut+Pl1:%>simies # ;
-+Ind+Act+Fut+Pl2:%>sieties # ;
-+Ind+Act+Fut+SP3:%>sies # ;
++Inf:%>t K ;
++Ind+Act+Fut+Sg1:%>šos K ;
++Ind+Act+Fut+Sg2:%>sies K ;
++Ind+Act+Fut+Pl1:%>simies K ;
++Ind+Act+Fut+Pl2:%>sieties K ;
++Ind+Act+Fut+SP3:%>sies K ;
 
-+Quo+Fut:%>šoties # ;
-+Cond:%>tos # ;
++Quo+Fut:%>šoties K ;
++Cond:%>tos K ;
 
 +PrfPrc+Pss:%>t NMN_13_ ;
 +Der/šana+N:%>šan NMN-FEM_7ROKA_ ;
 +PrsPrc+Act+Pred2:%^VowL%>dam PRSPRC-ACT-PRED2 ;
 
 LEXICON V_18_PRS-SG1-STEM
-+Ind+Act+Prs+Sg1:%>os # ;
-+Ind+Act+Prs+Pl1:%>amies # ;
-+Ind+Act+Prs+Pl2:%>aties # ;
++Ind+Act+Prs+Sg1:%>os K ;
++Ind+Act+Prs+Pl1:%>amies K ;
++Ind+Act+Prs+Pl2:%>aties K ;
 
-+PrsPrc+Act+Pred2:%>oties # ;
-+Quo+Prs:%>oties # ;
++PrsPrc+Act+Pred2:%>oties K ;
++Quo+Prs:%>oties K ;
 
 +PrsPrc+Act:%>oš NMN_13_ ;
-+PrsPrc+Act+Msc+Sg+Voc+Def:%>ošais # ;
-+PrsPrc+Act+Msc+Sg+Voc+Def:%>ošo # ;
++PrsPrc+Act+Msc+Sg+Voc+Def:%>ošais K ;
++PrsPrc+Act+Msc+Sg+Voc+Def:%>ošo K ;
 
-+Der/Adv+Adv+Pos:%>oši # ;
++Der/Adv+Adv+Pos:%>oši K ;
 +PrsPrc+Pss:%>am NMN_13_ ;
-+PrsPrc+Pss+Msc+Sg+Voc+Def:%>amo # ;
-+PrsPrc+Pss+Pred2:%>am # ;
++PrsPrc+Pss+Msc+Sg+Voc+Def:%>amo K ;
++PrsPrc+Pss+Pred2:%>am K ;
 
 
 LEXICON V_18_PRT-SG1-STEM
-+Ind+Act+Prt+Sg1:%>os # ;
-+Ind+Act+Prt+Sg2:%>ies # ;
-+Ind+Act+Prt+Pl1:%>amies # ;
-+Ind+Act+Prt+Pl2:%>aties # ;
++Ind+Act+Prt+Sg1:%>os K ;
++Ind+Act+Prt+Sg2:%>ies K ;
++Ind+Act+Prt+Pl1:%>amies K ;
++Ind+Act+Prt+Pl2:%>aties K ;
 
 +PrfPrc+Act: PSTPRC-ACT-OBLIQUE ;
 
@@ -323,92 +323,92 @@ LEXICON V-_19_2-Jā_
  IV_19_2-Jā_	;
  TV_19_2-Jā_	;
 LEXICON IV_19_2-Jā_
-+WORK: #;
++WORK: K;
 LEXICON TV_19_2-Jā_
-+WORK: #;
++WORK: K;
 LEXICON IV_19_2-REFL_
-+WORK: # ;
++WORK: K ;
 LEXICON TV_19_2-REFL_
-+WORK: # ;
++WORK: K ;
 
 LEXICON V-_20_3-Jā_
 IV_20_3-Jā_ ;
 TV_20_3-Jā_ ;
 LEXICON IV_20_3-Jā_
-+WORK: # ;
++WORK: K ;
 LEXICON	 TV_20_3-Jā_
-+WORK: # ;
++WORK: K ;
 
 LEXICON IV_20_3-REFL_
-+WORK: # ;
++WORK: K ;
 LEXICON TV_20_3-REFL_
-+WORK: # ;
++WORK: K ;
 
 
 
 LEXICON DEB
-!+Deb+Prs@R.DEB.ON@:00@R.DEB.ON@ # ;
-!+Deb+Quo0@R.DEB.ON@:%>ot@R.DEB.ON@ # ;
+!+Deb+Prs@R.DEB.ON@:00@R.DEB.ON@ K ;
+!+Deb+Quo0@R.DEB.ON@:%>ot@R.DEB.ON@ K ;
 
  @U.DEB.ON@ DEB-PRS ;
  @U.DEB.ON@ DEB-QUO ;
 
 LEXICON DEB-PRS
-+Deb+Prs: # ;
++Deb+Prs: K ;
 LEXICON DEB-QUO
-+Deb+Quo:%>ot # ;
++Deb+Quo:%>ot K ;
 
 LEXICON PRSPRC-ACT-PRED2
-+Msc+Sg+Nom+Indef:%>s # ;
-+Msc+Pl+Nom+Indef:%>i # ;
-+Fem+Sg+Nom+Indef:%>a # ;
-+Fem+Pl+Nom+Indef:%>as # ;
++Msc+Sg+Nom+Indef:%>s K ;
++Msc+Pl+Nom+Indef:%>i K ;
++Fem+Sg+Nom+Indef:%>a K ;
++Fem+Pl+Nom+Indef:%>as K ;
 
 
 LEXICON PSTPRC-ACT-OBLIQUE
-+Msc+Sg+Gen+Indef:%>uša # ;
-+Msc+Sg+Dat+Indef:%>ušam # ;
-+Msc+Sg+Acc+Indef:%>ušu # ;
-+Msc+Sg+Loc+Indef:%>ušā # ;
-+Msc+Pl+Nom+Indef:%>uši # ;
-+Msc+Pl+Gen+Indef:%>ušu # ;
-+Msc+Pl+Dat+Indef:%>ušiem # ;
-+Msc+Pl+Acc+Indef:%>ušus # ;
-+Msc+Pl+Loc+Indef:%>ušos # ;
-+Msc+Sg+Nom+Def:%>ušais # ;
-+Msc+Sg+Gen+Def:%>ušā # ;
-+Msc+Sg+Dat+Def:%>ušajam # ;
-+Msc+Sg+Acc+Def:%>ušo # ;
-+Msc+Sg+Loc+Def:%>ušajā # ;
-+Msc+Sg+Voc+Def:%>ušais # ;
-+Msc+Pl+Nom+Def:%>ušie # ;
-+Msc+Pl+Gen+Def:%>ušo # ;
-+Msc+Pl+Dat+Def:%>ušajiem # ;
-+Msc+Pl+Acc+Def:%>ušos # ;
-+Msc+Pl+Loc+Def:%>ušajos # ;
-+Msc+Pl+Voc+Def:%>ušie # ;
-+Fem+Sg+Nom+Indef:%>usi # ;
-+Fem+Sg+Gen+Indef:%>ušas # ;
-+Fem+Sg+Dat+Indef:%>ušai # ;
-+Fem+Sg+Acc+Indef:%>ušu # ;
-+Fem+Sg+Loc+Indef:%>ušā # ;
-+Fem+Pl+Nom+Indef:%>ušas # ;
-+Fem+Pl+Gen+Indef:%>ušu # ;
-+Fem+Pl+Dat+Indef:%>ušām # ;
-+Fem+Pl+Acc+Indef:%>ušas # ;
-+Fem+Pl+Loc+Indef:%>ušās # ;
-+Fem+Sg+Nom+Def:%>usī # ;
-+Fem+Sg+Gen+Def:%>ušās # ;
-+Fem+Sg+Dat+Def:%>ušajai # ;
-+Fem+Sg+Acc+Def:%>ušo # ;
-+Fem+Sg+Loc+Def:%>ušajā # ;
-+Fem+Sg+Voc+Def:%>usī # ;
-+Fem+Pl+Nom+Def:%>ušās # ;
-+Fem+Pl+Gen+Def:%>ušo # ;
-+Fem+Pl+Dat+Def:%>ušajām # ;
-+Fem+Pl+Acc+Def:%>ušās # ;
-+Fem+Pl+Loc+Def:%>ušajās # ;
-+Fem+Pl+Voc+Def:%>ušās # ;
++Msc+Sg+Gen+Indef:%>uša K ;
++Msc+Sg+Dat+Indef:%>ušam K ;
++Msc+Sg+Acc+Indef:%>ušu K ;
++Msc+Sg+Loc+Indef:%>ušā K ;
++Msc+Pl+Nom+Indef:%>uši K ;
++Msc+Pl+Gen+Indef:%>ušu K ;
++Msc+Pl+Dat+Indef:%>ušiem K ;
++Msc+Pl+Acc+Indef:%>ušus K ;
++Msc+Pl+Loc+Indef:%>ušos K ;
++Msc+Sg+Nom+Def:%>ušais K ;
++Msc+Sg+Gen+Def:%>ušā K ;
++Msc+Sg+Dat+Def:%>ušajam K ;
++Msc+Sg+Acc+Def:%>ušo K ;
++Msc+Sg+Loc+Def:%>ušajā K ;
++Msc+Sg+Voc+Def:%>ušais K ;
++Msc+Pl+Nom+Def:%>ušie K ;
++Msc+Pl+Gen+Def:%>ušo K ;
++Msc+Pl+Dat+Def:%>ušajiem K ;
++Msc+Pl+Acc+Def:%>ušos K ;
++Msc+Pl+Loc+Def:%>ušajos K ;
++Msc+Pl+Voc+Def:%>ušie K ;
++Fem+Sg+Nom+Indef:%>usi K ;
++Fem+Sg+Gen+Indef:%>ušas K ;
++Fem+Sg+Dat+Indef:%>ušai K ;
++Fem+Sg+Acc+Indef:%>ušu K ;
++Fem+Sg+Loc+Indef:%>ušā K ;
++Fem+Pl+Nom+Indef:%>ušas K ;
++Fem+Pl+Gen+Indef:%>ušu K ;
++Fem+Pl+Dat+Indef:%>ušām K ;
++Fem+Pl+Acc+Indef:%>ušas K ;
++Fem+Pl+Loc+Indef:%>ušās K ;
++Fem+Sg+Nom+Def:%>usī K ;
++Fem+Sg+Gen+Def:%>ušās K ;
++Fem+Sg+Dat+Def:%>ušajai K ;
++Fem+Sg+Acc+Def:%>ušo K ;
++Fem+Sg+Loc+Def:%>ušajā K ;
++Fem+Sg+Voc+Def:%>usī K ;
++Fem+Pl+Nom+Def:%>ušās K ;
++Fem+Pl+Gen+Def:%>ušo K ;
++Fem+Pl+Dat+Def:%>ušajām K ;
++Fem+Pl+Acc+Def:%>ušās K ;
++Fem+Pl+Loc+Def:%>ušajās K ;
++Fem+Pl+Voc+Def:%>ušās K ;
 
 
 ! vim: set ft=xfst-lexc: 
