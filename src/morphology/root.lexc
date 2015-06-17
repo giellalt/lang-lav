@@ -161,4 +161,7 @@ LEXICON Root
 !   Pronouns    ;
 !   Numerals    ;
 
+LEXICON K
+# ;
+
 ! vim: set ft=xfst-lexc:
