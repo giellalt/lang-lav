@@ -4,70 +4,70 @@
 
 
 LEXICON A_13JAUNS_
-+A+Pos+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:0000%>s@U.SUPERL.OFF@     #   ;
-+A+Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ # ;
++A+Pos+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:0000%>s@U.SUPERL.OFF@     K   ;
++A+Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ K ;
 +A+Pos@U.SUPERL.OFF@:00@U.SUPERL.OFF@ NMN_13_ ;
-+A+Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ # ;
++A+Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ K ;
 +A+Der/āk+Comp@U.SUPERL.OFF@:%>āk@U.SUPERL.OFF@ NMN_13_ ;
-+A+Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ # ;
++A+Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ K ;
 +A+Der/āk+Superl@U.SUPERL.ON@:āk0@U.SUPERL.ON@ NMN_13_ ;
 
 LEXICON A_14ZAĻŠ_  !!≈ * __@CODE@__ zaļš:zaļ
-+A+Pos+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:0000%>š@U.SUPERL.OFF@     #   ;
-+A+Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ # ;
++A+Pos+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:0000%>š@U.SUPERL.OFF@     K   ;
++A+Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ K ;
 +A+Pos@U.SUPERL.OFF@:00@U.SUPERL.OFF@ NMN_13_ ;
-+A+Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ # ;
++A+Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ K ;
 +A+Der/āk+Comp@U.SUPERL.OFF@:%>āk@U.SUPERL.OFF@ NMN_13_ ;
-+A+Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ # ;
++A+Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ K ;
 +A+Der/āk+Superl@U.SUPERL.ON@:%>āk@U.SUPERL.ON@ NMN_13-DEF_ ;
 
 LEXICON NMN_13_
-+Msc+Pl+Nom+Indef:%>i     #   ;
-+Msc+Sg+Gen+Indef:%>a     #   ;
-+Msc+Pl+Gen+Indef:%>u     #   ;
-+Msc+Sg+Dat+Indef:%>am     #   ;
-+Msc+Pl+Dat+Indef:%>iem     #   ;
-+Msc+Sg+Acc+Indef:%>u    #   ;
-+Msc+Pl+Acc+Indef:%>us   #   ;
-+Msc+Sg+Loc+Indef:%>ā    #   ;
-+Msc+Pl+Loc+Indef:%>os   #   ;
-+Fem+Sg+Nom+Indef:%>a     #   ;
-+Fem+Pl+Nom+Indef:%>as     #   ;
-+Fem+Sg+Gen+Indef:%>as     #   ;
-+Fem+Pl+Gen+Indef:%>u     #   ;
-+Fem+Sg+Dat+Indef:%>ai     #   ;
-+Fem+Pl+Dat+Indef:%>ām     #   ;
-+Fem+Sg+Acc+Indef:%>u    #   ;
-+Fem+Pl+Acc+Indef:%>as   #   ;
-+Fem+Sg+Loc+Indef:%>ā    #   ;
-+Fem+Pl+Loc+Indef:%>ās   #   ;
++Msc+Pl+Nom+Indef:%>i     K   ;
++Msc+Sg+Gen+Indef:%>a     K   ;
++Msc+Pl+Gen+Indef:%>u     K   ;
++Msc+Sg+Dat+Indef:%>am     K   ;
++Msc+Pl+Dat+Indef:%>iem     K   ;
++Msc+Sg+Acc+Indef:%>u    K   ;
++Msc+Pl+Acc+Indef:%>us   K   ;
++Msc+Sg+Loc+Indef:%>ā    K   ;
++Msc+Pl+Loc+Indef:%>os   K   ;
++Fem+Sg+Nom+Indef:%>a     K   ;
++Fem+Pl+Nom+Indef:%>as     K   ;
++Fem+Sg+Gen+Indef:%>as     K   ;
++Fem+Pl+Gen+Indef:%>u     K   ;
++Fem+Sg+Dat+Indef:%>ai     K   ;
++Fem+Pl+Dat+Indef:%>ām     K   ;
++Fem+Sg+Acc+Indef:%>u    K   ;
++Fem+Pl+Acc+Indef:%>as   K   ;
++Fem+Sg+Loc+Indef:%>ā    K   ;
++Fem+Pl+Loc+Indef:%>ās   K   ;
 NMN_13-DEF_ ;
 
 LEXICON NMN_13-DEF_
-+Msc+Sg+Nom+Def:%>ais     #   ;
-+Msc+Pl+Nom+Def:%>ie     #   ;
-+Msc+Sg+Gen+Def:%>ā     #   ;
-+Msc+Pl+Gen+Def:%>o     #   ;
-+Msc+Sg+Dat+Def:%>ajam     #   ;
-+Msc+Pl+Dat+Def:%>ajiem     #   ;
-+Msc+Sg+Acc+Def:%>o    #   ;
-+Msc+Pl+Acc+Def:%>os   #   ;
-+Msc+Sg+Loc+Def:%>ajā    #   ;
-+Msc+Pl+Loc+Def:%>ajos   #   ;
-+Msc+Sg+Voc+Def:%>ais    #   ;
-+Msc+Pl+Voc+Def:%>ie   #   ;
-+Fem+Sg+Nom+Def:%>ā     #   ;
-+Fem+Pl+Nom+Def:%>ās     #   ;
-+Fem+Sg+Gen+Def:%>ās     #   ;
-+Fem+Pl+Gen+Def:%>o     #   ;
-+Fem+Sg+Dat+Def:%>ajai     #   ;
-+Fem+Pl+Dat+Def:%>ajām     #   ;
-+Fem+Sg+Acc+Def:%>o    #   ;
-+Fem+Pl+Acc+Def:%>ās   #   ;
-+Fem+Sg+Loc+Def:%>ajā    #   ;
-+Fem+Pl+Loc+Def:%>ajās   #   ;
-+Fem+Sg+Voc+Def:%>ā    #   ;
-+Fem+Pl+Voc+Def:%>ās   #   ;
++Msc+Sg+Nom+Def:%>ais     K   ;
++Msc+Pl+Nom+Def:%>ie     K   ;
++Msc+Sg+Gen+Def:%>ā     K   ;
++Msc+Pl+Gen+Def:%>o     K   ;
++Msc+Sg+Dat+Def:%>ajam     K   ;
++Msc+Pl+Dat+Def:%>ajiem     K   ;
++Msc+Sg+Acc+Def:%>o    K   ;
++Msc+Pl+Acc+Def:%>os   K   ;
++Msc+Sg+Loc+Def:%>ajā    K   ;
++Msc+Pl+Loc+Def:%>ajos   K   ;
++Msc+Sg+Voc+Def:%>ais    K   ;
++Msc+Pl+Voc+Def:%>ie   K   ;
++Fem+Sg+Nom+Def:%>ā     K   ;
++Fem+Pl+Nom+Def:%>ās     K   ;
++Fem+Sg+Gen+Def:%>ās     K   ;
++Fem+Pl+Gen+Def:%>o     K   ;
++Fem+Sg+Dat+Def:%>ajai     K   ;
++Fem+Pl+Dat+Def:%>ajām     K   ;
++Fem+Sg+Acc+Def:%>o    K   ;
++Fem+Pl+Acc+Def:%>ās   K   ;
++Fem+Sg+Loc+Def:%>ajā    K   ;
++Fem+Pl+Loc+Def:%>ajās   K   ;
++Fem+Sg+Voc+Def:%>ā    K   ;
++Fem+Pl+Voc+Def:%>ās   K   ;
 
 
 ! vim+Def: set ft=xfst-lexc:
