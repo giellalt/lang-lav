@@ -35,27 +35,27 @@ Rules
 !! __@RULENAME@__
  a:o <=> _ Cns: %^RVow: ;
 
-!€# rak%^RVow%^K2C
-!€0 roc00
+!!€# rak%^RVow%^K2C
+!!€0 roc00
 
 "a2ā"
 !! __@RULENAME@__
  a:ā <=> ī: %^VowRM: %> _ [ m | t ] [ # | %> ] ;
-!€# dalī%^VowRM%>am
-!€0 dal000ām
+!!€# dalī%^VowRM%>am
+!!€0 dal000ām
        # Cns* Vow: Cns (%^VowL:) %> _ [ m | t ] ;
 
 "e2ē"
 !! __@RULENAME@__
  e:ē <=> _ Cns:+ %^VowL: ;
-!€# cel%^VowL
-!€0 cēl0
+!!€# cel%^VowL
+!!€0 cēl0
 
 "u2ū"
 !! __@RULENAME@__
  u:ū <=> _ Cns:+ %^VowL: ;
-!€# stum%^VowL
-!€0 stūm0
+!!€# stum%^VowL
+!!€0 stūm0
 
 
 
@@ -71,8 +71,8 @@ Rules
 "ī20"
 !! __@RULENAME@__
  ī:0 <=> _ %^VowRM: %> [ u | i | a: | o ] ;
-!€# dalī%^VowRM%>u
-!€0 dal000u
+!!€# dalī%^VowRM%>u
+!!€0 dal000u
 
 !! !!CONSONANTS
 "02j"
@@ -117,19 +117,19 @@ Rules
 "l2ļ"
  !! __@RULENAME@__
  l:ļ <=> _  %^JPal: ;
-!€# cel%^JPal
-!€0 ceļ0
+!!€# cel%^JPal
+!!€0 ceļ0
 
 
 "k2c"
 !! __@RULENAME@__
  k:c <=> _ (%^RVow:) %^K2C: ;
 
-!€# rak%^RVow%^K2C
-!€0 roc00
+!!€# rak%^RVow%^K2C
+!!€0 roc00
 
-!$# rak%^RVow%^K2C
-!$0 rak00
+!!$# rak%^RVow%^K2C
+!!$0 rak00
 
 !! !
 "t2s"
