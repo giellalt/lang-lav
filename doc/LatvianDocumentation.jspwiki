@@ -4,15 +4,15 @@
 !!! Dynamic documentation
 
 * [Links to generated source file documentation|Links.html]
-* Source files: [stems|https://victorio.uit.no/langtech/trunk/startup-langs/lav/src/morphology/stems/]   
-  / [affixes|https://victorio.uit.no/langtech/trunk/startup-langs/lav/src/morphology/affixes/] 
-  / [syntax|https://victorio.uit.no/langtech/trunk/startup-langs/lav/src/syntax/] 
-  / [twolc|https://victorio.uit.no/langtech/trunk/startup-langs/lav/src/phonology/lav-phon.twolc]   
-  / [yaml|https://victorio.uit.no/langtech/trunk/startup-langs/lav/test/src/morphology/]
+* Source files: [stems|https://victorio.uit.no/langtech/trunk/langs/lav/src/morphology/stems/]
+  / [affixes|https://victorio.uit.no/langtech/trunk/langs/lav/src/morphology/affixes/]
+  / [syntax|https://victorio.uit.no/langtech/trunk/langs/lav/src/syntax/]
+  / [twolc|https://victorio.uit.no/langtech/trunk/langs/lav/src/phonology/lav-phon.twolc]
+  / [yaml|https://victorio.uit.no/langtech/trunk/langs/lav/test/src/morphology/]
 
 !!! Grammatical issues
 
-* [The tags that are in use|https://victorio.uit.no/langtech/trunk/startup-langs/lav/src/morphology/root.lexc]   
+* [The tags that are in use|https://victorio.uit.no/langtech/trunk/langs/lav/src/morphology/root.lexc]
 * [A list of morphological tags|../common/MorphologicalTags.html]
 
 
