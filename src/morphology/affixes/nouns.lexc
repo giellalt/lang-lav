@@ -4,203 +4,203 @@
 
 
 LEXICON N-MSC-1_1
-+N: NMN_1_ ;
+ +N: NMN_1_ ;
 LEXICON NMN_1_ !!= * _@CODE@_ abinieks:abiniek
-+Msc+Sg+Nom:s     K   ;
-+Msc+Sg+Gen:a     K   ;
-+Msc+Sg+Dat:am     K   ;
-+Msc+Sg+Acc:u    K   ;
-+Msc+Sg+Loc:ā    K   ;
-+Msc+Sg+Voc:s    K   ;
-+Msc+Sg+Voc:    K   ;
-+Msc+Pl+Nom:i     K   ;
-+Msc+Pl+Gen:u     K   ;
-+Msc+Pl+Dat:iem     K   ;
-+Msc+Pl+Acc:us   K   ;
-+Msc+Pl+Loc:os   K   ;
-+Msc+Pl+Voc:i   K   ;
+ +Msc+Sg+Nom:s   K ;
+ +Msc+Sg+Gen:a   K ;
+ +Msc+Sg+Dat:am  K ;
+ +Msc+Sg+Acc:u   K ;
+ +Msc+Sg+Loc:ā   K ;
+ +Msc+Sg+Voc:s   K ;
+ +Msc+Sg+Voc:    K ;
+ +Msc+Pl+Nom:i   K ;
+ +Msc+Pl+Gen:u   K ;
+ +Msc+Pl+Dat:iem K ;
+ +Msc+Pl+Acc:us  K ;
+ +Msc+Pl+Loc:os  K ;
+ +Msc+Pl+Voc:i   K ;
 
 LEXICON N-MSC-2_1
-+N: NMN_2_ ;
+ +N: NMN_2_ ;
 LEXICON NMN_2_
-+Msc+Sg+Nom:š     K   ;
-+Msc+Pl+Nom:i     K   ;
-+Msc+Sg+Gen:a     K   ;
-+Msc+Pl+Gen:u     K   ;
-+Msc+Sg+Dat:am     K   ;
-+Msc+Pl+Dat:iem     K   ;
-+Msc+Sg+Acc:u    K   ;
-+Msc+Pl+Acc:us   K   ;
-+Msc+Sg+Loc:ā    K   ;
-+Msc+Pl+Loc:os   K   ;
-+Msc+Sg+Voc:š    K   ;
-+Msc+Sg+Voc:    K   ;
-+Msc+Pl+Voc:i   K   ;
+ +Msc+Sg+Nom:š   K ;
+ +Msc+Pl+Nom:i   K ;
+ +Msc+Sg+Gen:a   K ;
+ +Msc+Pl+Gen:u   K ;
+ +Msc+Sg+Dat:am  K ;
+ +Msc+Pl+Dat:iem K ;
+ +Msc+Sg+Acc:u   K ;
+ +Msc+Pl+Acc:us  K ;
+ +Msc+Sg+Loc:ā   K ;
+ +Msc+Pl+Loc:os  K ;
+ +Msc+Sg+Voc:š   K ;
+ +Msc+Sg+Voc:    K ;
+ +Msc+Pl+Voc:i   K ;
 
 LEXICON N-MSC-3_2
-+N: NMN_3_ ;
+ +N: NMN_3_ ;
 LEXICON NMN_3_
-+Msc+Sg+Nom:is     K   ;
-+Msc+Pl+Nom:i     K   ;
-+Msc+Sg+Gen:a     K   ;
-+Msc+Pl+Gen:u     K   ;
-+Msc+Sg+Dat:im     K   ;
-+Msc+Pl+Dat:iem     K   ;
-+Msc+Sg+Acc:i    K   ;
-+Msc+Pl+Acc:us   K   ;
-+Msc+Sg+Loc:ī    K   ;
-+Msc+Pl+Loc:os   K   ;
-+Msc+Sg+Voc:i    K   ;
-+Msc+Pl+Voc:i   K   ;
+ +Msc+Sg+Nom:is  K ;
+ +Msc+Pl+Nom:i   K ;
+ +Msc+Sg+Gen:a   K ;
+ +Msc+Pl+Gen:u   K ;
+ +Msc+Sg+Dat:im  K ;
+ +Msc+Pl+Dat:iem K ;
+ +Msc+Sg+Acc:i   K ;
+ +Msc+Pl+Acc:us  K ;
+ +Msc+Sg+Loc:ī   K ;
+ +Msc+Pl+Loc:os  K ;
+ +Msc+Sg+Voc:i   K ;
+ +Msc+Pl+Voc:i   K ;
 
 LEXICON N-MSC-4_2
-+N: NMN_4_ ;
+ +N: NMN_4_ ;
 LEXICON NMN_4_
-+Msc+Sg+Nom:s     K   ;
-+Msc+Pl+Nom:i     K   ;
-+Msc+Sg+Gen:s     K   ;
-+Msc+Pl+Gen:u     K   ;
-+Msc+Sg+Dat:im     K   ;
-+Msc+Pl+Dat:iem     K   ;
-+Msc+Sg+Acc:i    K   ;
-+Msc+Pl+Acc:us   K   ;
-+Msc+Sg+Loc:ī    K   ;
-+Msc+Pl+Loc:os   K   ;
-+Msc+Sg+Voc:0    K   ;
-+Msc+Sg+Voc:s    K   ;
-+Msc+Pl+Voc:i   K   ;
+ +Msc+Sg+Nom:s   K ;
+ +Msc+Pl+Nom:i   K ;
+ +Msc+Sg+Gen:s   K ;
+ +Msc+Pl+Gen:u   K ;
+ +Msc+Sg+Dat:im  K ;
+ +Msc+Pl+Dat:iem K ;
+ +Msc+Sg+Acc:i   K ;
+ +Msc+Pl+Acc:us  K ;
+ +Msc+Sg+Loc:ī   K ;
+ +Msc+Pl+Loc:os  K ;
+ +Msc+Sg+Voc:0   K ;
+ +Msc+Sg+Voc:s   K ;
+ +Msc+Pl+Voc:i   K ;
 
 LEXICON N-MSC-5_2
-+N: NMN_5_ ;
+ +N: NMN_5_ ;
 LEXICON NMN_5_
-+Msc+Sg+Nom:s     K   ;
-+Msc+Pl+Nom:i     K   ;
-+Msc+Sg+Gen:a     K   ;
-+Msc+Pl+Gen:u     K   ;
-+Msc+Sg+Dat:im     K   ;
-+Msc+Pl+Dat:iem     K   ;
-+Msc+Sg+Acc:i    K   ;
-+Msc+Pl+Acc:us   K   ;
-+Msc+Sg+Loc:ī    K   ;
-+Msc+Pl+Loc:os   K   ;
-+Msc+Sg+Voc:i    K   ;
-+Msc+Pl+Voc:i   K   ;
+ +Msc+Sg+Nom:s   K ;
+ +Msc+Pl+Nom:i   K ;
+ +Msc+Sg+Gen:a   K ;
+ +Msc+Pl+Gen:u   K ;
+ +Msc+Sg+Dat:im  K ;
+ +Msc+Pl+Dat:iem K ;
+ +Msc+Sg+Acc:i   K ;
+ +Msc+Pl+Acc:us  K ;
+ +Msc+Sg+Loc:ī   K ;
+ +Msc+Pl+Loc:os  K ;
+ +Msc+Sg+Voc:i   K ;
+ +Msc+Pl+Voc:i   K ;
 
 LEXICON N-MSC-6_3
-+N: NMN_6_ ;
+ +N: NMN_6_ ;
 LEXICON NMN_6_
-+Msc+Sg+Nom:us     K   ;
-+Msc+Pl+Nom:i     K   ;
-+Msc+Sg+Gen:us     K   ;
-+Msc+Pl+Gen:u     K   ;
-+Msc+Sg+Dat:um     K   ;
-+Msc+Pl+Dat:iem     K   ;
-+Msc+Sg+Acc:u    K   ;
-+Msc+Pl+Acc:us   K   ;
-+Msc+Sg+Loc:ū    K   ;
-+Msc+Pl+Loc:os   K   ;
-+Msc+Sg+Voc:us    K   ;
-+Msc+Sg+Voc:u    K   ;
-+Msc+Pl+Voc:i   K   ;
+ +Msc+Sg+Nom:us  K ;
+ +Msc+Pl+Nom:i   K ;
+ +Msc+Sg+Gen:us  K ;
+ +Msc+Pl+Gen:u   K ;
+ +Msc+Sg+Dat:um  K ;
+ +Msc+Pl+Dat:iem K ;
+ +Msc+Sg+Acc:u   K ;
+ +Msc+Pl+Acc:us  K ;
+ +Msc+Sg+Loc:ū   K ;
+ +Msc+Pl+Loc:os  K ;
+ +Msc+Sg+Voc:us  K ;
+ +Msc+Sg+Voc:u   K ;
+ +Msc+Pl+Voc:i   K ;
 
 LEXICON N-FEM-7_4
-+N: NMN-FEM_7ROKA_ ;
+ +N: NMN-FEM_7ROKA_ ;
 LEXICON NMN-FEM_7ROKA_  !!= * __@CODE@__ roka:rok
-+Fem+Sg+Nom:a     K   ;
-+Fem+Sg+Gen:as     K   ;
-+Fem+Sg+Dat:ai     K   ;
-+Fem+Sg+Acc:u    K   ;
-+Fem+Sg+Loc:ā    K   ;
-+Fem+Sg+Voc:a    K   ;
-+Fem+Sg+Voc+Err/Orth:    K   ;
-+Fem+Pl+Nom:as     K   ;
-+Fem+Pl+Gen:u     K   ;
-+Fem+Pl+Dat:ām     K   ;
-+Fem+Pl+Acc:as   K   ;
-+Fem+Pl+Loc:ās   K   ;
-+Fem+Pl+Voc:as   K   ;
+          +Fem+Sg+Nom:a  K ;
+          +Fem+Sg+Gen:as K ;
+          +Fem+Sg+Dat:ai K ;
+          +Fem+Sg+Acc:u  K ;
+          +Fem+Sg+Loc:ā  K ;
+          +Fem+Sg+Voc:a  K ;
+ +Fem+Sg+Voc+Err/Orth:   K ;
+          +Fem+Pl+Nom:as K ;
+          +Fem+Pl+Gen:u  K ;
+          +Fem+Pl+Dat:ām K ;
+          +Fem+Pl+Acc:as K ;
+          +Fem+Pl+Loc:ās K ;
+          +Fem+Pl+Voc:as K ;
 
 
 LEXICON N-MSC-8_4
-+N: NMN-MSC_8PUIKA_ ;
+ +N: NMN-MSC_8PUIKA_ ;
 LEXICON NMN-MSC_8PUIKA_ !!= * __@CODE@__ puika:puik
-+Msc+Sg+Nom:a     K   ;
-+Msc+Sg+Gen:as     K   ;
-+Msc+Sg+Dat:am     K   ;
-+Msc+Sg+Acc:u    K   ;
-+Msc+Sg+Loc:ā    K   ;
-+Msc+Sg+Voc:a    K   ;
-+Msc+Pl+Nom:as     K   ;
-+Msc+Pl+Gen:u     K   ;
-+Msc+Pl+Dat:ām     K   ;
-+Msc+Pl+Acc:as   K   ;
-+Msc+Pl+Loc:ās   K   ;
-+Msc+Pl+Voc:as   K   ;
+ +Msc+Sg+Nom:a  K ;
+ +Msc+Sg+Gen:as K ;
+ +Msc+Sg+Dat:am K ;
+ +Msc+Sg+Acc:u  K ;
+ +Msc+Sg+Loc:ā  K ;
+ +Msc+Sg+Voc:a  K ;
+ +Msc+Pl+Nom:as K ;
+ +Msc+Pl+Gen:u  K ;
+ +Msc+Pl+Dat:ām K ;
+ +Msc+Pl+Acc:as K ;
+ +Msc+Pl+Loc:ās K ;
+ +Msc+Pl+Voc:as K ;
 
 LEXICON N-FEM-9_5
-+N: NMN_9_ ;
+ +N: NMN_9_ ;
 LEXICON NMN_9_
-+Fem+Sg+Nom:e     K   ;
-+Fem+Sg+Gen:es     K   ;
-+Fem+Sg+Dat:ei     K   ;
-+Fem+Sg+Acc:i    K   ;
-+Fem+Sg+Loc:ē    K   ;
-+Fem+Sg+Voc:e    K   ;
-+Fem+Sg+Voc:    K   ;
-+Fem+Pl+Nom:es     K   ;
-+Fem+Pl+Gen:u     K   ;
-+Fem+Pl+Dat:ēm     K   ;
-+Fem+Pl+Acc:es   K   ;
-+Fem+Pl+Loc:ēs   K   ;
-+Fem+Pl+Voc:es   K   ;
+ +Fem+Sg+Nom:e  K ;
+ +Fem+Sg+Gen:es K ;
+ +Fem+Sg+Dat:ei K ;
+ +Fem+Sg+Acc:i  K ;
+ +Fem+Sg+Loc:ē  K ;
+ +Fem+Sg+Voc:e  K ;
+ +Fem+Sg+Voc:   K ;
+ +Fem+Pl+Nom:es K ;
+ +Fem+Pl+Gen:u  K ;
+ +Fem+Pl+Dat:ēm K ;
+ +Fem+Pl+Acc:es K ;
+ +Fem+Pl+Loc:ēs K ;
+ +Fem+Pl+Voc:es K ;
 
 LEXICON N-MSC-10_5
-+N: NMN_10_ ;
+ +N: NMN_10_ ;
 LEXICON NMN_10_
-+Msc+Sg+Nom:e     K   ;
-+Msc+Pl+Nom:es     K   ;
-+Msc+Sg+Gen:es     K   ;
-+Msc+Pl+Gen:u     K   ;
-+Msc+Sg+Dat:em     K   ;
-+Msc+Pl+Dat:ēm     K   ;
-+Msc+Sg+Acc:i    K   ;
-+Msc+Pl+Acc:es   K   ;
-+Msc+Sg+Loc:ē    K   ;
-+Msc+Pl+Loc:ēs   K   ;
-+Msc+Sg+Voc:e    K   ;
-+Msc+Pl+Voc:es   K   ;
+ +Msc+Sg+Nom:e  K ;
+ +Msc+Pl+Nom:es K ;
+ +Msc+Sg+Gen:es K ;
+ +Msc+Pl+Gen:u  K ;
+ +Msc+Sg+Dat:em K ;
+ +Msc+Pl+Dat:ēm K ;
+ +Msc+Sg+Acc:i  K ;
+ +Msc+Pl+Acc:es K ;
+ +Msc+Sg+Loc:ē  K ;
+ +Msc+Pl+Loc:ēs K ;
+ +Msc+Sg+Voc:e  K ;
+ +Msc+Pl+Voc:es K ;
 
 LEXICON N-FEM-11_6
-+N: NMN_11_;
+ +N: NMN_11_ ;
 LEXICON NMN_11_
-+Fem+Sg+Nom:s     K   ;
-+Fem+Pl+Nom:is     K   ;
-+Fem+Sg+Gen:s     K   ;
-+Fem+Pl+Gen:u     K   ;
-+Fem+Sg+Dat:ij     K   ;
-+Fem+Pl+Dat:īm     K   ;
-+Fem+Sg+Acc:i    K   ;
-+Fem+Pl+Acc:is   K   ;
-+Fem+Sg+Loc:ī    K   ;
-+Fem+Pl+Loc:īs   K   ;
-+Fem+Sg+Voc:s    K   ;
-+Fem+Pl+Voc:is   K   ;
+ +Fem+Sg+Nom:s  K ;
+ +Fem+Pl+Nom:is K ;
+ +Fem+Sg+Gen:s  K ;
+ +Fem+Pl+Gen:u  K ;
+ +Fem+Sg+Dat:ij K ;
+ +Fem+Pl+Dat:īm K ;
+ +Fem+Sg+Acc:i  K ;
+ +Fem+Pl+Acc:is K ;
+ +Fem+Sg+Loc:ī  K ;
+ +Fem+Pl+Loc:īs K ;
+ +Fem+Sg+Voc:s  K ;
+ +Fem+Pl+Voc:is K ;
 
-LEXICON N--12_Nepiemīt 
-+N: NMN_12_;
+LEXICON N--12_Nepiemīt
+ +N: NMN_12_ ;
 LEXICON NMN_12_
-+Fem+Sg+Nom:     K   ;
-+Fem+Pl+Nom:     K   ;
-+Fem+Sg+Gen:     K   ;
-+Fem+Pl+Gen:     K   ;
-+Fem+Sg+Dat:     K   ;
-+Fem+Pl+Dat:     K   ;
-+Fem+Sg+Acc:    K   ;
-+Fem+Pl+Acc:   K   ;
-+Fem+Sg+Loc:    K   ;
-+Fem+Pl+Loc:   K   ;
-+Fem+Sg+Voc:    K   ;
-+Fem+Pl+Voc:   K   ;
+ +Fem+Sg+Nom: K ;
+ +Fem+Pl+Nom: K ;
+ +Fem+Sg+Gen: K ;
+ +Fem+Pl+Gen: K ;
+ +Fem+Sg+Dat: K ;
+ +Fem+Pl+Dat: K ;
+ +Fem+Sg+Acc: K ;
+ +Fem+Pl+Acc: K ;
+ +Fem+Sg+Loc: K ;
+ +Fem+Pl+Loc: K ;
+ +Fem+Sg+Voc: K ;
+ +Fem+Pl+Voc: K ;
 
 
 
