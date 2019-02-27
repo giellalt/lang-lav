@@ -161,6 +161,8 @@ LEXICON Root
 @U.DEB.OFF@   verbs   ;
 !   Pronouns    ;
 !   Numerals    ;
+   Punctuation ;
+   Symbols     ;
 
 LEXICON K
 # ;
