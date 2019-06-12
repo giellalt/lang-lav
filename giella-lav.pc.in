@@ -7,5 +7,5 @@ srcdir=${datadir}/giella/${gtlang}
 
 Name: giella-lav
 Description: Finite-state language processing tools for Latvian
-URL: http://divvun.no/doc/index.html
+URL: https://giellalt.uit.no/index.html
 Version: @VERSION@
