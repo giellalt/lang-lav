@@ -1,0 +1,35 @@
+[package]
+name = "lav"
+human_name = "Latvian"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.lav]
+filename = "lv-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-lav"
+platform = "windows"
+uuid = "5732C0E0-D957-47A1-9646-66C007458569"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.lv"
+package = "speller-lav"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-lav-mso"
+platform = "windows"
+uuid = "64504F22-BEE0-4B38-8EC5-E76D20889832"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-lav"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
