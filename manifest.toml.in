@@ -1,0 +1,9 @@
+name = "Latvian"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.lv"
+
+[windows]
+system_product_code = "5732C0E0-D957-47A1-9646-66C007458569"
+msoffice_product_code = "64504F22-BEE0-4B38-8EC5-E76D20889832"
