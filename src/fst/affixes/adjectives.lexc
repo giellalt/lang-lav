@@ -4,22 +4,22 @@
 
 
 LEXICON A_13JAUNS_
-+A+Pos+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:0000%>s@U.SUPERL.OFF@     K   ;
-+A+Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ K ;
-+A+Pos@U.SUPERL.OFF@:00@U.SUPERL.OFF@ NMN_13_ ;
-+A+Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ K ;
-+A+Der/āk+Comp@U.SUPERL.OFF@:%>āk@U.SUPERL.OFF@ NMN_13_ ;
-+A+Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ K ;
-+A+Der/āk+Superl@U.SUPERL.ON@:āk0@U.SUPERL.ON@ NMN_13_ ;
++Pos+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:0000%>s@U.SUPERL.OFF@     K   ;
++Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ K ;
++Pos@U.SUPERL.OFF@:00@U.SUPERL.OFF@ NMN_13_ ;
++Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ K ;
++Der/āk+Comp@U.SUPERL.OFF@:%>āk@U.SUPERL.OFF@ NMN_13_ ;
++Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ K ;
++Der/āk+Superl@U.SUPERL.ON@:āk0@U.SUPERL.ON@ NMN_13_ ;
 
 LEXICON A_14ZAĻŠ_  !!≈ * __@CODE@__ zaļš:zaļ
-+A+Pos+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:0000%>š@U.SUPERL.OFF@     K   ;
-+A+Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ K ;
-+A+Pos@U.SUPERL.OFF@:00@U.SUPERL.OFF@ NMN_13_ ;
-+A+Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ K ;
-+A+Der/āk+Comp@U.SUPERL.OFF@:%>āk@U.SUPERL.OFF@ NMN_13_ ;
-+A+Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ K ;
-+A+Der/āk+Superl@U.SUPERL.ON@:%>āk@U.SUPERL.ON@ NMN_13-DEF_ ;
++Pos+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:0000%>š@U.SUPERL.OFF@     K   ;
++Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ K ;
++Pos@U.SUPERL.OFF@:00@U.SUPERL.OFF@ NMN_13_ ;
++Der/āk+Comp+Der/Adv+Adv@U.SUPERL.OFF@:%>āk00@U.SUPERL.OFF@ K ;
++Der/āk+Comp@U.SUPERL.OFF@:%>āk@U.SUPERL.OFF@ NMN_13_ ;
++Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ K ;
++Der/āk+Superl@U.SUPERL.ON@:%>āk@U.SUPERL.ON@ NMN_13-DEF_ ;
 
 LEXICON NMN_13_
 +Msc+Pl+Nom+Indef:%>i     K   ;
