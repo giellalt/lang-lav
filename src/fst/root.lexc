@@ -13,15 +13,15 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-!!            !!!Latvian morphological analyser                      !
+!! # Latvian morphological analyser                      !
 ! ========================================================================== !
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Latvian LANGUAGE.
  
 
-Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+Multichar_Symbols  !!≈ # Definitions for @CODE@
 
-+WORK   !!≈ * __@CODE@__ Underdeveloped
-!! !!Analysis symbols
++WORK   !!≈ * **@CODE@** Underdeveloped
+!! ## Analysis symbols
 ! ----------------
 !! The morphological analyses of wordforms for the Latvian
 !! language are presented in this system in terms of the following symbols.
@@ -46,9 +46,9 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
- +Pos     !!≈ * __@CODE@__ positive grade 
- +Comp    !!≈ * __@CODE@__ comparative grade
- +Superl  !!≈ * __@CODE@__ superlative grade
+ +Pos     !!≈ * **@CODE@** positive grade 
+ +Comp    !!≈ * **@CODE@** comparative grade
+ +Superl  !!≈ * **@CODE@** superlative grade
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
@@ -111,45 +111,45 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! And following triggers to control variation
  {front} {back}
- %^RVow  !!≈ * __@CODE@__ raise vowel rakt:roc
- %^VowRM !!≈ * __@CODE@__ vowel removal redzēt:redzu
- %^VowL  !!≈ * __@CODE@__ vowel lengthening celt:cēlu
- %^K2C   !!≈ * __@CODE@__ rakt:roc
- %^JPal  !!≈ * __@CODE@__ sakne:sakņu
- %^SP3 	 !!≈ * __@CODE@__ stum%^JPal%^SP3:stumj0 
+ %^RVow  !!≈ * **@CODE@** raise vowel rakt:roc
+ %^VowRM !!≈ * **@CODE@** vowel removal redzēt:redzu
+ %^VowL  !!≈ * **@CODE@** vowel lengthening celt:cēlu
+ %^K2C   !!≈ * **@CODE@** rakt:roc
+ %^JPal  !!≈ * **@CODE@** sakne:sakņu
+ %^SP3 	 !!≈ * **@CODE@** stum%^JPal%^SP3:stumj0 
 
-!! !!Flag diacritics
+!! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
 !! 
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
+ @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ |  @CODE@ | Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
 !! 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-@U.DEB.ON@ !!≈ * __@CODE@__ This is for debitive in verbs
-@U.DEB.OFF@ !!≈ * __@CODE@__ This is for debitive in verbs
-@U.SUPERL.OFF@ !!≈ * __@CODE@__ This is for superlative in adjectives
-@U.SUPERL.ON@ !!≈ * __@CODE@__ This is for superlative in adjectives
+@U.DEB.ON@ !!≈ * **@CODE@** This is for debitive in verbs
+@U.DEB.OFF@ !!≈ * **@CODE@** This is for debitive in verbs
+@U.SUPERL.OFF@ !!≈ * **@CODE@** This is for superlative in adjectives
+@U.SUPERL.ON@ !!≈ * **@CODE@** This is for superlative in adjectives
 
 
 LEXICON Root
