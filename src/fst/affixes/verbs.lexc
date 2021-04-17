@@ -40,7 +40,7 @@ LEXICON V_15_RAKT
 @U.DEB.OFF@:@U.DEB.OFF@ V_15_FUT-SG1-STEM ;
 
 
-LEXICON V_15_4_STUMT !!≈ * __@CODE@__ stumt:stum
+LEXICON V_15_4_STUMT !!≈ * **@CODE@** stumt:stum
 @U.DEB.ON@:%^JPal@U.DEB.ON@ DEB ;
 +Ind+Act+Prs+SP3@U.DEB.OFF@:%^JPal%^SP3000@U.DEB.OFF@  K ;
 +Ind+Act+Prt+SP3@U.DEB.OFF@:%^VowL%>a%^SP3000@U.DEB.OFF@  K ;
@@ -60,7 +60,7 @@ LEXICON IV_15_5_SALT
 LEXICON TV_15_5_SALT
 +TV: V_15_5_SALT ;
 
-LEXICON V_15_5_SALT !!≈ * __@CODE@__ salt:sal
+LEXICON V_15_5_SALT !!≈ * **@CODE@** salt:sal
 00@U.DEB.ON@:st@U.DEB.ON@ DEB ;
 +Ind+Act+Prs+SP3@U.DEB.OFF@:st000@U.DEB.OFF@  K ;
 +Ind+Act+Prs+Sg2@U.DEB.OFF@:sti00@U.DEB.OFF@  K ;
@@ -130,7 +130,7 @@ LEXICON IV_16_2-Nē_
 LEXICON TV_16_2-Nē_
 +TV: V_16_DEJOT ;
 
-LEXICON V_16_DEJOT !!≈ * __@CODE@__ dejot:dejo oāēī
+LEXICON V_16_DEJOT !!≈ * **@CODE@** dejot:dejo oāēī
 @U.DEB.ON@:@U.DEB.ON@ DEB-PRS ;
 0@U.DEB.ON@:j@U.DEB.ON@ DEB-QUO ;
 @U.DEB.OFF@  V_16_DEJOT_FINITE_ ;
@@ -198,7 +198,7 @@ LEXICON IV_17_3-Nē_
 +IV: V_17_REDZĒT ;
 LEXICON TV_17_3-Nē_
 +TV: V_17_REDZĒT ;
-LEXICON V_17_REDZĒT !!≈ * __@CODE@__ redzēt:redzē oāēī
+LEXICON V_17_REDZĒT !!≈ * **@CODE@** redzēt:redzē oāēī
 +Deb+Prs0@U.DEB.ON@:%^VowRM%>a@U.DEB.ON@ K ;
 +Deb+Quo00@U.DEB.ON@:%^VowRM%>ot@U.DEB.ON@ K ;
 @U.DEB.OFF@  V_17_REDZĒT_FINITE_ ;
@@ -262,7 +262,7 @@ LEXICON IV_18_1-REFL_
 +IV+Refl: V_18_4_CELTIES ;
 LEXICON TV_18_1-REFL_
 +TV+Refl: V_18_4_CELTIES ;
-LEXICON V_18_4_CELTIES !!≈ * __@CODE@__ celties:cel
+LEXICON V_18_4_CELTIES !!≈ * **@CODE@** celties:cel
 +Deb+Prs@U.DEB.ON@:%^JPal%>as@U.DEB.ON@ K ;
 @U.DEB.ON@:%^JPal@U.DEB.ON@ DEB ;
 +Ind+Act+Prs+SP3@U.DEB.OFF@:%^JPal%^SP3%>as@U.DEB.OFF@  K ;

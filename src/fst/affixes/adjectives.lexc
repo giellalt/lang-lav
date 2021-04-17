@@ -12,7 +12,7 @@ LEXICON A_13JAUNS_
 +Der/āk+Comp+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:%>āk%>s00@U.SUPERL.OFF@ K ;
 +Der/āk+Superl@U.SUPERL.ON@:āk0@U.SUPERL.ON@ NMN_13_ ;
 
-LEXICON A_14ZAĻŠ_  !!≈ * __@CODE@__ zaļš:zaļ
+LEXICON A_14ZAĻŠ_  !!≈ * **@CODE@** zaļš:zaļ
 +Pos+Msc+Sg+Nom+Indef@U.SUPERL.OFF@:0000%>š@U.SUPERL.OFF@     K   ;
 +Pos+Der/Adv+Adv@U.SUPERL.OFF@:%>i00@U.SUPERL.OFF@ K ;
 +Pos@U.SUPERL.OFF@:00@U.SUPERL.OFF@ NMN_13_ ;

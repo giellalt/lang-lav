@@ -12,12 +12,12 @@ Alphabet
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
 
 !! And following triggers to control variation
- %^RVow:0 !!≈ * __@CODE@__ rakt:roc
- %^VowRM:0 !!≈ * __@CODE@__ vowel removal redzēt:redzu
- %^VowL:0 !!≈ * __@CODE@__ vowel lengthening celt:cēlu
- %^K2C:0 !!≈ * __@CODE@__ rakt:roc
- %^JPal:0 !!≈ * __@CODE@__ sakne:sakņu
- %^SP3:0 !!≈ * __@CODE@__ stum%^JPal%^SP3:stumj0 
+ %^RVow:0 !!≈ * **@CODE@** rakt:roc
+ %^VowRM:0 !!≈ * **@CODE@** vowel removal redzēt:redzu
+ %^VowL:0 !!≈ * **@CODE@** vowel lengthening celt:cēlu
+ %^K2C:0 !!≈ * **@CODE@** rakt:roc
+ %^JPal:0 !!≈ * **@CODE@** sakne:sakņu
+ %^SP3:0 !!≈ * **@CODE@** stum%^JPal%^SP3:stumj0 
  %> %< ;
 
 Sets
@@ -30,29 +30,29 @@ Sets
  
 Rules
 
-!! !!VOWELS
+!! ## VOWELS
 "a2o"
-!! __@RULENAME@__
+!! **@RULENAME@**
  a:o <=> _ Cns: %^RVow: ;
 
 !!€# rak%^RVow%^K2C
 !!€0 roc00
 
 "a2ā"
-!! __@RULENAME@__
+!! **@RULENAME@**
  a:ā <=> ī: %^VowRM: %> _ [ m | t ] [ # | %> ] ;
 !!€# dalī%^VowRM%>am
 !!€0 dal000ām
        # Cns* Vow: Cns (%^VowL:) %> _ [ m | t ] ;
 
 "e2ē"
-!! __@RULENAME@__
+!! **@RULENAME@**
  e:ē <=> _ Cns:+ %^VowL: ;
 !!€# cel%^VowL
 !!€0 cēl0
 
 "u2ū"
-!! __@RULENAME@__
+!! **@RULENAME@**
  u:ū <=> _ Cns:+ %^VowL: ;
 !!€# stum%^VowL
 !!€0 stūm0
@@ -61,68 +61,68 @@ Rules
 
 
 "ē20"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ē:0 <=> _ %^VowRM: %> [ u | i | a m | a: | o ];
 
 "a20"
-!! __@RULENAME@__
+!! **@RULENAME@**
  a:0 <=> ē: %^VowRM: %> _ # ;
 
 "ī20"
-!! __@RULENAME@__
+!! **@RULENAME@**
  ī:0 <=> _ %^VowRM: %> [ u | i | a: | o ] ;
 !!€# dalī%^VowRM%>u
 !!€0 dal000u
 
-!! !!CONSONANTS
+!! ## CONSONANTS
 "02j"
-!! __@RULENAME@__
+!! **@RULENAME@**
  0:j <=> o :0* _ %> o t ; 
 
 "%^VowRM:j"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %^VowRM:j <=> ē _ %> a t #  ;
 
-!! !J_PALATALIZATION
+!! ### J_PALATALIZATION
 "%^JPal:j"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %^JPal:j <=> CnsLab _ [ %> [ Vow: - i ] | %^SP3: ] ;
 
 
 "s2š THIS CAN BE REMOVED"
- !! __@RULENAME@__
+ !! **@RULENAME@**
  s:š <=> _  %^JPal: ;
      [ j | ļ | ņ ] %> _  ;
 
 "t2š"
- !! __@RULENAME@__
+ !! **@RULENAME@**
  t:š <=> _  %^JPal: ;
 
 "c2č"
- !! __@RULENAME@__
+ !! **@RULENAME@**
  c:č <=> _  %^JPal: ;
 
 "d2ž"
- !! __@RULENAME@__
+ !! **@RULENAME@**
  d:ž <=> _  %^JPal: ;
 
 "z2ž"
- !! __@RULENAME@__
+ !! **@RULENAME@**
  z:ž <=> _  %^JPal: ;
 
 "n2ņ"
- !! __@RULENAME@__
+ !! **@RULENAME@**
  n:ņ <=> _  %^JPal: ;
 
 "l2ļ"
- !! __@RULENAME@__
+ !! **@RULENAME@**
  l:ļ <=> _  %^JPal: ;
 !!€# cel%^JPal
 !!€0 ceļ0
 
 
 "k2c"
-!! __@RULENAME@__
+!! **@RULENAME@**
  k:c <=> _ (%^RVow:) %^K2C: ;
 
 !!€# rak%^RVow%^K2C
@@ -133,20 +133,20 @@ Rules
 
 !!
 "t2s"
-!! __@RULENAME@__
+!! **@RULENAME@**
  t:s <=> Vow _ %> t ;
 
 "d2s"
-!! __@RULENAME@__
+!! **@RULENAME@**
  d:s <=> Vow _ %> t ;
 
 !!
 "t2z"
-!! __@RULENAME@__
+!! **@RULENAME@**
  t:z <=> Vow _ %> d a m ;
 
 "d2z"
-!! __@RULENAME@__
+!! **@RULENAME@**
  d:z <=> Vow _ %> d a m ;
 
 
