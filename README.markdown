@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-lav)](https://github.com/giellalt/lang-lav/issues)
- [![Build Status](https://github.com/giellalt/lang-lav/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-lav/actions)
+[![Build Status](https://github.com/giellalt/lang-lav/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-lav/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-lav)](https://raw.githubusercontent.com/giellalt/lang-lav/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-lav)
 for the Latvian language by using the [Divvun Installer](http://divvun.no)
