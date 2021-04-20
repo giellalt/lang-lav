@@ -1,6 +1,10 @@
 The Latvian morphology and tools
 ==========================================
 
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-lav)](https://github.com/giellalt/lang-lav/issues)
+[![Build Status](https://github.com/giellalt/lang-lav/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-lav/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-lav)](https://raw.githubusercontent.com/giellalt/lang-lav/develop/LICENSE)
+
 This repository contains finite state source files for the Latvian language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
@@ -8,10 +12,6 @@ licence, also detailed in the
 [LICENCE](https://github.com/giellalt/lang-lav/blob/develop/LICENCE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-lav)](https://github.com/giellalt/lang-lav/issues)
-[![Build Status](https://github.com/giellalt/lang-lav/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-lav/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-lav)](https://raw.githubusercontent.com/giellalt/lang-lav/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-lav)
 for the Latvian language by using the [Divvun Installer](http://divvun.no)
