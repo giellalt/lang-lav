@@ -1,3 +1,279 @@
+Noun inflection
+The LATVIAN language nouns inflect in cases.
+
+
+ * _LEXICON NMN_1_ _ abinieks:abiniek
+
+
+
+
+
+
+ * **LEXICON NMN-FEM_7ROKA_  ** roka:rok
+
+
+ * **LEXICON NMN-MSC_8PUIKA_ ** puika:puik
+
+
+
+
+
+
+
+
+
+Proper noun inflection
+The Latvian language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HUMANS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adjective inflection
+The LATVIAN language adjectives compare.
+
+
+
+ * **LEXICON A_14ZAĻŠ_** zaļš:zaļ
+
+
+
+
+
+Verb inflection
+The LATVIAN language verbs inflect in persons.
+
+
+
+
+
+
+
+ * **LEXICON V_15_4_STUMT** stumt:stum
+
+
+
+
+ * **LEXICON V_15_5_SALT** salt:sal
+
+
+
+
+
+
+
+
+
+
+
+
+
+WORK
+
+
+
+ * **LEXICON V_16_DEJOT** dejot:dejo oāēī
+
+
+
+
+
+
+
+
+
+
+
+
+
+WORK
+
+ * **LEXICON V_17_REDZĒT** redzēt:redzē oāēī
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_18_4_CELTIES** celties:cel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=================================== !
+The Latvian morphophonological/twolc rules file !
+=================================== !
+
+
+
+And following triggers to control variation
+ * **%^RVow:0** rakt:roc
+ * **%^VowRM:0** vowel removal redzēt:redzu
+ * **%^VowL:0** vowel lengthening celt:cēlu
+ * **%^K2C:0** rakt:roc
+ * **%^JPal:0** sakne:sakņu
+ * **%^SP3:0** stum%^JPal%^SP3:stumj0 
+
+
+
+
+
+## VOWELS
+**a2o**
+
+
+*rak%^RVow%^K2C examples:*
+
+*roc00 examples:*
+
+**a2ā**
+
+*dalī%^VowRM%>am examples:*
+
+*dal000ām examples:*
+
+**e2ē**
+
+*cel%^VowL examples:*
+
+*cēl0 examples:*
+
+**u2ū**
+
+*stum%^VowL examples:*
+
+*stūm0 examples:*
+
+
+
+
+**ē20**
+
+**a20**
+
+**ī20**
+
+*dalī%^VowRM%>u examples:*
+
+*dal000u examples:*
+
+## CONSONANTS
+**02j**
+
+**%^VowRM:j**
+
+### J_PALATALIZATION
+**%^JPal:j**
+
+
+**s2š THIS CAN BE REMOVED**
+
+**t2š**
+
+**c2č**
+
+**d2ž**
+
+**z2ž**
+
+**n2ņ**
+
+**l2ļ**
+
+*cel%^JPal examples:*
+
+*ceļ0 examples:*
+
+
+**k2c**
+
+
+*rak%^RVow%^K2C examples:*
+
+*roc00 examples:*
+
+
+*rak%^RVow%^K2C examples:*
+
+*rak00 examples:*
+
+**t2s**
+
+**d2s**
+
+**t2z**
+
+**d2z**
+
+
 
 # Latvian morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Latvian LANGUAGE.
@@ -55,7 +331,7 @@ And following triggers to control variation
  * **%^VowL** vowel lengthening celt:cēlu
  * **%^K2C** rakt:roc
  * **%^JPal** sakne:sakņu
- * **%^SP3 	** stum%^JPal%^SP3:stumj0 
+ * **%^SP3** stum%^JPal%^SP3:stumj0 
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -94,6 +370,66 @@ given the proper use of these flags.
 The word forms in the LATVIAN language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
+
+Prefixes
+Prefixes in the LATVIAN language are bound to beginning of other words.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 

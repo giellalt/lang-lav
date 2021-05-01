@@ -55,7 +55,7 @@ And following triggers to control variation
  * **%^VowL** vowel lengthening celt:cēlu
  * **%^K2C** rakt:roc
  * **%^JPal** sakne:sakņu
- * **%^SP3 	** stum%^JPal%^SP3:stumj0 
+ * **%^SP3** stum%^JPal%^SP3:stumj0 
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
