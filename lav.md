@@ -1,169 +1,5 @@
-Noun inflection
-The LATVIAN language nouns inflect in cases.
-
-
- * _LEXICON NMN_1_ _ abinieks:abiniek
-
-
-
-
-
-
- * **LEXICON NMN-FEM_7ROKA_  ** roka:rok
-
-
- * **LEXICON NMN-MSC_8PUIKA_ ** puika:puik
-
-
-
-
-
-
-
-
-
-Proper noun inflection
-The Latvian language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-HUMANS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-Adjective inflection
-The LATVIAN language adjectives compare.
-
-
-
- * **LEXICON A_14ZAĻŠ_** zaļš:zaļ
-
-
-
-
-
-Verb inflection
-The LATVIAN language verbs inflect in persons.
-
-
-
-
-
-
-
- * **LEXICON V_15_4_STUMT** stumt:stum
-
-
-
-
- * **LEXICON V_15_5_SALT** salt:sal
-
-
-
-
-
-
-
-
-
-
-
-
-
-WORK
-
-
-
- * **LEXICON V_16_DEJOT** dejot:dejo oāēī
-
-
-
-
-
-
-
-
-
-
-
-
-
-WORK
-
- * **LEXICON V_17_REDZĒT** redzēt:redzē oāēī
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON V_18_4_CELTIES** celties:cel
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Prefixes
+Prefixes in the LATVIAN language are bound to beginning of other words.
 
 
 
@@ -275,6 +111,176 @@ And following triggers to control variation
 
 
 
+# Symbol affixes
+
+
+
+
+
+Noun inflection
+The LATVIAN language nouns inflect in cases.
+
+
+ * _LEXICON NMN_1_ _ abinieks:abiniek
+
+
+
+
+
+
+ * **LEXICON NMN-FEM_7ROKA_  ** roka:rok
+
+
+ * **LEXICON NMN-MSC_8PUIKA_ ** puika:puik
+
+
+
+
+
+
+
+
+
+Proper noun inflection
+The Latvian language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HUMANS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verb inflection
+The LATVIAN language verbs inflect in persons.
+
+
+
+
+
+
+
+ * **LEXICON V_15_4_STUMT** stumt:stum
+
+
+
+
+ * **LEXICON V_15_5_SALT** salt:sal
+
+
+
+
+
+
+
+
+
+
+
+
+
+WORK
+
+
+
+ * **LEXICON V_16_DEJOT** dejot:dejo oāēī
+
+
+
+
+
+
+
+
+
+
+
+
+
+WORK
+
+ * **LEXICON V_17_REDZĒT** redzēt:redzē oāēī
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_18_4_CELTIES** celties:cel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adjective inflection
+The LATVIAN language adjectives compare.
+
+
+
+ * **LEXICON A_14ZAĻŠ_** zaļš:zaļ
+
+
+
+
+
+
 # Latvian morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Latvian LANGUAGE.
 
@@ -371,10 +377,20 @@ The word forms in the LATVIAN language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 
-Prefixes
-Prefixes in the LATVIAN language are bound to beginning of other words.
 
 
+
+We describe here how abbreviations are in Latvian are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -430,20 +446,4 @@ Prefixes in the LATVIAN language are bound to beginning of other words.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Latvian are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
