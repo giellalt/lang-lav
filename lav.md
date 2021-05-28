@@ -1,367 +1,4 @@
 
-# C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R                    
-
-This dep file is for sma, sme, smj.
-
-# DELIMITERS 
-
-Sentence delimiters are the following: <.> <!> <?> <...> <¶>
-
-
-# TAGS AND SETS
-
-
-N
-V
-A
-Adv
-CC
-CS
-Inf
-Sup
-Neg
-Num
-Po
-Pr
-
-Pcle
-Prop
-
-Pron
-IV
-TV
-COMMA
-DASH
-CITATION to keep colouring we add a "
-HYPHEN
-QMARK
-PUNCT
-LEFT
-RIGHT
-CLB
-Ind
-Pot
-Impr
-ImprtII
-Cond
-ConNeg
-Caus causative eus
-VGen
-Interj
-ABBR
-ACR
-Prs
-Prt
-Cmpnd
-RCmpnd
-PrfPrc
-PrsPrc
-Actor
-Actio
-Ger
-Indef
-Nom
-Acc
-Ill
-Com
-Gen
-Ess
-
-IM For fao
-
-## POS sub-categories
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Syntactic tags and sets
-
-Syntactic tag definitions 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Dep grammar
-
-
-
-Correction rules
-
-
-
-* **muitalit**    
-
-
-* **XX**
-
-* **XX**
-
-* **XX**
-
-
-
-* **faoSumId=Rel**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## the finite verb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Mapping rules
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -968,8 +605,535 @@ These were the set types.
 
 
 
-Prefixes
-Prefixes in the LATVIAN language are bound to beginning of other words.
+
+# C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R                    
+
+This dep file is for sma, sme, smj.
+
+# DELIMITERS 
+
+Sentence delimiters are the following: <.> <!> <?> <...> <¶>
+
+
+# TAGS AND SETS
+
+
+N
+V
+A
+Adv
+CC
+CS
+Inf
+Sup
+Neg
+Num
+Po
+Pr
+
+Pcle
+Prop
+
+Pron
+IV
+TV
+COMMA
+DASH
+CITATION to keep colouring we add a "
+HYPHEN
+QMARK
+PUNCT
+LEFT
+RIGHT
+CLB
+Ind
+Pot
+Impr
+ImprtII
+Cond
+ConNeg
+Caus causative eus
+VGen
+Interj
+ABBR
+ACR
+Prs
+Prt
+Cmpnd
+RCmpnd
+PrfPrc
+PrsPrc
+Actor
+Actio
+Ger
+Indef
+Nom
+Acc
+Ill
+Com
+Gen
+Ess
+
+IM For fao
+
+## POS sub-categories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Syntactic tags and sets
+
+Syntactic tag definitions 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Dep grammar
+
+
+
+Correction rules
+
+
+
+* **muitalit**    
+
+
+* **XX**
+
+* **XX**
+
+* **XX**
+
+
+
+* **faoSumId=Rel**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## the finite verb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Mapping rules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verb inflection
+The LATVIAN language verbs inflect in persons.
+
+
+
+
+
+
+
+ * **LEXICON V_15_4_STUMT** stumt:stum
+
+
+
+
+ * **LEXICON V_15_5_SALT** salt:sal
+
+
+
+
+
+
+
+
+
+
+
+
+
+WORK
+
+
+
+ * **LEXICON V_16_DEJOT** dejot:dejo oāēī
+
+
+
+
+
+
+
+
+
+
+
+
+
+WORK
+
+ * **LEXICON V_17_REDZĒT** redzēt:redzē oāēī
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * **LEXICON V_18_4_CELTIES** celties:cel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Proper noun inflection
+The Latvian language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HUMANS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adjective inflection
+The LATVIAN language adjectives compare.
+
+
+
+ * **LEXICON A_14ZAĻŠ_** zaļš:zaļ
+
+
+
+
+
+Noun inflection
+The LATVIAN language nouns inflect in cases.
+
+
+ * _LEXICON NMN_1_ _ abinieks:abiniek
+
+
+
+
+
+
+ * **LEXICON NMN-FEM_7ROKA_  ** roka:rok
+
+
+ * **LEXICON NMN-MSC_8PUIKA_ ** puika:puik
+
+
+
+
+
+
+
+
+
+
+# Symbol affixes
+
 
 
 
@@ -1080,172 +1244,8 @@ And following triggers to control variation
 **d2z**
 
 
-
-# Symbol affixes
-
-
-
-
-
-Noun inflection
-The LATVIAN language nouns inflect in cases.
-
-
- * _LEXICON NMN_1_ _ abinieks:abiniek
-
-
-
-
-
-
- * **LEXICON NMN-FEM_7ROKA_  ** roka:rok
-
-
- * **LEXICON NMN-MSC_8PUIKA_ ** puika:puik
-
-
-
-
-
-
-
-
-
-Proper noun inflection
-The Latvian language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-HUMANS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Verb inflection
-The LATVIAN language verbs inflect in persons.
-
-
-
-
-
-
-
- * **LEXICON V_15_4_STUMT** stumt:stum
-
-
-
-
- * **LEXICON V_15_5_SALT** salt:sal
-
-
-
-
-
-
-
-
-
-
-
-
-
-WORK
-
-
-
- * **LEXICON V_16_DEJOT** dejot:dejo oāēī
-
-
-
-
-
-
-
-
-
-
-
-
-
-WORK
-
- * **LEXICON V_17_REDZĒT** redzēt:redzē oāēī
-
-
-
-
-
-
-
-
-
-
-
-
-
- * **LEXICON V_18_4_CELTIES** celties:cel
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Adjective inflection
-The LATVIAN language adjectives compare.
-
-
-
- * **LEXICON A_14ZAĻŠ_** zaļš:zaļ
-
+Prefixes
+Prefixes in the LATVIAN language are bound to beginning of other words.
 
 
 
@@ -1350,22 +1350,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in Latvian are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -1416,6 +1400,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Latvian are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
