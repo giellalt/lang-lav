@@ -1139,8 +1139,10 @@ The LATVIAN language nouns inflect in cases.
 
 
 =================================== !
-The Latvian morphophonological/twolc rules file !
+# The Latvian morphophonological/twolc rules file 
 =================================== !
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-lav/blob/main/src/fst/phonology.twolc) 
 
 
 
