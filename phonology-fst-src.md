@@ -106,3 +106,5 @@ And following triggers to control variation
 **d2z**
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-lav/blob/main/../src/fst/phonology.twolc)</small>

@@ -361,3 +361,5 @@ Correction rules
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-lav/blob/main/../src/cg3/dependency.cg3)</small>
