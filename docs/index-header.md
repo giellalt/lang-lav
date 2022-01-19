@@ -7,6 +7,8 @@
 
 This page documents the work on the [Latvian language model](http://github.com/giellalt/lang-lav). 
 
+The base contains 180000 stems, and it is in use in latvian-livonian e-dictionaries.
+
 # Project documentation
 
 * (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
