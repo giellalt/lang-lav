@@ -1,11 +1,13 @@
 # Latvian documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-lav)](https://raw.githubusercontent.com/giellalt/lang-lav/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-lav)](https://github.com/giellalt/lang-lav/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-lav)](https://github.com/giellalt/lang-lav/issues)
 [![Build status](https://github.com/giellalt/lang-lav/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-lav/actions)
 
 This page documents the work on the [Latvian language model](http://github.com/giellalt/lang-lav). 
+
+The base contains 180000 stems, and it is in use in latvian-livonian e-dictionaries.
 
 # Project documentation
 

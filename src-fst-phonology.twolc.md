@@ -4,23 +4,16 @@
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-lav/blob/main/src/fst/phonology.twolc) 
 
-
-
 And following triggers to control variation
- * **%^RVow:0** rakt:roc
- * **%^VowRM:0** vowel removal redzēt:redzu
- * **%^VowL:0** vowel lengthening celt:cēlu
- * **%^K2C:0** rakt:roc
- * **%^JPal:0** sakne:sakņu
- * **%^SP3:0** stum%^JPal%^SP3:stumj0 
-
-
-
-
+* **%^RVow:0** rakt:roc
+* **%^VowRM:0** vowel removal redzēt:redzu
+* **%^VowL:0** vowel lengthening celt:cēlu
+* **%^K2C:0** rakt:roc
+* **%^JPal:0** sakne:sakņu
+* **%^SP3:0** stum%^JPal%^SP3:stumj0 
 
 ## VOWELS
 **a2o**
-
 
 *rak%^RVow%^K2C examples:*
 
@@ -44,9 +37,6 @@ And following triggers to control variation
 
 *stūm0 examples:*
 
-
-
-
 **ē20**
 
 **a20**
@@ -64,7 +54,6 @@ And following triggers to control variation
 
 ### J_PALATALIZATION
 **%^JPal:j**
-
 
 **s2š THIS CAN BE REMOVED**
 
@@ -84,14 +73,11 @@ And following triggers to control variation
 
 *ceļ0 examples:*
 
-
 **k2c**
-
 
 *rak%^RVow%^K2C examples:*
 
 *roc00 examples:*
-
 
 *rak%^RVow%^K2C examples:*
 
@@ -105,6 +91,9 @@ And following triggers to control variation
 
 **d2z**
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-lav/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-lav/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
