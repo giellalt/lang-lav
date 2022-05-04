@@ -15,27 +15,27 @@ And following triggers to control variation
 ## VOWELS
 **a2o**
 
-*rak%^RVow%^K2C examples:*
+* rak%^RVow%^K2C examples:*
 
-*roc00 examples:*
+* roc00 examples:*
 
 **a2ā**
 
-*dalī%^VowRM%>am examples:*
+* dalī%^VowRM%>am examples:*
 
-*dal000ām examples:*
+* dal000ām examples:*
 
 **e2ē**
 
-*cel%^VowL examples:*
+* cel%^VowL examples:*
 
-*cēl0 examples:*
+* cēl0 examples:*
 
 **u2ū**
 
-*stum%^VowL examples:*
+* stum%^VowL examples:*
 
-*stūm0 examples:*
+* stūm0 examples:*
 
 **ē20**
 
@@ -43,9 +43,9 @@ And following triggers to control variation
 
 **ī20**
 
-*dalī%^VowRM%>u examples:*
+* dalī%^VowRM%>u examples:*
 
-*dal000u examples:*
+* dal000u examples:*
 
 ## CONSONANTS
 **02j**
@@ -69,19 +69,19 @@ And following triggers to control variation
 
 **l2ļ**
 
-*cel%^JPal examples:*
+* cel%^JPal examples:*
 
-*ceļ0 examples:*
+* ceļ0 examples:*
 
 **k2c**
 
-*rak%^RVow%^K2C examples:*
+* rak%^RVow%^K2C examples:*
 
-*roc00 examples:*
+* roc00 examples:*
 
-*rak%^RVow%^K2C examples:*
+* rak%^RVow%^K2C examples:*
 
-*rak00 examples:*
+* rak00 examples:*
 
 **t2s**
 
