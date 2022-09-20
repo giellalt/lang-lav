@@ -4,6 +4,8 @@ The Latvian morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-lav)](https://github.com/giellalt/lang-lav/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-lav/main/badge.svg)](https://github.com/giellalt/lang-lav/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-lav)](https://github.com/giellalt/lang-lav/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-lav?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-lav?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the Latvian language,
 for building morphological analysers, proofing tools
