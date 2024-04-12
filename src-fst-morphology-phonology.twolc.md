@@ -94,6 +94,3 @@ And following triggers to control variation
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/phonology.twolc)</small>
-
----
-

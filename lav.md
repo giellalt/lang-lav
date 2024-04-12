@@ -1,6 +1,10 @@
-# Latvian description 
+# Latvian language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-dependency.cg3.md 
 
 
 # C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R                    
@@ -96,7 +100,14 @@ Correction rules
 # Mapping rules
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-lav/blob/main/src/cg3/dependency.cg3)</small>
+
+---
+
+# src-cg3-functions.cg3.md 
+
+
 
 * Sets for POS sub-categories
 
@@ -264,7 +275,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-lav/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-lav/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+Adjective inflection
 The LATVIAN language adjectives compare.
 
 * **LEXICON A_14ZAĻŠ_** zaļš:zaļ
@@ -274,6 +292,8 @@ The LATVIAN language adjectives compare.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection
 The LATVIAN language nouns inflect in cases.
@@ -290,6 +310,8 @@ The LATVIAN language nouns inflect in cases.
 
 ---
 
+# src-fst-morphology-affixes-propernouns.lexc.md 
+
 Proper noun inflection
 The Latvian language proper nouns inflect in the same cases as regular
 nouns, but with a colon (':') as separator.
@@ -302,6 +324,8 @@ HUMANS
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -310,6 +334,8 @@ HUMANS
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb inflection
 The LATVIAN language verbs inflect in persons.
@@ -333,6 +359,8 @@ WORK
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 =================================== !
 # The Latvian morphophonological/twolc rules file 
@@ -433,6 +461,8 @@ And following triggers to control variation
 
 ---
 
+# src-fst-morphology-root.lexc.md 
+
 
 # Latvian morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Latvian LANGUAGE.
@@ -532,6 +562,8 @@ word classes, or optionally from prefixes:
 
 ---
 
+# src-fst-morphology-stems-prefixes.lexc.md 
+
 Prefixes
 Prefixes in the LATVIAN language are bound to beginning of other words.
 
@@ -540,6 +572,8 @@ Prefixes in the LATVIAN language are bound to beginning of other words.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -708,6 +742,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Latvian are read out, e.g.
@@ -728,6 +764,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 % komma% :,      Root ;
@@ -741,6 +779,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-lav/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -1039,7 +1079,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-lav/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for lav
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-lav/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for lav
 
 Usage:
 ```
@@ -1101,6 +1148,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-lav/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for lav
 
@@ -1165,6 +1214,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -1226,6 +1277,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-lav/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-
