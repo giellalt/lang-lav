@@ -7,13 +7,12 @@
             * `affixes/`
                 * [adjectives.lexc](src-fst-morphology-affixes-adjectives.lexc.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/affixes/adjectives.lexc))
                 * [nouns.lexc](src-fst-morphology-affixes-nouns.lexc.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/affixes/nouns.lexc))
+                * [prefixes.lexc](src-fst-morphology-affixes-prefixes.lexc.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/affixes/prefixes.lexc))
                 * [propernouns.lexc](src-fst-morphology-affixes-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/affixes/propernouns.lexc))
                 * [symbols.lexc](src-fst-morphology-affixes-symbols.lexc.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/affixes/symbols.lexc))
                 * [verbs.lexc](src-fst-morphology-affixes-verbs.lexc.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/affixes/verbs.lexc))
             * [phonology.twolc](src-fst-morphology-phonology.twolc.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/phonology.twolc))
             * [root.lexc](src-fst-morphology-root.lexc.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/root.lexc))
-            * `stems/`
-                * [prefixes.lexc](src-fst-morphology-stems-prefixes.lexc.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/morphology/stems/prefixes.lexc))
         * `phonetics/`
             * [txt2ipa.xfscript](src-fst-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-lav/blob/main/src/fst/phonetics/txt2ipa.xfscript))
         * `transcriptions/`
