@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-lav)](https://github.com/giellalt/lang-lav/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-lav)](https://github.com/giellalt/lang-lav/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-lav?label=CI)](https://builds.giellalt.org/pipelines/lang-lav/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/latv1249)
 
 This page documents the work on the [Latvian language model](http://github.com/giellalt/lang-lav). 
 
